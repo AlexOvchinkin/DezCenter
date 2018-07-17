@@ -14,7 +14,7 @@
   </head>
   <body>
 
-    <nav class="navbar fixed-top navbar-light bg-light navigation">
+    <nav class="navbar navbar-light navigation">
       <div class="container">
         <a class="navbar-brand navigation__brand" href="/">
           <img class="img-fluid navigation__logo-img" src="img/logo.png" alt="ДезЦентр Прогресс">
@@ -22,12 +22,37 @@
         <div class="d-flex navigation__contacts">
           <div class="d-flex align-items-center mr-3 phone">
             <img class="d-block phone__img" src="img/phone.png" alt="phone">
-            <p class="m-0 ml-2 font-weight-bold phone__text">8 (903) 123-45-67</p>
+            <p class="m-0 ml-2 font-weight-bold phone__text">8(903)123-45-67</p>
           </div>
           <button class="btn btn-success navigation__btn">ЗАКАЗАТЬ ЗВОНОК</button>
         </div>
       </div>  
     </nav>
+
+    <div id="carouselIndicators" class="carousel slide main-carousel" data-ride="carousel">
+      <ol class="carousel-indicators main-carousel__indicators">  
+        <li data-target="#carouselIndicators" data-slide-to="0" class="active main-carousel__indicator">Физ. лица</li>
+        <li data-target="#carouselIndicators" data-slide-to="1" class="main-carousel__indicator">Юр. лица</li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active main-carousel__slide">
+          <div class="container">
+            <div class="main-carousel__text">            
+              <p class="main-carousel__title">КАЧЕСТВЕННАЯ БОРЬБА С НАСЕКОМЫМИ, ГРЫЗУНАМИ, ПЛЕСЕНЬЮ И НЕ ТОЛЬКО</p>
+              <p  class="main-carousel__subtitle">в любом помещении на основе научного подхода</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item main-carousel__slide">
+          <div class="container">
+            <div class="main-carousel__text">
+              <p class="main-carousel__title">КОМПЛЕКСНЫЙ ПОДХОД К УСТРАНЕНИЮ НАСЕКОМЫХ, ГРЫЗУНОВ, ГРИБКОВ И НЕ ТОЛЬКО</p>
+              <p  class="main-carousel__subtitle">на любом производственном предприятии или в офисном помещении со 100% гарантией результата</p>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
