@@ -1,0 +1,49 @@
+@import "source/bootstrap";
+
+$main-txt-color: #235771;
+
+.navigation__logo-img {
+  max-width: 100%; 
+  height: auto;
+}
+
+.phone__text {
+  color: $main-txt-color;
+
+  @include media-breakpoint-up(sm) {
+
+  }
+}
+
+.navigation__contacts {
+  margin: auto;
+
+  @include media-breakpoint-up(md) {
+    margin-right: 0;
+  }
+}
+
+.navigation__brand {
+  margin: auto;
+
+  @include media-breakpoint-up(md) {
+    margin-left: 0;
+  }
+}
+
+.navigation__btn {
+  font-size: 35%;
+
+  @include media-breakpoint-up(sm) {
+    font-size: 50%;
+  }
+
+  @include media-breakpoint-up(md) {
+    font-size: 70%;
+  }
+
+  @include media-breakpoint-up(lg) {
+    font-size: 100%;
+  }
+}
+
