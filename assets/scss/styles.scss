@@ -1,6 +1,14 @@
 @import "source/bootstrap";
 
-$main-txt-color: #235771;
+$main-txt-color : #235771;
+$bg-gray        : #f7f8fa;
+
+@mixin button($height) {
+  background-color: $green;
+  color: white;
+  height: $height;
+  border-radius: $height / 2;
+}
 
 .navigation__logo-img {
   max-width: 100%; 
@@ -190,3 +198,141 @@ $main-txt-color: #235771;
   }
 }
 
+.directions {
+  background-color: $bg-gray;
+  color: $main-txt-color;
+  padding-top: 3rem;
+}
+
+.directions__text {
+  font-size: $h4-font-size;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.small-divider {
+  width: 10%;
+  height: 3px;
+  background-color: $green;
+  margin: 0 auto 2rem auto;
+}
+
+.directions__btn {
+  @include button(3rem);
+
+  width: 12rem;
+  font-size: $h6-font-size;
+
+
+  @include media-breakpoint-up(sm) {
+    @include button(4rem);
+
+    width: 15rem;
+    font-size: $h5-font-size;
+  } 
+}
+
+.directions__title {
+  font-size: $h3-font-size;
+  color: $green;
+  font-weight: $font-weight-bold;
+  text-align: center;
+}
+
+.directions__subtitle {
+  font-size: $h5-font-size;
+  text-align: center;
+}
+
+
+
+.directions-carousel__title {
+  padding: 1rem 0;
+  font-weight: $font-weight-bold;
+}
+
+.directions-carousel__text {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: $h5-font-size;
+}
+
+.directions-carousel__image {
+  display: block;
+  margin: 1rem auto;
+  height: 5rem;
+}
+
+.directions-carousel__item {
+  background-color: $bg-gray;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  
+  .shadow-sm {
+    background-color: white;
+    padding: 0 .8rem .8rem .8rem;
+    height: 34rem;
+  }
+}
+
+.directions-carousel__table {
+  margin: 0;
+
+  td {
+    text-align: center;
+  }
+}
+
+.directions-carousel__control {
+  height: 2rem;
+  width: 2rem;
+  top: 4rem;
+
+  &.carousel-control-prev {
+    left: 15%;
+    opacity: 1;
+
+    @include media-breakpoint-up(sm) {
+      left: 20%;
+    }
+  }
+
+  &.carousel-control-next {
+    right: 15%;
+    opacity: 1;
+
+    @include media-breakpoint-up(sm) {
+      right: 20%;
+    }
+  }
+}
+
+.directions__table {
+  td {
+    text-align: center;
+  }
+}
+
+.directions__img {
+  display: block;
+  margin: 2rem auto 0 auto;
+  height: 5.5rem;
+}
+
+.directions__card-title {
+  text-align: center;
+  font-size: $h4-font-size;
+  font-weight: $font-weight-bold;
+  height: 5rem;
+}

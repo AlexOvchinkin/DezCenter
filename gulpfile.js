@@ -84,7 +84,7 @@ const config = {
     html   : '*.html',
     styles : 'assets/scss/styles.scss',
     js     : 'assets/js/*.js',
-    img    : 'assets/img/*.png'
+    img    : 'assets/img/*'
   },
   dest: {
     main : 'dist',
