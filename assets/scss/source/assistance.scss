@@ -1,0 +1,53 @@
+@import "mixins";
+
+.assistance {
+  background-color: $bg-gray;
+  padding-top: 6rem;
+
+  @include media-breakpoint-up(lg) {
+    padding-top: 9rem;
+    padding-bottom: 2rem;
+  }
+}
+
+.assistance__title {
+  @include sectionTitle();
+}
+
+.assistance__subtitle {
+  @include sectionSubtitle();
+}
+
+.assistance__text {
+  text-align: center;
+  color: $main-txt-color;
+  font-size: $h5-font-size;
+  margin: 3rem 0 2rem 0;
+}
+
+.assistance-carousel__item {
+  height: 14rem;
+}
+
+.assistance-table__row {
+  margin-bottom: 1.5rem;
+}
+
+.assistance-table__image {
+  display: block;
+  margin: 1rem auto;
+  height: 6rem;
+
+  @include media-breakpoint-up(lg) {
+    height: 7rem;
+  }
+}
+
+.assistance-table__text {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: $main-txt-color;
+  font-size: $h5-font-size;
+  font-weight: $font-weight-bold;
+}

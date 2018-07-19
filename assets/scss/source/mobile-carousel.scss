@@ -1,0 +1,57 @@
+.mobile-carousel__title {
+  padding: 1rem 0;
+  font-weight: $font-weight-bold;
+  color: $main-txt-color;
+}
+
+.mobile-carousel__text {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: $h5-font-size;
+}
+
+.mobile-carousel__image {
+  display: block;
+  margin: 1rem auto;
+  height: 5rem;
+}
+
+.mobile-carousel__item {
+  background-color: $bg-gray;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+.mobile-carousel__table {
+  margin: 0;
+
+  td {
+    text-align: center;
+  }
+}
+
+.mobile-carousel__control {
+  height: 2rem;
+  width: 2rem;
+  top: 4rem;
+  z-index: 20;
+
+  &.carousel-control-prev {
+    left: 15%;
+    opacity: 1;
+
+    @include media-breakpoint-up(sm) {
+      left: 20%;
+    }
+  }
+
+  &.carousel-control-next {
+    right: 15%;
+    opacity: 1;
+
+    @include media-breakpoint-up(sm) {
+      right: 20%;
+    }
+  }
+}

@@ -31,12 +31,17 @@
   margin-bottom: 1rem;
 }
 
+.equipment__text:last-child {
+  margin-bottom: 0;
+}
+
 .equipment__img-bg {
   height: 14rem;
   width: 90%;
   background: url("img/equipment-bg.jpg") no-repeat center;
   background-size: cover;
   position: relative;
+  top: 3rem;
 
   @include media-breakpoint-up(sm) {
     height: 20rem;
