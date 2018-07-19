@@ -6,8 +6,31 @@
 
   @include media-breakpoint-up(lg) {
     padding-top: 9rem;
-    padding-bottom: 2rem;
   }
+}
+
+.assistance-carousel__items-container {
+  background-color: white;
+}
+
+.assistance-carousel__item {
+  background: linear-gradient(to top, white 50%, $bg-gray 50%, $bg-gray 100%);
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.assistance-carousel__title {
+  background: linear-gradient(to top, white 50%, $bg-gray 50%, $bg-gray 100%);
+}
+
+.assistance-carousel__img-wrapper {
+  background: linear-gradient(to top, white 50%, $bg-gray 50%, $bg-gray 100%);
+}
+
+.assistance-carousel__img-divider {
+  width: 60%;
+  margin: 0 auto;
+  background: linear-gradient(to top, white 50%, $bg-gray-dark 51%, $bg-gray 52%, $bg-gray 100%);
 }
 
 .assistance__title {
@@ -29,8 +52,39 @@
   height: 14rem;
 }
 
+.assistance-table {
+  background-color: white;
+}
+
 .assistance-table__row {
-  margin-bottom: 1.5rem;
+  padding: 0 0 1.5rem 0;
+  margin: 0;
+  background-color: $bg-gray;
+  height: 15rem;
+}
+
+.assistance-table__row:nth-child(2) {
+  background: linear-gradient(to top, white 66%, $bg-gray 66%, $bg-gray 100%);
+}
+
+.assistance-table__row:last-child {
+  background-color: rgba($color: #ffffff, $alpha: 1);
+}
+
+.assistance-table__image-wrapper {
+  background: linear-gradient(to top, $bg-gray 50%, $bg-gray-dark 50%, $bg-gray-dark 51%, $bg-gray 52%);
+}
+
+.assistance-table__image-wrapper-middle {
+  background: linear-gradient(to top, white 31%, $bg-gray-dark 31%, $bg-gray-dark 32%, $bg-gray 33%);
+
+  @include media-breakpoint-up(lg) {
+    background: linear-gradient(to top, white 41%, $bg-gray-dark 41%, $bg-gray-dark 42%, $bg-gray 42%);
+  }
+}
+
+.assistance-table__image-wrapper-last {
+  background: linear-gradient(to top, white 50%, $bg-gray-dark 50%, $bg-gray-dark 51%, white 52%);
 }
 
 .assistance-table__image {

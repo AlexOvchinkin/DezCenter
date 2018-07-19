@@ -246,7 +246,13 @@
   @include sectionSubtitle();
 }
 
+.directions-carousel__inner {
+  background-color: white;
+}
+
 .directions-carousel__item {
+  background: linear-gradient(to top, white 40%, $bg-gray 40%, $bg-gray 100%);
+
   .shadow-sm {
     background-color: white;
     padding: 0 .8rem .8rem .8rem;
