@@ -1,0 +1,82 @@
+@import "mixins";
+
+.equipment {
+  background-color: white;
+  padding-top: 3rem;
+}
+
+.equipment__title {
+  @include sectionTitle();
+}
+
+.equipment__subtitle {
+  @include sectionSubtitle();
+}
+
+.equipment__text {
+  text-align: left;
+  color: $main-txt-color;
+  font-size: $h5-font-size;
+}
+
+.equipment__wrapper {
+  height: 12rem;
+  padding: 0;
+  width: 90%;
+}
+
+.equipment__text {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.equipment__img-bg {
+  height: 14rem;
+  width: 90%;
+  background: url("img/equipment-bg.jpg") no-repeat center;
+  background-size: cover;
+  position: relative;
+
+  @include media-breakpoint-up(sm) {
+    height: 20rem;
+  }
+
+  @include media-breakpoint-up(md) {
+    height: 24rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    height: 30rem;
+  }
+  
+}
+
+.equipment__img {
+  position: absolute;
+  height: 12rem;
+  top: 4rem;
+  right: -1rem;
+
+  @include media-breakpoint-up(sm) {
+    height: 15rem;
+    top: 7rem;
+  }
+
+  @include media-breakpoint-up(md) {
+    height: 20rem;
+    top: 8rem;
+    right: -2rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    right: -3rem;
+    top: 9rem;
+    height: 24rem;
+  }
+
+  @include media-breakpoint-up(xl) {
+    height: 28rem;
+    top: 8rem;
+  }
+}

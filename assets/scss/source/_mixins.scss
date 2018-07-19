@@ -1,0 +1,19 @@
+@mixin button($height) {
+  background-color: $green;
+  color: white;
+  height: $height;
+  border-radius: $height/2;
+}
+
+@mixin sectionTitle() {
+  font-size: $h3-font-size;
+  color: $green;
+  font-weight: $font-weight-bold;
+  text-align: center;
+}
+
+@mixin sectionSubtitle() {
+  font-size: $h5-font-size;
+  text-align: center;
+  color: $main-txt-color;
+}

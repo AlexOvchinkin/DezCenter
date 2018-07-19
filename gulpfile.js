@@ -47,7 +47,7 @@ gulp.task('watch', function() {
       compileHtml();
     });
 
-  gulp.watch(config.src.styles)
+  gulp.watch(config.src.stylesWatch)
     .on('change', function(path, stats) {
       compileStyles();
     });  
@@ -81,10 +81,11 @@ gulp.task('default', gulp.parallel('img', 'html', 'styles', 'js', 'watch', 'brow
 */
 const config = {
   src: {
-    html   : '*.html',
-    styles : 'assets/scss/styles.scss',
-    js     : 'assets/js/*.js',
-    img    : 'assets/img/*'
+    html        : '*.html',
+    styles      : 'assets/scss/styles.scss',
+    stylesWatch : ['assets/scss/styles.scss', 'assets/scss/source/*.scss'],
+    js          : 'assets/js/*.js',
+    img         : 'assets/img/*'
   },
   dest: {
     main : 'dist',

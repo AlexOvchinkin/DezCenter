@@ -1,14 +1,6 @@
 @import "source/bootstrap";
-
-$main-txt-color : #235771;
-$bg-gray        : #f7f8fa;
-
-@mixin button($height) {
-  background-color: $green;
-  color: white;
-  height: $height;
-  border-radius: $height / 2;
-}
+@import "source/equipment";
+@import "source/mixins";
 
 .navigation__logo-img {
   max-width: 100%; 
@@ -202,6 +194,8 @@ $bg-gray        : #f7f8fa;
   background-color: $bg-gray;
   color: $main-txt-color;
   padding-top: 3rem;
+  position: relative;
+  z-index: 5;
 }
 
 .directions__text {
@@ -243,15 +237,11 @@ $bg-gray        : #f7f8fa;
 }
 
 .directions__title {
-  font-size: $h3-font-size;
-  color: $green;
-  font-weight: $font-weight-bold;
-  text-align: center;
+  @include sectionTitle();
 }
 
 .directions__subtitle {
-  font-size: $h5-font-size;
-  text-align: center;
+  @include sectionSubtitle();
 }
 
 
@@ -298,6 +288,7 @@ $bg-gray        : #f7f8fa;
   height: 2rem;
   width: 2rem;
   top: 4rem;
+  z-index: 20;
 
   &.carousel-control-prev {
     left: 15%;
@@ -330,9 +321,23 @@ $bg-gray        : #f7f8fa;
   height: 5.5rem;
 }
 
+.directions__card {
+  z-index: 15;
+}
+
 .directions__card-title {
   text-align: center;
   font-size: $h4-font-size;
   font-weight: $font-weight-bold;
   height: 5rem;
+}
+
+.directions__overlay-lg {
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  left: 0;
+  bottom: 0;
+  z-index: 10;
+  background-color: white;
 }
