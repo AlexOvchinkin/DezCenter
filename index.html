@@ -786,7 +786,8 @@
         <p class="d-none d-md-block pricing__text">Мы выезжаем сами, не работаем с посредниками. Стратегия работы налажена. Хотим, чтобы вы поскорее избавились от патогенных
           микроорганизмов и паразитов, поэтому предлагаем демократичные цены.
         </p>
-        <div class="pricing__table-wrapper pricing__individ">
+        <!-- add/remove class "d-none" -->
+        <div class="pricing__table-wrapper d-none pricing__individ">
           <div class="row pricing__row pricing__row-head rounded d-none d-md-flex">
             <div class="col-12 col-md-5 pricing__cell">Помещение</div>
             <div class="col-12 col-md-5 pricing__cell">Услуга</div>
@@ -828,7 +829,238 @@
             <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">6800 руб.</div>
           </div>
         </div>
+
+        <div class="pricing__table-wrapper pricing__entity">
+          <div class="row pricing__row pricing__row-head rounded d-none d-md-flex">
+            <div class="col-12 col-md-5 pricing__cell">Производственные помещения</div>
+            <div class="col-12 col-md-5 pricing__cell">Услуга</div>
+            <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">Стоимость</div>
+          </div>
+          <div class="row pricing__row rounded">
+            <div class="col-12 col-md-5 pricing__cell">Офис</div>
+            <div class="col-12 col-md-5 pricing__cell">Генератор Холодного Тумана</div>
+            <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">1800 руб.</div>
+          </div>
+          <div class="row pricing__row rounded">
+            <div class="col-12 col-md-5 pricing__cell">Складское помещение</div>
+            <div class="col-12 col-md-5 pricing__cell">Холодный Туман + Установка барьерной защиты</div>
+            <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">2700 руб.</div>
+          </div>
+          <div class="row pricing__row rounded">
+            <div class="col-12 col-md-5 pricing__cell">Больница или медицинский центр</div>
+            <div class="col-12 col-md-5 pricing__cell">Горячий + Холодный Туман + Дезинфекция вирусов и микробов</div>
+            <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">6800 руб.</div>
+          </div>
+          <div class="row pricing__row rounded">
+            <div class="col-12 col-md-5 pricing__cell">Бытовка</div>
+            <div class="col-12 col-md-5 pricing__cell">Генератор Холодного Тумана</div>
+            <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">1800 руб.</div>
+          </div>
+          <div class="row pricing__row rounded">
+            <div class="col-12 col-md-5 pricing__cell">Магазин или ТРК</div>
+            <div class="col-12 col-md-5 pricing__cell">Холодный Туман + Установка барьерной защиты</div>
+            <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">2700 руб.</div>
+          </div>
+          <div class="row pricing__row rounded">
+            <div class="col-12 col-md-5 pricing__cell">Ресторан</div>
+            <div class="col-12 col-md-5 pricing__cell">Горячий + Холодный Туман + Дезинфекция вирусов и микробов</div>
+            <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">6800 руб.</div>
+          </div>
+        </div>
+
         <button class="btn btn-success pricing__btn">Узнать стоимость</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="scheme">
+    <div class="container">
+      <p class="scheme__title">ПРОСТАЯ СХЕМА РАБОТЫ</p>
+      <div class="small-divider"></div>
+    </div>
+
+    <!-- CAROUSEL FOR MOBILE -->
+    <div id="carouselScheme" class="carousel d-md-none slide mobile-carousel scheme-carousel" data-ride="carousel">
+      <div class="carousel-inner mobile-carousel__items-container">
+
+        <div class="carousel-item mobile-carousel__item scheme-carousel__item active">
+          <div class="mobile-carousel__title">
+            <div class="scheme-carousel__img-wrapper">
+              <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="img/1.png" alt="1">
+              <img class="mobile-carousel__image scheme-carousel__img" src="img/edit.png" alt="edit">
+            </div>
+            <div class="container">
+              <p class="mobile-carousel__text scheme-carousel__text">Вы оставляете заявку</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item mobile-carousel__item scheme-carousel__item">
+          <div class="mobile-carousel__title">
+            <div class="scheme-carousel__img-wrapper">
+              <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="img/2.png" alt="2">
+              <img class="mobile-carousel__image scheme-carousel__img" src="img/jeep.png" alt="jeep">
+            </div>
+            <div class="container">
+              <p class="mobile-carousel__text scheme-carousel__text">Специалист выезжает на объект и проводит обследование</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item mobile-carousel__item scheme-carousel__item">
+          <div class="mobile-carousel__title">
+            <div class="scheme-carousel__img-wrapper">
+              <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="img/3.png" alt="3">
+              <img class="mobile-carousel__image scheme-carousel__img" src="img/pesticide.png" alt="pesticide">
+            </div>
+            <div class="container">
+              <p class="mobile-carousel__text scheme-carousel__text">Выполняются работы по обработке помещений</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item mobile-carousel__item scheme-carousel__item">
+          <div class="mobile-carousel__title">
+            <div class="scheme-carousel__img-wrapper">
+              <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="img/4.png" alt="4">
+              <img class="mobile-carousel__image scheme-carousel__img" src="img/script.png" alt="script">
+            </div>
+            <div class="container">
+              <p class="mobile-carousel__text scheme-carousel__text">Вы получаете рекомендации</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item mobile-carousel__item scheme-carousel__item">
+          <div class="mobile-carousel__title">
+            <div class="scheme-carousel__img-wrapper">
+              <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="img/5.png" alt="5">
+              <img class="mobile-carousel__image scheme-carousel__img" src="img/search.png" alt="search">
+            </div>
+            <div class="container">
+              <p class="mobile-carousel__text scheme-carousel__text">Мы контролируем ситуацию на протяжении всего гарантийного срока</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item mobile-carousel__item scheme-carousel__item">
+          <div class="mobile-carousel__title">
+            <div class="scheme-carousel__img-wrapper">
+              <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="img/6.png" alt="6">
+              <img class="mobile-carousel__image scheme-carousel__img" src="img/shield.png" alt="shield">
+            </div>
+            <div class="container">
+              <p class="mobile-carousel__text scheme-carousel__text">Наслаждаетесь жизнью без бактерий, паразитов, насекомых и грызунов</p>
+            </div>
+          </div>
+        </div>
+
+        <a class="carousel-control-prev mobile-carousel__control scheme-carousel__control" href="#carouselScheme" role="button" data-slide="prev">
+          <img src="img/control-left.png" alt="prev">
+        </a>
+        <a class="carousel-control-next mobile-carousel__control scheme-carousel__control" href="#carouselScheme" role="button" data-slide="next">
+          <img src="img/control-right.png" alt="next">
+        </a>
+
+      </div>
+    </div>
+
+    <!-- TABLE FOR MD+ -->
+    <div class="d-none d-md-block schema__table">
+      <div class="row schema__table-row">
+        <div class="scheme-table__divider-big"></div>
+        <div class="container d-flex">
+          <div class="col-7 d-flex align-items-center justify-content-end text-right schema__table-text">
+            Вы оставляете заявку
+          </div>
+          <div class="col-5">
+            <div class="scheme-table__img-wrapper">
+              <div class="scheme-table__divider scheme-table__divider-right"></div>
+              <img class="scheme-table__img-num" src="img/1.png" alt="1">
+              <img class="scheme-table__img scheme-table__img-right" src="img/edit.png" alt="edit">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row schema__table-row">
+        <div class="scheme-table__divider-big"></div>
+        <div class="container d-flex">
+          <div class="col-5">
+            <div class="scheme-table__img-wrapper">
+              <div class="scheme-table__divider"></div>
+              <img class="scheme-table__img-num scheme-table__img-num-left" src="img/2.png" alt="2">
+              <img class="scheme-table__img scheme-table__img-left" src="img/edit.png" alt="edit">
+            </div>
+          </div>
+          <div class="col-7 d-flex align-items-center justify-content-start schema__table-text">
+            Специалист выезжает на объект и проводит обследование
+          </div>
+        </div>
+      </div>
+
+      <div class="row schema__table-row">
+        <div class="scheme-table__divider-big"></div>
+        <div class="container d-flex">
+          <div class="col-7 d-flex align-items-center justify-content-end text-right schema__table-text">
+            Выполняются работы по обработке помещений
+          </div>
+          <div class="col-5">
+            <div class="scheme-table__img-wrapper">
+              <div class="scheme-table__divider scheme-table__divider-right"></div>
+              <img class="scheme-table__img-num" src="img/3.png" alt="3">
+              <img class="scheme-table__img scheme-table__img-right" src="img/pesticide.png" alt="pesticide">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row schema__table-row">
+        <div class="scheme-table__divider-big"></div>
+        <div class="container d-flex">
+          <div class="col-5">
+            <div class="scheme-table__img-wrapper">
+              <div class="scheme-table__divider"></div>
+              <img class="scheme-table__img-num scheme-table__img-num-left" src="img/4.png" alt="4">
+              <img class="scheme-table__img scheme-table__img-left" src="img/script.png" alt="script">
+            </div>
+          </div>
+          <div class="col-7 d-flex align-items-center justify-content-start schema__table-text">
+            Вы получаете рекомендации
+          </div>
+        </div>
+      </div>
+
+      <div class="row schema__table-row">
+        <div class="scheme-table__divider-big"></div>
+        <div class="container d-flex">
+          <div class="col-7 d-flex align-items-center justify-content-end text-right schema__table-text">
+            Мы контролируем ситуацию на протяжении всего гарантийного срока
+          </div>
+          <div class="col-5">
+            <div class="scheme-table__img-wrapper">
+              <div class="scheme-table__divider scheme-table__divider-right"></div>
+              <img class="scheme-table__img-num" src="img/5.png" alt="5">
+              <img class="scheme-table__img scheme-table__img-right" src="img/search.png" alt="search">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row schema__table-row">
+        <div class="scheme-table__divider-big"></div>
+        <div class="container d-flex">
+          <div class="col-5">
+            <div class="scheme-table__img-wrapper">
+              <div class="scheme-table__divider"></div>
+              <img class="scheme-table__img-num scheme-table__img-num-left" src="img/6.png" alt="6">
+              <img class="scheme-table__img scheme-table__img-left" src="img/shield.png" alt="shield">
+            </div>
+          </div>
+          <div class="col-7 d-flex align-items-center justify-content-start schema__table-text">
+            Наслаждаетесь жизнью без бактерий, паразитов, насекомых и грызунов
+          </div>
+        </div>
       </div>
     </div>
   </section>

@@ -1,0 +1,138 @@
+@import "mixins";
+
+.scheme {
+  color: $main-txt-color;
+}
+
+.scheme__title {
+  @include sectionTitle();
+  margin-top: 5rem;
+}
+
+.scheme-carousel__item {
+  background-color: white;
+  height: 20rem;
+}
+
+.scheme-carousel__img-wrapper {
+  position: relative;
+  background: linear-gradient(to bottom, white 50%, $bg-gray 50%, $bg-gray 100%);
+}
+
+.scheme-carousel__img {
+  height: 9rem;
+  z-index: 2;
+  position: relative;
+}
+
+.scheme-carousel__img-num {
+  position: absolute;
+  height: 4rem;
+  top: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  transform: translateX(4rem);
+  z-index: 1;
+}
+
+.scheme-carousel__text {
+  padding: 1rem;
+}
+
+.scheme-carousel__control {
+  top: 6rem;
+
+  &.carousel-control-prev {
+    left: 10%;
+
+    @include media-breakpoint-up(sm) {
+      left: 20%;
+    }
+  }
+
+  &.carousel-control-next {
+    right: 10%;
+
+    @include media-breakpoint-up(sm) {
+      right: 20%;
+    }
+  }
+}
+
+.scheme-table__divider-big {
+  height: 1px;
+  background-color: $bg-gray-dark;
+  position: absolute; 
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.scheme-table__divider {
+  height: 1px;
+  background-color: $bg-gray-dark;
+  position: absolute; 
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.schema__table-row {
+  position: relative;
+  height: 7rem;
+  margin: 0;
+  background: linear-gradient(to bottom, white 50%, $bg-gray 50%, $bg-gray 100%);
+
+  .scheme-table__divider-big {
+    right: 0;
+    width: 30%;
+  }
+}
+
+.schema__table-row:nth-child(even) {
+  background: linear-gradient(to top, white 50%, $bg-gray 50%, $bg-gray 100%);
+
+  .scheme-table__divider-big {
+    left: 0;
+    width: 30%;
+  }
+}
+
+.scheme-table__img-wrapper {
+  position: relative;
+  height: 100%; 
+}
+
+.scheme-table__divider {
+  width: 80%;
+}
+
+.scheme-table__divider-right {
+  left: 1rem;
+}
+
+.scheme-table__img {
+  position: absolute;
+  height: 7rem;
+}
+
+.scheme-table__img-left {
+  right: 1.8rem;
+}
+
+.scheme-table__img-right {
+  left: 1.5rem;
+}
+
+.scheme-table__img-num {
+  height: 4rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.scheme-table__img-num-left {
+  right: 0;
+}
+
+.schema__table-text {
+  font-size: $h4-font-size;
+}
