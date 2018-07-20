@@ -30,6 +30,10 @@
 .pricing__cell {
   text-align: center;
   font-size: $h6-font-size;
+
+  @include media-breakpoint-up(md) {
+    text-align: left;
+  }
 }
 
 .pricing__row {
@@ -44,6 +48,15 @@
 
 .pricing__cell-price {
   font-weight: $font-weight-bold;
+}
+
+.pricing__row-head {
+  background-color: $main-txt-color !important;
+  color: white;
+  
+  .pricing__cell-price {
+    font-weight: $font-weight-normal;
+  }
 }
 
 .pricing__btn {
