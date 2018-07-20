@@ -1,0 +1,55 @@
+@import "mixins";
+
+.pricing {
+  color: $main-txt-color;
+}
+
+.pricing__content-wrapper {
+  background-color: $bg-gray;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  position: relative;
+}
+
+.pricing__title {
+  @include sectionTitle();
+}
+
+.pricing__text {
+  text-align: center;
+  color: $main-txt-color;
+  font-size: $h5-font-size;
+  margin: 0 0 2rem 0;
+  padding: 0 2rem;
+}
+
+.pricing__table-wrapper {
+  padding: 0 1rem;  
+}
+
+.pricing__cell {
+  text-align: center;
+  font-size: $h6-font-size;
+}
+
+.pricing__row {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  margin: 0;
+}
+
+.pricing__row:nth-child(odd) {
+  background-color: white;
+}
+
+.pricing__cell-price {
+  font-weight: $font-weight-bold;
+}
+
+.pricing__btn {
+  @include button(3rem);
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: -1.5rem;
+}

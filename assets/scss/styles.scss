@@ -2,6 +2,7 @@
 @import "source/mobile-carousel";
 @import "source/equipment";
 @import "source/assistance";
+@import "source/pricing";
 @import "source/mixins";
 
 .navigation__logo-img {
@@ -11,10 +12,6 @@
 
 .phone__text {
   color: $main-txt-color;
-
-  @include media-breakpoint-up(sm) {
-
-  }
 }
 
 .navigation__contacts {

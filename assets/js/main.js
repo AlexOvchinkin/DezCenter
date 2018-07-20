@@ -1,3 +1,3 @@
-$('#carouselAssistanceIndivid').carousel({
+$('#carouselIndicators').carousel({
   interval: 0
 })
