@@ -1,0 +1,63 @@
+@import "mixins";
+
+.causes {
+  color: $main-txt-color;
+  background: url("img/causes-bg-big.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 3rem;
+  padding: 3rem 0 0 0;
+  overflow: hidden;
+}
+
+.causes__container {
+  position: relative;
+  margin-bottom: 0;
+}
+
+.causes__title {
+  @include sectionTitle();
+}
+
+.causes__subtitle {
+  @include sectionSubtitle();
+  color: white;
+}
+
+.causes__list {
+  margin: 0;
+}
+
+.causes__item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.causes__item:last-child {
+  margin-bottom: 0;
+  padding-bottom: 3rem;
+}
+
+.causes__img {
+  display: block;
+  margin: .7rem 1.5rem;
+}
+
+.causes__text-title {
+  @include sectionTitle();
+  text-align: left;
+  font-size: $h5-font-size;
+}
+
+.causes__text-subtitle {
+  @include sectionSubtitle();
+  text-align: left;
+  color: white;
+  max-width: 40rem;
+}
+
+.causes__img-big {
+  position: absolute;
+  bottom: 0;
+  right: -15rem;
+}

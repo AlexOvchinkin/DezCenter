@@ -60,9 +60,10 @@
 }
 
 .pricing__btn {
-  @include button(3rem);
+  @include button(4rem);
   position: absolute;
   left: 50%;
   transform: translate(-50%);
-  bottom: -1.5rem;
+  bottom: -2rem;
+  font-size: $h5-font-size;
 }

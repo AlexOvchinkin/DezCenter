@@ -1,9 +1,12 @@
 @import "source/bootstrap";
+@import "source/small-divider";
 @import "source/mobile-carousel";
 @import "source/equipment";
 @import "source/assistance";
 @import "source/pricing";
 @import "source/work-scheme";
+@import "source/causes";
+@import "source/footer";
 @import "source/mixins";
 
 .navigation__logo-img {
@@ -214,26 +217,9 @@
   margin-bottom: 4rem;
 }
 
-.small-divider {
-  width: 10%;
-  height: 3px;
-  background-color: $green;
-  margin: 0 auto 2rem auto;
-}
-
 .directions__btn {
-  @include button(3rem);
-
-  width: 12rem;
-  font-size: $h6-font-size;
-
-
-  @include media-breakpoint-up(sm) {
-    @include button(4rem);
-
-    width: 15rem;
-    font-size: $h5-font-size;
-  } 
+  @include button(4rem);
+  font-size: $h5-font-size;
 }
 
 .directions__title {
