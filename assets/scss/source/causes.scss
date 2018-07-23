@@ -4,9 +4,12 @@
   color: $main-txt-color;
   background: url("img/causes-bg-big.jpg") no-repeat center;
   background-size: cover;
-  margin-top: 3rem;
   padding: 3rem 0 0 0;
   overflow: hidden;
+
+  @include media-breakpoint-up(lg) {
+    padding-top: 7rem;
+  }
 }
 
 .causes__container {

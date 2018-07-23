@@ -13,6 +13,14 @@
   @include sectionSubtitle();
 }
 
+.equipment__divider {
+  margin-bottom: 2rem;
+
+  @include media-breakpoint-up(xl) {
+    margin-bottom: 0;
+  }
+}
+
 .equipment__text {
   text-align: left;
   color: $main-txt-color;

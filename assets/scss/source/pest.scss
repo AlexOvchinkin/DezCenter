@@ -1,0 +1,78 @@
+@import "mixins";
+
+.pest {
+  color: $main-txt-color;
+  background: linear-gradient(to top, $main-txt-color 20%, white 20%, white 100%);
+  margin-top: 3rem;
+
+  @include media-breakpoint-up(lg) {
+    background-color: white;
+    background: none;
+    position: relative;
+    top: 4rem;
+    margin-top: 0;
+  }
+}
+
+.pest__title {
+  @include sectionTitle();
+}
+
+.pest-carousel__item {
+  background: linear-gradient(to top, $main-txt-color 25%, white 25%, white 100%);
+}
+
+.pest-carousel__title {
+  height: 28rem;
+  background-color: white;
+}
+
+.pest__subtitle {
+  font-weight: $font-weight-bold;
+  font-size: $h4-font-size;
+  padding: 1.5rem;
+
+  @include media-breakpoint-up(lg) {
+    font-size: $h5-font-size;
+    padding: 0;
+    text-align: center;
+  }
+
+  @include media-breakpoint-up(xl) {
+    font-size: $h4-font-size;
+  }
+}
+
+.pest__card-body {
+  padding: 1.2rem;
+}
+
+.pest__subtitle-small {
+  font-size: $h5-font-size;
+  font-weight: $font-weight-normal;
+  padding: 0 1.5rem;
+
+  @include media-breakpoint-up(lg) {
+    font-size: $h6-font-size;
+    padding: 0;
+    text-align: center;
+  }
+
+  @include media-breakpoint-up(xl) {
+    font-size: $h5-font-size;
+  }
+}
+
+.pest-carousel__control {
+  top: 4rem;
+}
+
+.pest__card {
+  padding-top: 2rem;
+}
+
+.pest__img {
+  height: 6rem;
+  width: 6rem;
+  align-self: center;
+}
