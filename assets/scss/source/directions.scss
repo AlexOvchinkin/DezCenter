@@ -1,0 +1,73 @@
+@import "mixins";
+.directions {
+  background-color: $bg-gray;
+  color: $main-txt-color;
+  padding-top: 3rem;
+  position: relative;
+  z-index: 5;
+}
+
+.directions__text {
+  font-size: $h4-font-size;
+  text-align: center;
+  margin-bottom: 4.5rem;
+}
+
+.directions__btn {
+  @include button(4rem);
+  font-size: $h5-font-size;
+}
+
+.directions__title {
+  @include sectionTitle();
+}
+
+.directions__subtitle {
+  @include sectionSubtitle();
+}
+
+.directions-carousel__inner {
+  background-color: white;
+}
+
+.directions-carousel__item {
+  background: linear-gradient(to top, white 40%, $bg-gray 40%, $bg-gray 100%);
+  .shadow-sm {
+    background-color: white;
+    padding: 0 .8rem .8rem .8rem;
+    height: 34rem;
+  }
+}
+
+.directions__table {
+  td {
+    text-align: center;
+  }
+}
+
+.directions__img {
+  display: block;
+  margin: 2rem auto 0 auto;
+  height: 5.5rem;
+}
+
+.directions__card {
+  z-index: 15;
+}
+
+.directions__card-title {
+  text-align: center;
+  font-size: $h4-font-size;
+  font-weight: $font-weight-bold;
+  height: 5rem;
+}
+
+.directions__overlay-lg {
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  left: 0;
+  bottom: 0;
+  z-index: 10;
+  background-color: white;
+}

@@ -1,0 +1,43 @@
+@import "mixins";
+
+.navigation__logo-img {
+  max-width: 100%; 
+  height: auto;
+}
+
+.phone__text {
+  color: $main-txt-color;
+}
+
+.navigation__contacts {
+  margin: auto;
+
+  @include media-breakpoint-up(md) {
+    margin-right: 0;
+  }
+}
+
+.navigation__brand {
+  margin: auto;
+
+  @include media-breakpoint-up(md) {
+    margin-left: 0;
+  }
+}
+
+.navigation__btn {
+  font-size: 45%;
+  border-radius: 1rem;
+
+  @include media-breakpoint-up(sm) {
+    font-size: 50%;
+  }
+
+  @include media-breakpoint-up(md) {
+    font-size: 70%;
+  }
+
+  @include media-breakpoint-up(lg) {
+    font-size: 100%;
+  }
+}

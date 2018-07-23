@@ -1,0 +1,143 @@
+@import "mixins";
+
+.main-carousel__slide {
+  height: 25rem;
+
+  @include media-breakpoint-up(md) {
+    height: 35rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    height: 70vh;
+  }  
+}
+
+.main-carousel__indicators {
+  border: 1px solid white;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 1rem;
+  width: 14rem;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  bottom: 1rem;
+
+  @include media-breakpoint-up(md) {
+    bottom: 3rem;
+    transform: translateX(-25%);
+    left: 25%;
+    height: 3rem;
+    width: 16rem;
+    border-radius: 1.5rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    bottom: 5rem;
+  }
+
+  .main-carousel__indicator {
+    height: 80%;
+    width: 46%;
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-indent: 0;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+
+    @include media-breakpoint-up(md) {
+      border-radius: 1.5rem;
+    }
+
+    &.active {
+      background-color: $green;
+    }
+  }
+}
+
+.main-carousel__text {
+  top: 1rem;
+  width: 100%;
+  padding-top: 1rem;
+  color: white;
+  text-align: center;
+  font-weight: $font-weight-bold;
+  font-size: $h5-font-size;
+
+  @include media-breakpoint-up(md) {
+    padding-top: 5rem;
+    text-align: left;
+    width: 75%;
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding-top: 5rem;
+    text-align: left;
+    width: 65%;
+  }
+}
+
+.main-carousel__title {
+  font-size: $h4-font-size;
+
+  @include media-breakpoint-up(md) {
+    font-size: $h2-font-size;
+  }
+
+  @include media-breakpoint-up(lg) {
+    font-size: $h1-font-size;
+  }
+}
+
+.main-carousel__subtitle {
+  @include media-breakpoint-up(md) {
+    width: 80%;
+    font-size: $h3-font-size;
+  }
+
+  @include media-breakpoint-up(lg) {
+    font-size: $h2-font-size;
+  }
+}
+
+.main-carousel__slide:nth-child(1) {
+  background: url("img/main-individ-sm.jpg") no-repeat center;
+  background-size: cover;
+
+  @include media-breakpoint-up(md) {
+    background-image: url("img/main-individ-lg.jpg");
+  }
+}
+
+.main-carousel__slide:nth-child(2) {
+  background: url("img/main-entity-sm.jpg") no-repeat center;
+  background-size: cover;
+
+  @include media-breakpoint-up(md) {
+    background-image: url("img/main-entity-lg.jpg");
+  }
+
+  .main-carousel__title {
+    font-size: $h5-font-size;
+
+    @include media-breakpoint-up(md) {
+      font-size: $h3-font-size;
+    }
+
+    @include media-breakpoint-up(lg) {
+      font-size: $h2-font-size;
+    }
+  }
+
+  .main-carousel__subtitle {
+    @include media-breakpoint-up(lg) {
+      font-size: $h3-font-size;
+    }
+  }
+}
