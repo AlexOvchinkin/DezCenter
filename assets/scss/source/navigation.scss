@@ -1,5 +1,13 @@
 @import "mixins";
 
+.navigation {
+  background-color: white;
+
+  &.fixed-top {
+    box-shadow: 2px 0 2px 2px lightgray;
+  }
+}
+
 .navigation__logo-img {
   max-width: 100%; 
   height: auto;
@@ -27,7 +35,7 @@
 
 .navigation__btn {
   font-size: 45%;
-  border-radius: 1rem;
+  border-radius: 1.5rem;
 
   @include media-breakpoint-up(sm) {
     font-size: 50%;

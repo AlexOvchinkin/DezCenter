@@ -8,17 +8,17 @@
   }
 
   @include media-breakpoint-up(lg) {
-    height: 70vh;
+    height: 60vh;
   }  
 }
 
 .main-carousel__indicators {
   border: 1px solid white;
-  height: 2rem;
+  height: 3rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  border-radius: 1rem;
+  border-radius: 1.5rem;
   width: 14rem;
   left: 50%;
   transform: translateX(-50%);
@@ -29,9 +29,7 @@
     bottom: 3rem;
     transform: translateX(-25%);
     left: 25%;
-    height: 3rem;
     width: 16rem;
-    border-radius: 1.5rem;
   }
 
   @include media-breakpoint-up(lg) {
@@ -49,11 +47,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 1rem;
-
-    @include media-breakpoint-up(md) {
-      border-radius: 1.5rem;
-    }
+    border-radius: 1.5rem;
 
     &.active {
       background-color: $green;
@@ -113,6 +107,10 @@
   @include media-breakpoint-up(md) {
     background-image: url("img/main-individ-lg.jpg");
   }
+
+  @include media-breakpoint-up(lg) {
+    background-position: top;
+  }
 }
 
 .main-carousel__slide:nth-child(2) {
@@ -121,6 +119,10 @@
 
   @include media-breakpoint-up(md) {
     background-image: url("img/main-entity-lg.jpg");
+  }
+
+  @include media-breakpoint-up(lg) {
+    background-position: top;
   }
 
   .main-carousel__title {

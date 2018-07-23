@@ -10,6 +10,13 @@
   @include media-breakpoint-up(lg) {
     padding-top: 7rem;
   }
+
+  &.pest-hidden {
+    @include media-breakpoint-up(lg) {
+      margin-top: 3rem;
+      padding-top: 3rem;
+    }
+  }
 }
 
 .causes__container {

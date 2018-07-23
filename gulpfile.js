@@ -100,7 +100,7 @@ const config = {
 */
 function compileJavascript() {
   return gulp.src(config.src.js)
-          .pipe(uglify())
+          //.pipe(uglify())
           .pipe(gulp.dest(config.dest.main))
           .pipe(reload({ stream: true }));
 }

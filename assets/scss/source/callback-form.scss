@@ -1,0 +1,24 @@
+@import "mixins";
+
+.callback {
+  height: 0;
+  background-color: lighten($main-txt-color, 5%);
+  display: flex;
+  justify-content: center;
+}
+
+.callback-form {
+  background-color: lighten($main-txt-color, 5%);
+  max-width: 90%;
+
+  @include media-breakpoint-up(md) {
+    max-width: 30rem;
+  }
+}
+
+.callback-form__title {
+  @include sectionTitle();
+  font-size: $h5-font-size;
+  margin-top: 1rem;
+  padding: 0 .5rem;
+}
