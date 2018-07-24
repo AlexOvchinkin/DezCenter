@@ -894,7 +894,9 @@
           </div>
         </div>
 
-        <button class="btn btn-success pricing__btn">Узнать стоимость</button>
+        <button class="btn btn-success pricing__btn" data-toggle="modal" data-target="#callFormModal">
+          Узнать стоимость
+        </button>
       </div>
     </div>
   </section>
@@ -1371,6 +1373,36 @@
       </div>
     </div>
   </footer>
+
+  <div class="modal modal-form" tabindex="-1" role="dialog" id="callFormModal">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content pb-3">
+        <form class="callback-form mx-auto">
+          <div class="container">
+            <div class="row justify-content-center">
+              <p class="callback-form__title text-center">Наш менеджер перезвонит вам в течение 10 минут</p>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-12 my-3">
+                <input type="text" class="form-control callback-form__control" placeholder="Как Вас зовут">
+              </div>
+              <div class="col-12 mb-3">
+                <input type="text" class="form-control callback-form__control" placeholder="Ваш телефон">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col d-flex justify-content-between">
+                <button type="button" class="btn btn-success">Позвоните мне</button>
+                <button type="button" class="btn btn-outline-success btn-close" data-dismiss="modal">
+                  Скрыть
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

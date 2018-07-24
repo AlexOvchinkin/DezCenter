@@ -2,13 +2,13 @@
 
 .callback {
   height: 0;
-  background-color: lighten($main-txt-color, 5%);
+  background-color: $form-bg-color;
   display: flex;
   justify-content: center;
 }
 
 .callback-form {
-  background-color: lighten($main-txt-color, 5%);
+  background-color: $form-bg-color;
   max-width: 90%;
 
   @include media-breakpoint-up(md) {

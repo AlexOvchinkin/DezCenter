@@ -8,6 +8,7 @@
 $main-txt-color : #235771;
 $bg-gray        : #f7f8fa;
 $bg-gray-dark   : darken($bg-gray, 10%);
+$form-bg-color  : lighten($main-txt-color, 5%);
 
 //
 // Color system
@@ -359,7 +360,9 @@ $input-btn-padding-y:         .375rem !default;
 $input-btn-padding-x:         .75rem !default;
 $input-btn-line-height:       $line-height-base !default;
 
-$input-btn-focus-width:       .2rem !default;
+//$input-btn-focus-width:       .2rem !default;
+$input-btn-focus-width:       0 !default;
+
 $input-btn-focus-color:       rgba($component-active-bg, .25) !default;
 $input-btn-focus-box-shadow:  0 0 0 $input-btn-focus-width $input-btn-focus-color !default;
 
