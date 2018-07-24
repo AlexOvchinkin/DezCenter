@@ -19,14 +19,40 @@ var entityClasses = [
 
 disableAllCarousels();
 
-$('.main-carousel__indicator').on('click', indicatorClick);
+initForm('#callbackFormWrapperUp');
+initForm('#callbackFormWrapperDown');
+
+$('.main-carousel__indicator').on('click', changeIndividEntityMode);
 $(window).scroll(scrolling);
-$('#btnMoreInfo').on('click', clickMoreInfo);
-$('#callbackFormBtnClose').on('click', closeForm('#callbackFormWrapper'));
+
+$('#btnMoreInfo').on('click', showCallForm({
+  direction: 'up', 
+  id: '#callbackFormWrapperUp', 
+  height: 16
+}));
+
+$('#btnRequestCall').on('click', showCallForm({
+  direction: 'up', 
+  id: '#callbackFormWrapperUp', 
+  height: 16
+}));
+
+$('#btnOrder').on('click', showCallForm({
+  direction: 'down', 
+  id: '#callbackFormWrapperDown', 
+  height: 20
+}));
 
 
 /////////////////////////////////////////////////
 // DEFINITION
+function initForm(id) {
+  if(!id) return;
+
+  var btnClose = $(id + ' .btn-close');
+  btnClose.on('click', closeForm(id));
+}
+
 function disableAllCarousels() {
   $.each($('.carousel'), function (key, value) {
     var id = value.id;
@@ -44,17 +70,34 @@ function scrolling() {
   }
 }
 
-function clickMoreInfo() {
-  $("html, body").animate({
-    scrollTop: $("html").offset().top
-  }, 500);
+function showCallForm(opts) {
+  return function () {
+    if (opts.direction === 'up') {
+      $("html, body").animate({
+        scrollTop: $("html").offset().top
+      }, 500);
 
-  if ($(window).scrollTop() > 0) {
-    setTimeout(function () {
-      animateForm('#callbackFormWrapper');
-    }, 600);
-  } else {
-    animateForm('#callbackFormWrapper');
+      if ($(window).scrollTop() > 0) {
+        setTimeout(function () {
+          animateForm(opts.id, opts.height);
+        }, 600);
+      } else {
+        animateForm(opts.id, opts.height);
+      }
+
+    } else {
+      $("html, body").animate({
+        scrollTop: $('html').prop('scrollHeight')
+      }, 1000);
+
+      animateForm(opts.id, opts.height);
+
+      setTimeout(function() {
+        $("html, body").animate({
+          scrollTop: $('html').prop('scrollHeight')
+        }, 1000);
+      }, 500);
+    }
   }
 }
 
@@ -63,16 +106,17 @@ function closeForm(id) {
     $(id).animate({
       height: '0'
     }, 500);
+    console.log('pressed');
   }
 }
 
-function animateForm(id) {
+function animateForm(id, height) {
   $(id).animate({
-    height: '16rem'
+    height: height + 'rem'
   }, 500);
 }
 
-function indicatorClick() {
+function changeIndividEntityMode() {
   var individ = $(this).attr('data-ind');
   individ = individ === 'true' ? true : false;
   changeMode(individ);
