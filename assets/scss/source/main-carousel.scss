@@ -4,11 +4,11 @@
   height: 25rem;
 
   @include media-breakpoint-up(md) {
-    height: 35rem;
+    height: 31rem;
   }
 
-  @include media-breakpoint-up(lg) {
-    height: 60vh;
+  @include media-breakpoint-up(xl) {
+    //height: 40rem;
   }  
 }
 
@@ -23,17 +23,17 @@
   left: 50%;
   transform: translateX(-50%);
   margin: 0;
-  bottom: 1rem;
+  bottom: 2rem;
 
   @include media-breakpoint-up(md) {
-    bottom: 3rem;
+    bottom: 2rem;
     transform: translateX(-25%);
     left: 25%;
     width: 16rem;
   }
 
   @include media-breakpoint-up(lg) {
-    bottom: 5rem;
+    bottom: 2rem;
   }
 
   .main-carousel__indicator {

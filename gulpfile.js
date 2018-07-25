@@ -6,6 +6,7 @@ const sourcemaps  = require('gulp-sourcemaps');
 const browserSync = require('browser-sync');
 const pug         = require('gulp-pug');
 const uglify      = require('gulp-uglify');
+var htmlmin       = require('gulp-htmlmin');
 
 const reload = browserSync.reload;
 
@@ -100,24 +101,25 @@ const config = {
 */
 function compileJavascript() {
   return gulp.src(config.src.js)
-          //.pipe(uglify())
+          .pipe(uglify())
           .pipe(gulp.dest(config.dest.main))
           .pipe(reload({ stream: true }));
 }
 
 function compileStyles() {
   return gulp.src(config.src.styles)
-          .pipe(sourcemaps.init())
+          //.pipe(sourcemaps.init())
           .pipe(sass())
           .pipe(prefixer())
           .pipe(cleanCSS())
-          .pipe(sourcemaps.write())
+          //.pipe(sourcemaps.write())
           .pipe(gulp.dest(config.dest.main))
           .pipe(reload({ stream: true }));
 }
 
 function compileHtml() {
   return gulp.src(config.src.html)
+          .pipe(htmlmin( { collapseWhitespace: true } ))
           .pipe(gulp.dest(config.dest.main))
           .pipe(reload({ stream: true }));
 }

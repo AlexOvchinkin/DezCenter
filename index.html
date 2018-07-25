@@ -42,7 +42,7 @@
     </form>
   </div>
 
-  <nav id="navigationBar" class="navbar navbar-light navigation">
+  <nav id="navigationBar" class="navbar sticky-top navbar-light navigation">
     <div class="container">
       <a class="navbar-brand navigation__brand" href="/">
         <img class="img-fluid navigation__logo-img" src="img/logo.png" alt="ДезЦентр Прогресс">
@@ -57,7 +57,7 @@
     </div>
   </nav>
 
-  <div id="carouselIndicators" class="carousel slide main-carousel" data-ride="carousel">
+  <div id="carouselIndicators" class="carousel slide main-carousel" data-ride="carousel" data-interval="0">
     <ol class="carousel-indicators main-carousel__indicators">
       <li data-target="#carouselIndicators" data-slide-to="0" data-ind="true" class="active main-carousel__indicator">Физ. лица</li>
       <li data-target="#carouselIndicators" data-slide-to="1" data-ind="false" class="main-carousel__indicator">Юр. лица</li>
@@ -100,7 +100,8 @@
       <div class="small-divider"></div>
     </div>
 
-    <div id="carouselDirections" class="carousel d-lg-none slide directions-carousel mobile-carousel" data-ride="carousel">
+    <!-- CAROUSEL FOR INDIVID -->
+    <div id="carouselDirectionsIndivid" class="carousel d-lg-none slide directions-carousel mobile-carousel" data-ride="carousel" data-interval="0">
       <div class="carousel-inner directions-carousel__inner">
         <div class="carousel-item mobile-carousel__item directions-carousel__item active">
           <div class="container px-3">
@@ -177,16 +178,13 @@
                     <td>Микробы</td>
                   </tr>
                   <tr>
-                    <td>Запахи после смерти</td>
+                    <td>Запах после смерти</td>
                   </tr>
                   <tr>
-                    <td>Запахи в помещениях, офисах, транспорте</td>
+                    <td>Обработка матрасов, контейнеров, емкостей</td>
                   </tr>
                   <tr>
-                    <td>Фумигация зернохранилищ</td>
-                  </tr>
-                  <tr>
-                    <td>Обработка матрасов, контейнеров, ёмкостей, водоснабжения</td>
+                    <td>Неприятные запахи в автомобиле</td>
                   </tr>
                 </tbody>
               </table>
@@ -228,16 +226,151 @@
         </div>
       </div>
 
-      <a class="carousel-control-prev mobile-carousel__control" href="#carouselDirections" role="button" data-slide="prev">
+      <a class="carousel-control-prev mobile-carousel__control" href="#carouselDirectionsIndivid" role="button" data-slide="prev">
         <img src="img/control-left.png" alt="prev">
       </a>
-      <a class="carousel-control-next mobile-carousel__control" href="#carouselDirections" role="button" data-slide="next">
+      <a class="carousel-control-next mobile-carousel__control" href="#carouselDirectionsIndivid" role="button" data-slide="next">
+        <img src="img/control-right.png" alt="next">
+      </a>
+    </div>
+
+    <!-- CAROUSEL FOR ENTITY -->
+    <div id="carouselDirectionsEntity" class="carousel d-none d-lg-none slide directions-carousel mobile-carousel" data-ride="carousel" data-interval="0">
+      <div class="carousel-inner directions-carousel__inner">
+        <div class="carousel-item mobile-carousel__item directions-carousel__item active">
+          <div class="container px-3">
+            <div class="shadow-sm rounded">
+              <div class="mobile-carousel__title">
+                <img class="mobile-carousel__image" src="img/cockroach.png" alt="cockroach">
+                <p class="mobile-carousel__text">Дезинсекция</p>
+              </div>
+              <table class="table table-sm table-borderless table-striped mobile-carousel__table">
+                <tbody>
+                  <tr>
+                    <td>Тараканы</td>
+                    <td>Комары</td>
+                  </tr>
+                  <tr>
+                    <td>Клопы</td>
+                    <td>Осы</td>
+                  </tr>
+                  <tr>
+                    <td>Муравьи</td>
+                    <td>Шершни</td>
+                  </tr>
+                  <tr>
+                    <td>Чешуйницы</td>
+                    <td>Пчелы</td>
+                  </tr>
+                  <tr>
+                    <td>Мокрицы</td>
+                    <td>Слепни</td>
+                  </tr>
+                  <tr>
+                    <td>Мухи</td>
+                    <td>Моль</td>
+                  </tr>
+                  <tr>
+                    <td>Блохи</td>
+                    <td>Сороконожка</td>
+                  </tr>
+                  <tr>
+                    <td>Клещи</td>
+                    <td>Короеды</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">Майский и колорадский жук</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">Пауки и еще 15+ разновидностей насекомых</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item mobile-carousel__item directions-carousel__item">
+          <div class="container px-3">
+            <div class="shadow-sm rounded">
+              <div class="mobile-carousel__title">
+                <img class="mobile-carousel__image" src="img/bacteria.png" alt="bacteria">
+                <p class="mobile-carousel__text">Дезинфекция и дезодорация</p>
+              </div>
+              <table class="table table-sm table-borderless table-striped mobile-carousel__table">
+                <tbody>
+                  <tr>
+                    <td>Плесень</td>
+                  </tr>
+                  <tr>
+                    <td>Бактерии (болезни и вирусы)</td>
+                  </tr>
+                  <tr>
+                    <td>Грибки</td>
+                  </tr>
+                  <tr>
+                    <td>Микробы</td>
+                  </tr>
+                  <tr>
+                    <td>Запахи в помещениях, офисах, транспорте</td>
+                  </tr>
+                  <tr>
+                    <td>Обработка матрасов, контейнеров, емкостей</td>
+                  </tr>
+                  <tr>
+                    <td>Фумигация зернохранилищ</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item mobile-carousel__item directions-carousel__item">
+          <div class="container px-3">
+            <div class="shadow-sm rounded">
+              <div class="mobile-carousel__title">
+                <img class="mobile-carousel__image" src="img/mouse.png" alt="mouse">
+                <p class="mobile-carousel__text">Дератизация</p>
+              </div>
+              <table class="table table-sm table-borderless table-striped mobile-carousel__table">
+                <tbody>
+                  <tr>
+                    <td>Мыши</td>
+                  </tr>
+                  <tr>
+                    <td>Крысы</td>
+                  </tr>
+                  <tr>
+                    <td>Кроты</td>
+                  </tr>
+                  <tr>
+                    <td>Землеройки</td>
+                  </tr>
+                  <tr>
+                    <td>Полевки</td>
+                  </tr>
+                  <tr>
+                    <td>Выдры</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev mobile-carousel__control" href="#carouselDirectionsEntity" role="button" data-slide="prev">
+        <img src="img/control-left.png" alt="prev">
+      </a>
+      <a class="carousel-control-next mobile-carousel__control" href="#carouselDirectionsEntity" role="button" data-slide="next">
         <img src="img/control-right.png" alt="next">
       </a>
     </div>
 
     <!-- FOR LG RESOLUTION -->
-    <div class="container d-none d-lg-block">
+    <!-- FOR INDIVID -->
+    <div id="directionsCardIndivid" class="container d-none d-lg-block">
       <div class="card-deck">
         <div class="card shadow-sm directions__card">
           <img class="directions__img" src="img/cockroach.png" alt="cockroach">
@@ -307,16 +440,13 @@
                   <td>Микробы</td>
                 </tr>
                 <tr>
-                  <td>Запахи после смерти</td>
+                  <td>Запах после смерти</td>
                 </tr>
                 <tr>
-                  <td>Запахи в помещениях, офисах, транспорте</td>
+                  <td>Обработка матрасов, контейнеров, емкостей</td>
                 </tr>
                 <tr>
-                  <td>Фумигация зернохранилищ</td>
-                </tr>
-                <tr>
-                  <td>Обработка матрасов, контейнеров, ёмкостей, водоснабжения</td>
+                  <td>Неприятные запахи в автомобиле</td>
                 </tr>
               </tbody>
             </table>
@@ -353,6 +483,122 @@
         </div>
       </div>
     </div>
+
+    <!-- FOR ENTITY -->
+    <div id="directionsCardEntity" class="container d-none d-lg-block">
+      <div class="card-deck">
+        <div class="card shadow-sm directions__card">
+          <img class="directions__img" src="img/cockroach.png" alt="cockroach">
+          <div class="card-body">
+            <p class="card-title directions__card-title">Дезинсекция</p>
+            <table class="table table-sm table-borderless table-striped directions__table">
+              <tbody>
+                <tr>
+                  <td>Тараканы</td>
+                  <td>Комары</td>
+                </tr>
+                <tr>
+                  <td>Клопы</td>
+                  <td>Осы</td>
+                </tr>
+                <tr>
+                  <td>Муравьи</td>
+                  <td>Шершни</td>
+                </tr>
+                <tr>
+                  <td>Чешуйницы</td>
+                  <td>Пчелы</td>
+                </tr>
+                <tr>
+                  <td>Мокрицы</td>
+                  <td>Слепни</td>
+                </tr>
+                <tr>
+                  <td>Мухи</td>
+                  <td>Моль</td>
+                </tr>
+                <tr>
+                  <td>Блохи</td>
+                  <td>Сороконожка</td>
+                </tr>
+                <tr>
+                  <td>Клещи</td>
+                  <td>Короеды</td>
+                </tr>
+                <tr>
+                  <td colspan="2">Майский и колорадский жук</td>
+                </tr>
+                <tr>
+                  <td colspan="2">Пауки и еще 15+ разновидностей насекомых</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="card shadow-sm directions__card">
+          <img class="directions__img" src="img/bacteria.png" alt="bacteria">
+          <div class="card-body">
+            <p class="card-title directions__card-title">Дезинфекция и дезодорация</p>
+            <table class="table table-sm table-borderless table-striped directions__table">
+              <tbody>
+                <tr>
+                  <td>Плесень</td>
+                </tr>
+                <tr>
+                  <td>Бактерии (болезни и вирусы)</td>
+                </tr>
+                <tr>
+                  <td>Грибки</td>
+                </tr>
+                <tr>
+                  <td>Микробы</td>
+                </tr>
+                <tr>
+                  <td>Запахи в помещениях, офисах, транспорте</td>
+                </tr>
+                <tr>
+                  <td>Обработка матрасов, контейнеров, емкостей</td>
+                </tr>
+                <tr>
+                  <td>Фумигация зернохранилищ</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="card shadow-sm directions__card">
+          <img class="directions__img" src="img/mouse.png" alt="mouse">
+          <div class="card-body">
+            <p class="card-title directions__card-title">Дератизация</p>
+            <table class="table table-sm table-borderless table-striped directions__table">
+              <tbody>
+                <tr>
+                  <td>Мыши</td>
+                </tr>
+                <tr>
+                  <td>Крысы</td>
+                </tr>
+                <tr>
+                  <td>Кроты</td>
+                </tr>
+                <tr>
+                  <td>Землеройки</td>
+                </tr>
+                <tr>
+                  <td>Полевки</td>
+                </tr>
+                <tr>
+                  <td>Выдры</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="directions__overlay-lg d-none d-lg-block"></div>
   </section>
 
@@ -399,7 +645,7 @@
     </div>
     <!-- CAROUSEL FOR INDIVIDUALS -->
     <!-- add/remove class "d-none" -->
-    <div id="carouselAssistanceIndivid" class="carousel d-md-none slide mobile-carousel" data-ride="carousel">
+    <div id="carouselAssistanceIndivid" class="carousel d-md-none slide mobile-carousel" data-ride="carousel" data-interval="0">
       <div class="carousel-inner mobile-carousel__items-container assistance-carousel__items-container">
 
         <div class="carousel-item mobile-carousel__item assistance-carousel__item active">
@@ -503,7 +749,7 @@
 
     <!-- CAROUSEL FOR ENTITY -->
     <!-- add/remove class "d-none" -->
-    <div id="carouselAssistanceEntity" class="carousel d-none d-md-none slide mobile-carousel" data-ride="carousel">
+    <div id="carouselAssistanceEntity" class="carousel d-none d-md-none slide mobile-carousel" data-ride="carousel" data-interval="0">
       <div class="carousel-inner mobile-carousel__items-container">
 
         <div class="carousel-item mobile-carousel__item assistance-carousel__item active">
@@ -908,7 +1154,7 @@
     </div>
 
     <!-- CAROUSEL FOR MOBILE -->
-    <div id="carouselScheme" class="carousel d-md-none slide mobile-carousel scheme-carousel" data-ride="carousel">
+    <div id="carouselScheme" class="carousel d-md-none slide mobile-carousel scheme-carousel" data-ride="carousel" data-interval="0">
       <div class="carousel-inner mobile-carousel__items-container">
 
         <div class="carousel-item mobile-carousel__item scheme-carousel__item active">
@@ -1100,7 +1346,7 @@
       <div class="small-divider"></div>
     </div>
 
-    <div id="carouselPest" class="carousel d-lg-none slide mobile-carousel pest-carousel" data-ride="carousel">
+    <div id="carouselPest" class="carousel d-lg-none slide mobile-carousel pest-carousel" data-ride="carousel" data-interval="0">
       <div class="carousel-inner pest-carousel__inner">
 
         <div class="carousel-item mobile-carousel__item pest-carousel__item active">
@@ -1411,7 +1657,20 @@
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
     crossorigin="anonymous"></script>
-  <script src="main.js"></script>
+  <!--
+  <script>
+    $(function () {
+      $.each($('.carousel'), function (key, value) {
+        var id = value.id;
+        $('#' + id).carousel({
+          interval: 0
+        });
+      });
+    });
+  </script>
+  -->
+
+  <script src="scripts.js"></script>
 </body>
 
 </html>
