@@ -1,12 +1,12 @@
-const gulp        = require('gulp');
-const sass        = require('gulp-sass');
-const prefixer    = require('gulp-autoprefixer');
-const cleanCSS    = require('gulp-clean-css');
-const sourcemaps  = require('gulp-sourcemaps');
+const gulp = require('gulp');
+const sass = require('gulp-sass');
+const prefixer = require('gulp-autoprefixer');
+const cleanCSS = require('gulp-clean-css');
+const sourcemaps = require('gulp-sourcemaps');
 const browserSync = require('browser-sync');
-const pug         = require('gulp-pug');
-const uglify      = require('gulp-uglify');
-var htmlmin       = require('gulp-htmlmin');
+const uglify = require('gulp-uglify');
+var htmlmin = require('gulp-htmlmin');
+const config = require('./config');
 
 const reload = browserSync.reload;
 
@@ -14,49 +14,78 @@ const reload = browserSync.reload;
 /* IMG
  /
 */
-gulp.task('img', function() {
-  return gulp.src(config.src.img).pipe(gulp.dest(config.dest.img));
+gulp.task('img', function () {
+  return gulp.src(config.src.img)
+    .pipe(gulp.dest(config.dest.main + '/img'))
+    .pipe(gulp.dest(config.dest.php + '/img'));
 });
 
- /* HTML
+/* HTML
  /
 */
-gulp.task('html', function() {
+gulp.task('html', function () {
   return compileHtml();
-}); 
+});
+
+/* HTML to PHP
+ /
+*/
+gulp.task('php-build', function () {
+  return compilePhp();
+});
 
 /* STYLES
  /
 */
-gulp.task('styles', function() {
+gulp.task('styles', function () {
   return compileStyles();
 });
 
 /* JAVASCRIPT
  /
 */
-gulp.task('js', function() {
+gulp.task('js', function () {
   return compileJavascript();
 });
 
- /*
+/*
  / Watcher
 */
-gulp.task('watch', function() {
+gulp.task('watch', function () {
   gulp.watch(config.src.html)
-    .on('change', function(path, stats) {
+    .on('change', function (path, stats) {
       compileHtml();
     });
 
   gulp.watch(config.src.stylesWatch)
-    .on('change', function(path, stats) {
+    .on('change', function (path, stats) {
       compileStyles();
-    });  
+    });
 
   gulp.watch(config.src.js)
-    .on('change', function(path, stats) {
+    .on('change', function (path, stats) {
       compileJavascript();
-    });  
+    });
+});
+
+/*
+ / PHP Watcher
+*/
+gulp.task('watch-php', function () {
+  gulp.watch(config.src.php)
+    .on('change', function (path, stats) {
+      compilePhp();
+    });
+
+  gulp.watch(config.src.stylesWatch)
+    .on('change', function (path, stats) {
+      compileStyles();
+    });
+
+  gulp.watch(config.src.js)
+    .on('change', function (path, stats) {
+      compileJavascript();
+    });
 });
 
 /*
@@ -72,27 +101,23 @@ gulp.task('browserSync', function () {
   });
 });
 
+gulp.task('browserSync-php', function () {
+  return browserSync.init({
+    server: {
+      proxy: 'localhost'
+    }
+  });
+});
+
 /*
  / DEFAULT task
 */
 gulp.task('default', gulp.parallel('img', 'html', 'styles', 'js', 'watch', 'browserSync'));
 
 /*
- / Config
+ / task for PHP
 */
-const config = {
-  src: {
-    html        : '*.html',
-    styles      : 'assets/scss/styles.scss',
-    stylesWatch : ['assets/scss/styles.scss', 'assets/scss/source/*.scss'],
-    js          : 'assets/js/*.js',
-    img         : 'assets/img/*'
-  },
-  dest: {
-    main : 'dist',
-    img  : 'dist/img'
-  }
-}
+gulp.task('php', gulp.parallel('img', 'php-build', 'styles', 'js', 'watch-php'));
 
 
 /*
@@ -101,25 +126,43 @@ const config = {
 */
 function compileJavascript() {
   return gulp.src(config.src.js)
-          .pipe(uglify())
-          .pipe(gulp.dest(config.dest.main))
-          .pipe(reload({ stream: true }));
+    //.pipe(uglify())
+    .pipe(gulp.dest(config.dest.main))
+    .pipe(gulp.dest(config.dest.php))
+    .pipe(reload({
+      stream: true
+    }));
 }
 
 function compileStyles() {
   return gulp.src(config.src.styles)
-          //.pipe(sourcemaps.init())
-          .pipe(sass())
-          .pipe(prefixer())
-          .pipe(cleanCSS())
-          //.pipe(sourcemaps.write())
-          .pipe(gulp.dest(config.dest.main))
-          .pipe(reload({ stream: true }));
+    .pipe(sourcemaps.init())
+    .pipe(sass())
+    .pipe(prefixer())
+    .pipe(cleanCSS())
+    .pipe(sourcemaps.write())
+    .pipe(gulp.dest(config.dest.main))
+    .pipe(gulp.dest(config.dest.php))
+    .pipe(reload({
+      stream: true
+    }));
 }
 
 function compileHtml() {
   return gulp.src(config.src.html)
-          .pipe(htmlmin( { collapseWhitespace: true } ))
-          .pipe(gulp.dest(config.dest.main))
-          .pipe(reload({ stream: true }));
+    .pipe(htmlmin({
+      collapseWhitespace: true
+    }))
+    .pipe(gulp.dest(config.dest.main))
+    .pipe(reload({
+      stream: true
+    }));
+}
+
+function compilePhp() {
+  return gulp.src(config.src.php)
+    .pipe(gulp.dest(config.dest.php))
+    .pipe(reload({
+      stream: true
+    }));
 }
