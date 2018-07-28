@@ -90,6 +90,7 @@ function showCallForm(opts) {
         setTimeout(function () {
           animateForm(opts.id, opts.height);
         }, 600);
+
       } else {
         animateForm(opts.id, opts.height);
       }
@@ -111,12 +112,18 @@ function closeForm(id) {
     $(id).animate({
       height: '0'
     }, 500);
+
+    $(id + ' form').addClass('d-none');
   }
 }
 
 function animateForm(id, height) {
   $(id).animate({
     height: height + 'rem'
+  }, 500);
+
+  setTimeout(function() {
+    $(id + ' form').removeClass('d-none');
   }, 500);
 }
 
