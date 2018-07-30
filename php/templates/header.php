@@ -22,17 +22,23 @@
         <div class="row justify-content-center">
           <p class="callback-form__title text-center">Наш менеджер перезвонит вам в течение 10 минут</p>
         </div>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center callback-form__loading d-none">
+          <p class="py-3 callback-form__title text-center">Отправка заявки ...</p>
+        </div>
+        <div class="row justify-content-center callback-form__feedback d-none">
+          <p class="py-3 callback-form__title text-center">Ваша заявка принята. Спасибо!</p>
+        </div>
+        <div class="row justify-content-center callback-form__data">
           <div class="col-12 my-3">
-            <input type="text" class="form-control callback-form__control" placeholder="Как Вас зовут">
+            <input type="text" id="clientName_1" class="form-control callback-form__control" placeholder="Как Вас зовут">
           </div>
           <div class="col-12 mb-3">
-            <input type="text" class="form-control callback-form__control" placeholder="Ваш телефон">
+            <input type="text" id="clientPhone_1" class="form-control callback-form__control" placeholder="Ваш телефон">
           </div>
         </div>
-        <div class="row">
+        <div class="row callback-form__buttons">
           <div class="col d-flex justify-content-between">
-            <button type="button" class="btn btn-success">Позвоните мне</button>
+            <button type="button" id="btnCall_1" class="btn btn-success">Позвоните мне</button>
             <button type="button" class="btn btn-outline-success btn-close">
               Скрыть
             </button>
@@ -50,9 +56,14 @@
       <div class="d-flex navigation__contacts">
         <div class="d-flex align-items-center mr-3 phone">
           <img class="d-block phone__img" src="/img/phone.png" alt="phone">
+
           <p class="m-0 ml-2 font-weight-bold phone__text">8(495)741-17-28</p>
+
+
         </div>
-        <button id="btnRequestCall" class="btn btn-success navigation__btn">ЗАКАЗАТЬ ЗВОНОК</button>
+        <button id="btnRequestCall" class="btn btn-success navigation__btn" onclick="window.roistatLeadHunterShow();">
+          ОБРАТНЫЙ ЗВОНОК
+        </button>
       </div>
     </div>
   </nav>

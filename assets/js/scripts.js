@@ -2,27 +2,85 @@
 
 /////////////////////////////////////////////////
 // INITIALIZATION
-var individClasses = [
-  { id: '#carouselAssistanceIndivid', class: 'd-none', show: 'REMOVE', hide: 'ADD' },
-  { id: '#assistanceTableIndivid', class: 'd-md-block', show: 'ADD', hide: 'REMOVE' },
-  { id: '#pricingTableIndivid', class: 'd-none', show: 'REMOVE', hide: 'ADD' },
-  { id: '#carouselDirectionsIndivid', class: 'd-none', show: 'REMOVE', hide: 'ADD' },
-  { id: '#directionsCardIndivid', class: 'd-lg-block', show: 'ADD', hide: 'REMOVE' }
+var individClasses = [{
+    id: '#carouselAssistanceIndivid',
+    class: 'd-none',
+    show: 'REMOVE',
+    hide: 'ADD'
+  },
+  {
+    id: '#assistanceTableIndivid',
+    class: 'd-md-block',
+    show: 'ADD',
+    hide: 'REMOVE'
+  },
+  {
+    id: '#pricingTableIndivid',
+    class: 'd-none',
+    show: 'REMOVE',
+    hide: 'ADD'
+  },
+  {
+    id: '#carouselDirectionsIndivid',
+    class: 'd-none',
+    show: 'REMOVE',
+    hide: 'ADD'
+  },
+  {
+    id: '#directionsCardIndivid',
+    class: 'd-lg-block',
+    show: 'ADD',
+    hide: 'REMOVE'
+  }
 ];
 
-var entityClasses = [
-  { id: '#carouselAssistanceEntity', class: 'd-none', show: 'REMOVE', hide: 'ADD' },
-  { id: '#assistanceTableEntity', class: 'd-md-block', show: 'ADD', hide: 'REMOVE' },
-  { id: '#pricingTableEntity', class: 'd-none', show: 'REMOVE', hide: 'ADD' },
-  { id: '#pest', class: 'd-none', show: 'REMOVE', hide: 'ADD' },
-  { id: '#causes', class: 'pest-hidden', show: 'REMOVE', hide: 'ADD' },
-  { id: '#carouselDirectionsEntity', class: 'd-none', show: 'REMOVE', hide: 'ADD' },
-  { id: '#directionsCardEntity', class: 'd-lg-block', show: 'ADD', hide: 'REMOVE' }
+var entityClasses = [{
+    id: '#carouselAssistanceEntity',
+    class: 'd-none',
+    show: 'REMOVE',
+    hide: 'ADD'
+  },
+  {
+    id: '#assistanceTableEntity',
+    class: 'd-md-block',
+    show: 'ADD',
+    hide: 'REMOVE'
+  },
+  {
+    id: '#pricingTableEntity',
+    class: 'd-none',
+    show: 'REMOVE',
+    hide: 'ADD'
+  },
+  {
+    id: '#pest',
+    class: 'd-none',
+    show: 'REMOVE',
+    hide: 'ADD'
+  },
+  {
+    id: '#causes',
+    class: 'pest-hidden',
+    show: 'REMOVE',
+    hide: 'ADD'
+  },
+  {
+    id: '#carouselDirectionsEntity',
+    class: 'd-none',
+    show: 'REMOVE',
+    hide: 'ADD'
+  },
+  {
+    id: '#directionsCardEntity',
+    class: 'd-lg-block',
+    show: 'ADD',
+    hide: 'REMOVE'
+  }
 ];
 
 // start initialization
 $(function () {
-  
+
   initForm('#callbackFormWrapperUp');
   initForm('#callbackFormWrapperDown');
 
@@ -35,41 +93,26 @@ $(function () {
     height: 16
   }));
 
-  $('#btnRequestCall').on('click', showCallForm({
-    direction: 'up',
-    id: '#callbackFormWrapperUp',
-    height: 16
-  }));
-
   $('#btnOrder').on('click', showCallForm({
     direction: 'down',
     id: '#callbackFormWrapperDown',
     height: 20
   }));
+
+  $('#btnCall_1').on('click', showFeedbackInline('#callbackFormWrapperUp'));
+  $('#btnCall_3').on('click', showFeedbackInline('#callbackFormWrapperDown'));
+  $('#btnCall_2').on('click', showFeedbackModal('#callFormModal'));
 });
 
 
-
-
 /////////////////////////////////////////////////
-// DEFINITION
+// DEFINITIONS
 function initForm(id) {
   if (!id) return;
 
   var btnClose = $(id + ' .btn-close');
   btnClose.on('click', closeForm(id));
 }
-
-/*
-function disableAllCarousels() {
-  $.each($('.carousel'), function (key, value) {
-    var id = value.id;
-    $('#' + id).carousel({
-      interval: 0
-    });
-  });
-}
-*/
 
 function scrolling() {
   if ($(this).scrollTop() > 100) {
@@ -79,8 +122,16 @@ function scrolling() {
   }
 }
 
+function resetFormView(id) {
+  $(id + ' .callback-form__buttons').removeClass('d-none');
+  $(id + ' .callback-form__data').removeClass('d-none');
+  $(id + ' .callback-form__feedback').addClass('d-none');
+}
+
 function showCallForm(opts) {
   return function () {
+    resetFormView(opts.id);
+
     if (opts.direction === 'up') {
       $("html, body").animate({
         scrollTop: $("html").offset().top
@@ -122,9 +173,40 @@ function animateForm(id, height) {
     height: height + 'rem'
   }, 500);
 
-  setTimeout(function() {
+  setTimeout(function () {
     $(id + ' form').removeClass('d-none');
   }, 500);
+}
+
+function showFeedbackInline(id) {
+  return function () {
+    showFeedback(id);
+
+    setTimeout(function () {
+      closeForm(id)();
+    }, 4000);
+  }
+}
+
+function showFeedbackModal(id) {
+  return function () {
+    showFeedback(id);
+
+    setTimeout(function () {
+      $(id).modal('hide')
+    }, 4000);
+  }
+}
+
+function showFeedback(id) {
+  $(id + ' .callback-form__buttons').addClass('d-none');
+  $(id + ' .callback-form__data').addClass('d-none');
+  $(id + ' .callback-form__loading').removeClass('d-none');
+
+  setTimeout(function () {
+    $(id + ' .callback-form__loading').addClass('d-none');
+    $(id + ' .callback-form__feedback').removeClass('d-none');
+  }, 2000);
 }
 
 function changeIndividEntityMode() {
@@ -161,4 +243,3 @@ function changeVisible(arrayOfClasses) {
       });
   }
 }
-
