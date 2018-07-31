@@ -1004,44 +1004,58 @@
       <!-- add/remove class "d-none" -->
       <div id="pricingTableIndivid" class="pricing__table-wrapper pricing__individ">
         <div class="row pricing__row pricing__row-head rounded d-none d-md-flex">
-          <div class="col-12 col-md-5 pricing__cell">Помещение</div>
-          <div class="col-12 col-md-5 pricing__cell">Услуга</div>
+          <div class="col-12 col-md-3 pricing__cell">Тип помещения</div>
+          <div class="col-12 col-md-3 pricing__cell">Вредитель</div>
+          <div class="col-12 col-md-4 pricing__cell">Вариант обработки</div>
           <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">Стоимость</div>
         </div>
         <div class="row pricing__row rounded">
-          <div class="col-12 col-md-5 pricing__cell">1 комнатная квартира + МОП</div>
-          <div class="col-12 col-md-5 pricing__cell">Генератор Холодного Тумана</div>
-          <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">1800 руб.</div>
+          <div class="col-12 col-md-3 pricing__cell">Квартира</div>
+          <div class="col-12 col-md-3 pricing__cell">Тараканы, клопы и т.д.</div>
+          <div class="col-12 col-md-4 pricing__cell">Базовая</div>
+          <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">от 1800 руб.*</div>
         </div>
         <div class="row pricing__row rounded">
-          <div class="col-12 col-md-5 pricing__cell">1 комнатная квартира + МОП</div>
-          <div class="col-12 col-md-5 pricing__cell">Холодный Туман + Установка барьерной защиты</div>
-          <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">2700 руб.</div>
+          <div class="col-12 col-md-3 pricing__cell">Дом</div>
+          <div class="col-12 col-md-3 pricing__cell">Тараканы, клопы и т.д.</div>
+          <div class="col-12 col-md-4 pricing__cell">Комплексное уничтожение</div>
+          <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">от 3000 руб.*</div>
         </div>
         <div class="row pricing__row rounded">
-          <div class="col-12 col-md-5 pricing__cell">1 комнатная квартира + МОП</div>
-          <div class="col-12 col-md-5 pricing__cell">Горячий + Холодный Туман + Дезинфекция вирусов и микробов</div>
-          <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">6800 руб.</div>
+          <div class="col-12 col-md-3 pricing__cell">Квартира, дом (бетон)</div>
+          <div class="col-12 col-md-3 pricing__cell">Плесень / грибок</div>
+          <div class="col-12 col-md-4 pricing__cell">Уничтожение + дезинфекция воздушного пространства</div>
+          <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">от 4000 руб.*</div>
         </div>
         <div class="row pricing__row rounded">
-          <div class="col-12 col-md-5 pricing__cell">3 комнатная квартира + МОП</div>
-          <div class="col-12 col-md-5 pricing__cell">Генератор Холодного Тумана</div>
-          <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">1800 руб.</div>
+          <div class="col-12 col-md-3 pricing__cell">Дом (дерево)</div>
+          <div class="col-12 col-md-3 pricing__cell">Плесень / грибок</div>
+          <div class="col-12 col-md-4 pricing__cell">Уничтожение</div>
+          <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">от 3000 руб.*</div>
         </div>
         <div class="row pricing__row rounded">
-          <div class="col-12 col-md-5 pricing__cell">3 комнатная квартира + МОП</div>
-          <div class="col-12 col-md-5 pricing__cell">Холодный Туман + Установка барьерной защиты</div>
-          <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">2700 руб.</div>
+          <div class="col-12 col-md-3 pricing__cell">Квартира</div>
+          <div class="col-12 col-md-3 pricing__cell">Крысы, мыши</div>
+          <div class="col-12 col-md-4 pricing__cell">Уничтожение</div>
+          <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">от 2000 руб.*</div>
         </div>
         <div class="row pricing__row rounded">
-          <div class="col-12 col-md-5 pricing__cell">3 комнатная квартира + МОП</div>
-          <div class="col-12 col-md-5 pricing__cell">Горячий + Холодный Туман + Дезинфекция вирусов и микробов</div>
-          <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">6800 руб.</div>
+          <div class="col-12 col-md-3 pricing__cell">Дом, участок</div>
+          <div class="col-12 col-md-3 pricing__cell">Крысы, мыши и т.д.</div>
+          <div class="col-12 col-md-4 pricing__cell">Уничтожение + барьер</div>
+          <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">от 3900 руб.*</div>
         </div>
         <div class="row pricing__row rounded">
-          <div class="col-12 col-md-5 pricing__cell">Гараж</div>
-          <div class="col-12 col-md-5 pricing__cell">Генератор Холодного Тумана</div>
-          <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">6800 руб.</div>
+          <div class="col-12 col-md-3 pricing__cell">Участок</div>
+          <div class="col-12 col-md-3 pricing__cell">Кроты, землеройки и т.д.</div>
+          <div class="col-12 col-md-4 pricing__cell">Уничтожение</div>
+          <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">от 2500 руб.*</div>
+        </div>
+        <div class="row pricing__row rounded">
+          <div class="col-12 col-md-3 pricing__cell">Автомобиль</div>
+          <div class="col-12 col-md-3 pricing__cell">Неприятные запахи</div>
+          <div class="col-12 col-md-4 pricing__cell">Уничтожение</div>
+          <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">от 2500 руб.*</div>
         </div>
       </div>
 
@@ -1082,6 +1096,8 @@
           <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">6800 руб.</div>
         </div>
       </div>
+
+      <p class="px-4 pt-3"><small>* - примерная цена обработки, все обработки индивидуальны и точная цена рассчитывается для каждого на месте. Для уточнения примерной цены лично для Вас, закажите обратный звонок.</small></p>
 
       <button class="btn btn-success pricing__btn" data-toggle="modal" data-target="#callFormModal">
         Узнать стоимость
