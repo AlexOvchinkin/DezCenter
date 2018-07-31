@@ -6,10 +6,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link rel="icon" href="/img/favicon.png">
+  <link rel="icon" href="main/img/favicon.png">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="main/styles.css?1.1">
 
   <title>Дез-Центр "Прогресс"</title>
 </head>
@@ -51,11 +51,11 @@
   <nav id="navigationBar" class="navbar sticky-top navbar-light navigation">
     <div class="container">
       <a class="navbar-brand navigation__brand" href="/">
-        <img class="img-fluid navigation__logo-img" src="/img/logo.png" alt="ДезЦентр Прогресс">
+        <img class="img-fluid navigation__logo-img" src="main/img/logo.png" alt="ДезЦентр Прогресс">
       </a>
       <div class="d-flex navigation__contacts">
         <div class="d-flex align-items-center mr-3 phone">
-          <img class="d-block phone__img" src="/img/phone.png" alt="phone">
+          <img class="d-block phone__img" src="main/img/phone.png" alt="phone">
 
           <p class="m-0 ml-2 font-weight-bold phone__text">8(495)741-17-28</p>
 

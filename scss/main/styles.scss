@@ -1,4 +1,7 @@
-@import "source/bootstrap";
+@import "scss/bootstrap";
+@import "scss/mixins";
+@import "scss/variables";
+
 @import "source/navigation";
 @import "source/main-carousel";
 @import "source/directions";
@@ -13,7 +16,6 @@
 @import "source/footer";
 @import "source/callback-form";
 @import "source/modal-form";
-@import "source/mixins";
 
 .divider {
   width: 100%;

@@ -16,8 +16,8 @@ const reload = browserSync.reload;
 */
 gulp.task('img', function () {
   return gulp.src(config.src.img)
-    .pipe(gulp.dest(config.dest.main + '/img'))
-    .pipe(gulp.dest(config.dest.php + '/img'));
+    .pipe(gulp.dest(`${config.dest.main}/${config.dest.page}/${config.dest.page}/img`))
+    .pipe(gulp.dest(`${config.dest.php}/${config.dest.page}/img`));
 });
 
 /* HTML
@@ -94,7 +94,7 @@ gulp.task('watch-php', function () {
 gulp.task('browserSync', function () {
   return browserSync({
     server: {
-      baseDir: './dist'
+      baseDir: `./dist/${config.dest.page}`
     },
     open: true,
     notify: false
@@ -127,8 +127,8 @@ gulp.task('php', gulp.parallel('img', 'php-build', 'styles', 'js', 'watch-php'))
 function compileJavascript() {
   return gulp.src(config.src.js)
     //.pipe(uglify())
-    .pipe(gulp.dest(config.dest.main))
-    .pipe(gulp.dest(config.dest.php))
+    .pipe(gulp.dest(`${config.dest.main}/${config.dest.page}`))
+    .pipe(gulp.dest(`${config.dest.php}/${config.dest.page}`))
     .pipe(reload({
       stream: true
     }));
@@ -136,13 +136,13 @@ function compileJavascript() {
 
 function compileStyles() {
   return gulp.src(config.src.styles)
-    .pipe(sourcemaps.init())
+    //.pipe(sourcemaps.init())
     .pipe(sass())
     .pipe(prefixer())
     .pipe(cleanCSS())
-    .pipe(sourcemaps.write())
-    .pipe(gulp.dest(config.dest.main))
-    .pipe(gulp.dest(config.dest.php))
+    //.pipe(sourcemaps.write())
+    .pipe(gulp.dest(`${config.dest.main}/${config.dest.page}`))
+    .pipe(gulp.dest(`${config.dest.php}/${config.dest.page}`))
     .pipe(reload({
       stream: true
     }));
@@ -153,7 +153,7 @@ function compileHtml() {
     .pipe(htmlmin({
       collapseWhitespace: true
     }))
-    .pipe(gulp.dest(config.dest.main))
+    .pipe(gulp.dest(`${config.dest.main}/${config.dest.page}`))
     .pipe(reload({
       stream: true
     }));
