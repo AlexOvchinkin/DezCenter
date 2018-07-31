@@ -9,7 +9,7 @@
   <link rel="icon" href="main/img/favicon.png">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="main/styles.css?1.1">
+  <link rel="stylesheet" href="main/styles.css?1.2">
 
   <title>Дез-Центр "Прогресс"</title>
 </head>
@@ -56,10 +56,7 @@
       <div class="d-flex navigation__contacts">
         <div class="d-flex align-items-center mr-3 phone">
           <img class="d-block phone__img" src="main/img/phone.png" alt="phone">
-
-          <p class="m-0 ml-2 font-weight-bold phone__text">8(495)741-17-28</p>
-
-
+          <a class="m-0 ml-2 font-weight-bold roistatphone phone__text"></a>
         </div>
         <button id="btnRequestCall" class="btn btn-success navigation__btn" onclick="window.roistatLeadHunterShow();">
           ОБРАТНЫЙ ЗВОНОК

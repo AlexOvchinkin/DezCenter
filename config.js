@@ -8,6 +8,7 @@ module.exports = config = {
     styles: `scss/${page}/styles.scss`,
     stylesWatch: [`scss/${page}/styles.scss`, `scss/${page}/source/*.scss`],
     js: `js/${page}/*.js`,
+    jsShared: 'js/shared-scripts/*.js',
     img: `img/${page}/*`
   },
   dest: {

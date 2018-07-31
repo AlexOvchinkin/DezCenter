@@ -7,6 +7,7 @@ const browserSync = require('browser-sync');
 const uglify = require('gulp-uglify');
 var htmlmin = require('gulp-htmlmin');
 const config = require('./config');
+const merge = require('merge-stream');
 
 const reload = browserSync.reload;
 
@@ -125,10 +126,17 @@ gulp.task('php', gulp.parallel('img', 'php-build', 'styles', 'js', 'watch-php'))
  / FUNCTIONS
 */
 function compileJavascript() {
-  return gulp.src(config.src.js)
+  const first = gulp.src(config.src.js)
+    //.pipe(uglify())
+    .pipe(gulp.dest(`${config.dest.main}/${config.dest.page}/${config.dest.page}`))
+    .pipe(gulp.dest(`${config.dest.php}/${config.dest.page}`));
+
+  const second = gulp.src(config.src.jsShared)
     //.pipe(uglify())
     .pipe(gulp.dest(`${config.dest.main}/${config.dest.page}`))
-    .pipe(gulp.dest(`${config.dest.php}/${config.dest.page}`))
+    .pipe(gulp.dest(`${config.dest.php}`))
+
+  return merge(first, second)
     .pipe(reload({
       stream: true
     }));
@@ -141,7 +149,7 @@ function compileStyles() {
     .pipe(prefixer())
     .pipe(cleanCSS())
     //.pipe(sourcemaps.write())
-    .pipe(gulp.dest(`${config.dest.main}/${config.dest.page}`))
+    .pipe(gulp.dest(`${config.dest.main}/${config.dest.page}/${config.dest.page}`))
     .pipe(gulp.dest(`${config.dest.php}/${config.dest.page}`))
     .pipe(reload({
       stream: true
