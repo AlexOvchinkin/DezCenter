@@ -1,4 +1,5 @@
-const page = 'main';
+//const page = 'main';
+const page = 'disinsection';
 
 module.exports = config = {
   src: {
