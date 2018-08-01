@@ -67,7 +67,7 @@ gulp.task('watch', function () {
 */
 gulp.task('browserSync', function () {
   return browserSync.init({
-    proxy: 'dezcenter'
+    proxy: 'dez-center'
   });
 });
 

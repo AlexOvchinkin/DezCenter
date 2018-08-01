@@ -47,7 +47,7 @@
     <button id="btnOrder" class="btn btn-success">Заказать</button>
     <div class="container">
       <p>© 2018 Дез-Центр “Прогресс”</p>
-      <p class="font-weight-bold">Дезинсекция, дезинфекция, дератизация. Работа с физическими лицами и Абонентское обслуживание организаций.</p>
+      <p class="font-weight-bold">Дезинсекция, дезинфекция, дератизация. Работа с физическими лицами и Абонентское Обслуживание организаций.</p>
       <p>Дизайн сайта:
         <a href="http:\\www.miridea.ru">www.miridea.ru</a>
       </p>

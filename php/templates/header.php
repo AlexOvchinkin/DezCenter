@@ -9,9 +9,12 @@
   <link rel="icon" href="/img/favicon.png">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="/css/main/styles.css?1.3">
+  <?php
+  include_once dirname(__DIR__)."/lib/functions.php";
+  echo getStylesheet($page);
+   ?>
 
-  <title>Дез-Центр "Прогресс"</title>
+    <title>Дез-Центр "Прогресс"</title>
 </head>
 
 <body>

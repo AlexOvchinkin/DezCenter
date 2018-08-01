@@ -1,8 +1,12 @@
+// common styles
 @import "scss/bootstrap";
 @import "scss/mixins";
 @import "scss/variables";
+@import "scss/footer";
+@import "scss/navigation";
+@import "scss/callback-form";
 
-@import "source/navigation";
+// styles
 @import "source/main-carousel";
 @import "source/directions";
 @import "source/small-divider";
@@ -13,8 +17,6 @@
 @import "source/work-scheme";
 @import "source/causes";
 @import "source/pest";
-@import "source/footer";
-@import "source/callback-form" ;
 @import "source/modal-form";
 
 .divider {
