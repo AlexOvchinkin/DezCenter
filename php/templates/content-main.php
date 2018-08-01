@@ -49,7 +49,7 @@
         <div class="container px-3">
           <div class="shadow-sm rounded">
             <div class="mobile-carousel__title">
-              <img class="mobile-carousel__image" src="main/img/cockroach.png" alt="cockroach">
+              <img class="mobile-carousel__image" src="/img/main/cockroach.png" alt="cockroach">
               <p class="mobile-carousel__text">Дезинсекция</p>
             </div>
             <table class="table table-sm table-borderless table-striped mobile-carousel__table">
@@ -102,7 +102,7 @@
         <div class="container px-3">
           <div class="shadow-sm rounded">
             <div class="mobile-carousel__title">
-              <img class="mobile-carousel__image" src="main/img/bacteria.png" alt="bacteria">
+              <img class="mobile-carousel__image" src="/img/main/bacteria.png" alt="bacteria">
               <p class="mobile-carousel__text">Дезинфекция и дезодорация</p>
             </div>
             <table class="table table-sm table-borderless table-striped mobile-carousel__table">
@@ -138,7 +138,7 @@
         <div class="container px-3">
           <div class="shadow-sm rounded">
             <div class="mobile-carousel__title">
-              <img class="mobile-carousel__image" src="main/img/mouse.png" alt="mouse">
+              <img class="mobile-carousel__image" src="/img/main/mouse.png" alt="mouse">
               <p class="mobile-carousel__text">Дератизация</p>
             </div>
             <table class="table table-sm table-borderless table-striped mobile-carousel__table">
@@ -169,10 +169,10 @@
     </div>
 
     <a class="carousel-control-prev mobile-carousel__control" href="#carouselDirectionsIndivid" role="button" data-slide="prev">
-      <img src="main/img/control-left.png" alt="prev">
+      <img src="/img/main/control-left.png" alt="prev">
     </a>
     <a class="carousel-control-next mobile-carousel__control" href="#carouselDirectionsIndivid" role="button" data-slide="next">
-      <img src="main/img/control-right.png" alt="next">
+      <img src="/img/main/control-right.png" alt="next">
     </a>
   </div>
 
@@ -184,7 +184,7 @@
         <div class="container px-3">
           <div class="shadow-sm rounded">
             <div class="mobile-carousel__title">
-              <img class="mobile-carousel__image" src="main/img/cockroach.png" alt="cockroach">
+              <img class="mobile-carousel__image" src="/img/main/cockroach.png" alt="cockroach">
               <p class="mobile-carousel__text">Дезинсекция</p>
             </div>
             <table class="table table-sm table-borderless table-striped mobile-carousel__table">
@@ -237,7 +237,7 @@
         <div class="container px-3">
           <div class="shadow-sm rounded">
             <div class="mobile-carousel__title">
-              <img class="mobile-carousel__image" src="main/img/bacteria.png" alt="bacteria">
+              <img class="mobile-carousel__image" src="/img/main/bacteria.png" alt="bacteria">
               <p class="mobile-carousel__text">Дезинфекция и дезодорация</p>
             </div>
             <table class="table table-sm table-borderless table-striped mobile-carousel__table">
@@ -273,7 +273,7 @@
         <div class="container px-3">
           <div class="shadow-sm rounded">
             <div class="mobile-carousel__title">
-              <img class="mobile-carousel__image" src="main/img/mouse.png" alt="mouse">
+              <img class="mobile-carousel__image" src="/img/main/mouse.png" alt="mouse">
               <p class="mobile-carousel__text">Дератизация</p>
             </div>
             <table class="table table-sm table-borderless table-striped mobile-carousel__table">
@@ -304,10 +304,10 @@
     </div>
 
     <a class="carousel-control-prev mobile-carousel__control" href="#carouselDirectionsEntity" role="button" data-slide="prev">
-      <img src="main/img/control-left.png" alt="prev">
+      <img src="/img/main/control-left.png" alt="prev">
     </a>
     <a class="carousel-control-next mobile-carousel__control" href="#carouselDirectionsEntity" role="button" data-slide="next">
-      <img src="main/img/control-right.png" alt="next">
+      <img src="/img/main/control-right.png" alt="next">
     </a>
   </div>
 
@@ -316,7 +316,7 @@
   <div id="directionsCardIndivid" class="container d-none d-lg-block">
     <div class="card-deck">
       <div class="card shadow-sm directions__card">
-        <img class="directions__img" src="main/img/cockroach.png" alt="cockroach">
+        <img class="directions__img" src="/img/main/cockroach.png" alt="cockroach">
         <div class="card-body">
           <p class="card-title directions__card-title">Дезинсекция</p>
           <table class="table table-sm table-borderless table-striped directions__table">
@@ -365,7 +365,7 @@
       </div>
 
       <div class="card shadow-sm directions__card">
-        <img class="directions__img" src="main/img/bacteria.png" alt="bacteria">
+        <img class="directions__img" src="/img/main/bacteria.png" alt="bacteria">
         <div class="card-body">
           <p class="card-title directions__card-title">Дезинфекция и дезодорация</p>
           <table class="table table-sm table-borderless table-striped directions__table">
@@ -397,7 +397,7 @@
       </div>
 
       <div class="card shadow-sm directions__card">
-        <img class="directions__img" src="main/img/mouse.png" alt="mouse">
+        <img class="directions__img" src="/img/main/mouse.png" alt="mouse">
         <div class="card-body">
           <p class="card-title directions__card-title">Дератизация</p>
           <table class="table table-sm table-borderless table-striped directions__table">
@@ -431,7 +431,7 @@
   <div id="directionsCardEntity" class="container d-none">
     <div class="card-deck">
       <div class="card shadow-sm directions__card">
-        <img class="directions__img" src="main/img/cockroach.png" alt="cockroach">
+        <img class="directions__img" src="/img/main/cockroach.png" alt="cockroach">
         <div class="card-body">
           <p class="card-title directions__card-title">Дезинсекция</p>
           <table class="table table-sm table-borderless table-striped directions__table">
@@ -480,7 +480,7 @@
       </div>
 
       <div class="card shadow-sm directions__card">
-        <img class="directions__img" src="main/img/bacteria.png" alt="bacteria">
+        <img class="directions__img" src="/img/main/bacteria.png" alt="bacteria">
         <div class="card-body">
           <p class="card-title directions__card-title">Дезинфекция и дезодорация</p>
           <table class="table table-sm table-borderless table-striped directions__table">
@@ -512,7 +512,7 @@
       </div>
 
       <div class="card shadow-sm directions__card">
-        <img class="directions__img" src="main/img/mouse.png" alt="mouse">
+        <img class="directions__img" src="/img/main/mouse.png" alt="mouse">
         <div class="card-body">
           <p class="card-title directions__card-title">Дератизация</p>
           <table class="table table-sm table-borderless table-striped directions__table">
@@ -571,8 +571,8 @@
     <div class="col-12 col-xl-6 p-0 order-last order-xl-first">
       <div class="equipment__img-bg">
         <picture>
-          <source srcset="main/img/equipment-man-big.png" media="(min-width: 1024px)">
-          <img class="equipment__img" src="main/img/equipment-man.png" alt="man">
+          <source srcset="/img/main/equipment-man-big.png" media="(min-width: 1024px)">
+          <img class="equipment__img" src="/img/main/equipment-man.png" alt="man">
         </picture>
       </div>
     </div>
@@ -595,7 +595,7 @@
         <div class="mobile-carousel__title assistance-carousel__title">
           <div class="assistance-carousel__img-wrapper">
             <div class="assistance-carousel__img-divider">
-              <img class="mobile-carousel__image assistance-carousel__img" src="main/img/flat-1.png" alt="flat-1">
+              <img class="mobile-carousel__image assistance-carousel__img" src="/img/main/flat-1.png" alt="flat-1">
             </div>
           </div>
           <p class="mobile-carousel__text">Однокомнатные квартиры</p>
@@ -606,7 +606,7 @@
         <div class="mobile-carousel__title assistance-carousel__title">
           <div class="assistance-carousel__img-wrapper">
             <div class="assistance-carousel__img-divider">
-              <img class="mobile-carousel__image assistance-carousel__img" src="main/img/flat-2.png" alt="flat-2">
+              <img class="mobile-carousel__image assistance-carousel__img" src="/img/main/flat-2.png" alt="flat-2">
             </div>
           </div>
           <p class="mobile-carousel__text">Двухкомнатные квартиры</p>
@@ -617,7 +617,7 @@
         <div class="mobile-carousel__title assistance-carousel__title">
           <div class="assistance-carousel__img-wrapper">
             <div class="assistance-carousel__img-divider">
-              <img class="mobile-carousel__image assistance-carousel__img" src="main/img/flat-3.png" alt="flat-3">
+              <img class="mobile-carousel__image assistance-carousel__img" src="/img/main/flat-3.png" alt="flat-3">
             </div>
           </div>
           <p class="mobile-carousel__text">Трехкомнатные квартиры</p>
@@ -628,7 +628,7 @@
         <div class="mobile-carousel__title assistance-carousel__title">
           <div class="assistance-carousel__img-wrapper">
             <div class="assistance-carousel__img-divider">
-              <img class="mobile-carousel__image assistance-carousel__img" src="main/img/house.png" alt="house">
+              <img class="mobile-carousel__image assistance-carousel__img" src="/img/main/house.png" alt="house">
             </div>
           </div>
           <p class="mobile-carousel__text">Дома</p>
@@ -639,7 +639,7 @@
         <div class="mobile-carousel__title assistance-carousel__title">
           <div class="assistance-carousel__img-wrapper">
             <div class="assistance-carousel__img-divider">
-              <img class="mobile-carousel__image assistance-carousel__img" src="main/img/barn.png" alt="barn">
+              <img class="mobile-carousel__image assistance-carousel__img" src="/img/main/barn.png" alt="barn">
             </div>
           </div>
           <p class="mobile-carousel__text">Сараи</p>
@@ -650,7 +650,7 @@
         <div class="mobile-carousel__title assistance-carousel__title">
           <div class="assistance-carousel__img-wrapper">
             <div class="assistance-carousel__img-divider">
-              <img class="mobile-carousel__image assistance-carousel__img" src="main/img/garage.png" alt="garage">
+              <img class="mobile-carousel__image assistance-carousel__img" src="/img/main/garage.png" alt="garage">
             </div>
           </div>
           <p class="mobile-carousel__text">Гаражи</p>
@@ -661,7 +661,7 @@
         <div class="mobile-carousel__title assistance-carousel__title">
           <div class="assistance-carousel__img-wrapper">
             <div class="assistance-carousel__img-divider">
-              <img class="mobile-carousel__image assistance-carousel__img" src="main/img/sauna.png" alt="sauna">
+              <img class="mobile-carousel__image assistance-carousel__img" src="/img/main/sauna.png" alt="sauna">
             </div>
           </div>
           <p class="mobile-carousel__text">Бани</p>
@@ -672,7 +672,7 @@
         <div class="mobile-carousel__title assistance-carousel__title">
           <div class="assistance-carousel__img-wrapper">
             <div class="assistance-carousel__img-divider">
-              <img class="mobile-carousel__image assistance-carousel__img" src="main/img/stairs.png" alt="stairs">
+              <img class="mobile-carousel__image assistance-carousel__img" src="/img/main/stairs.png" alt="stairs">
             </div>
           </div>
           <p class="mobile-carousel__text">Подвалы
@@ -681,10 +681,10 @@
       </div>
 
       <a class="carousel-control-prev mobile-carousel__control" href="#carouselAssistanceIndivid" role="button" data-slide="prev">
-        <img src="main/img/control-left.png" alt="prev">
+        <img src="/img/main/control-left.png" alt="prev">
       </a>
       <a class="carousel-control-next mobile-carousel__control" href="#carouselAssistanceIndivid" role="button" data-slide="next">
-        <img src="main/img/control-right.png" alt="next">
+        <img src="/img/main/control-right.png" alt="next">
       </a>
 
     </div>
@@ -699,7 +699,7 @@
         <div class="mobile-carousel__title assistance-carousel__title">
           <div class="assistance-carousel__img-wrapper">
             <div class="assistance-carousel__img-divider">
-              <img class="mobile-carousel__image assistance-carousel__img" src="main/img/company.png" alt="company">
+              <img class="mobile-carousel__image assistance-carousel__img" src="/img/main/company.png" alt="company">
             </div>
           </div>
           <p class="mobile-carousel__text">Офисы</p>
@@ -710,7 +710,7 @@
         <div class="mobile-carousel__title assistance-carousel__title">
           <div class="assistance-carousel__img-wrapper">
             <div class="assistance-carousel__img-divider">
-              <img class="mobile-carousel__image assistance-carousel__img" src="main/img/industry.png" alt="industry">
+              <img class="mobile-carousel__image assistance-carousel__img" src="/img/main/industry.png" alt="industry">
             </div>
           </div>
           <p class="mobile-carousel__text">Заводы</p>
@@ -721,7 +721,7 @@
         <div class="mobile-carousel__title assistance-carousel__title">
           <div class="assistance-carousel__img-wrapper">
             <div class="assistance-carousel__img-divider">
-              <img class="mobile-carousel__image assistance-carousel__img" src="main/img/restaurant.png" alt="restaurant">
+              <img class="mobile-carousel__image assistance-carousel__img" src="/img/main/restaurant.png" alt="restaurant">
             </div>
           </div>
           <p class="mobile-carousel__text">Магазины и ТРК</p>
@@ -732,7 +732,7 @@
         <div class="mobile-carousel__title assistance-carousel__title">
           <div class="assistance-carousel__img-wrapper">
             <div class="assistance-carousel__img-divider">
-              <img class="mobile-carousel__image assistance-carousel__img" src="main/img/warehouse.png" alt="warehouse">
+              <img class="mobile-carousel__image assistance-carousel__img" src="/img/main/warehouse.png" alt="warehouse">
             </div>
           </div>
           <p class="mobile-carousel__text">Склады</p>
@@ -743,7 +743,7 @@
         <div class="mobile-carousel__title assistance-carousel__title">
           <div class="assistance-carousel__img-wrapper">
             <div class="assistance-carousel__img-divider">
-              <img class="mobile-carousel__image assistance-carousel__img" src="main/img/company_2.png" alt="company_2">
+              <img class="mobile-carousel__image assistance-carousel__img" src="/img/main/company_2.png" alt="company_2">
             </div>
           </div>
           <p class="mobile-carousel__text">Производственные помещения</p>
@@ -754,7 +754,7 @@
         <div class="mobile-carousel__title assistance-carousel__title">
           <div class="assistance-carousel__img-wrapper">
             <div class="assistance-carousel__img-divider">
-              <img class="mobile-carousel__image assistance-carousel__img" src="main/img/hospital.png" alt="hospital">
+              <img class="mobile-carousel__image assistance-carousel__img" src="/img/main/hospital.png" alt="hospital">
             </div>
           </div>
           <p class="mobile-carousel__text">Больницы и медицинские центры</p>
@@ -765,7 +765,7 @@
         <div class="mobile-carousel__title assistance-carousel__title">
           <div class="assistance-carousel__img-wrapper">
             <div class="assistance-carousel__img-divider">
-              <img class="mobile-carousel__image assistance-carousel__img" src="main/img/kindergarten.png" alt="kindergarten">
+              <img class="mobile-carousel__image assistance-carousel__img" src="/img/main/kindergarten.png" alt="kindergarten">
             </div>
           </div>
           <p class="mobile-carousel__text">Детские учреждения</p>
@@ -776,7 +776,7 @@
         <div class="mobile-carousel__title assistance-carousel__title">
           <div class="assistance-carousel__img-wrapper">
             <div class="assistance-carousel__img-divider">
-              <img class="mobile-carousel__image assistance-carousel__img" src="main/img/real-estate.png" alt="real-estate">
+              <img class="mobile-carousel__image assistance-carousel__img" src="/img/main/real-estate.png" alt="real-estate">
             </div>
           </div>
           <p class="mobile-carousel__text">Бытовки и еще 25+ вариантов</p>
@@ -784,10 +784,10 @@
       </div>
 
       <a class="carousel-control-prev mobile-carousel__control" href="#carouselAssistanceEntity" role="button" data-slide="prev">
-        <img src="main/img/control-left.png" alt="prev">
+        <img src="/img/main/control-left.png" alt="prev">
       </a>
       <a class="carousel-control-next mobile-carousel__control" href="#carouselAssistanceEntity" role="button" data-slide="next">
-        <img src="main/img/control-right.png" alt="next">
+        <img src="/img/main/control-right.png" alt="next">
       </a>
 
     </div>
@@ -803,25 +803,25 @@
           <div class="row mx-0">
             <div class="col-4 col-lg-3">
               <div class="assistance-table__image-wrapper">
-                <img class="assistance-table__image" src="main/img/flat-1.png" alt="flat-1">
+                <img class="assistance-table__image" src="/img/main/flat-1.png" alt="flat-1">
               </div>
               <p class="assistance-table__text">Однокомнатные квартиры</p>
             </div>
             <div class="col-4 col-lg-3">
               <div class="assistance-table__image-wrapper">
-                <img class="assistance-table__image" src="main/img/flat-2.png" alt="flat-2">
+                <img class="assistance-table__image" src="/img/main/flat-2.png" alt="flat-2">
               </div>
               <p class="assistance-table__text">Двухкомнатные квартиры</p>
             </div>
             <div class="col-4 col-lg-3">
               <div class="assistance-table__image-wrapper">
-                <img class="assistance-table__image" src="main/img/flat-3.png" alt="flat-3">
+                <img class="assistance-table__image" src="/img/main/flat-3.png" alt="flat-3">
               </div>
               <p class="assistance-table__text">Трехкомнатные квартиры</p>
             </div>
             <div class="col col-lg-3 d-none d-lg-block">
               <div class="assistance-table__image-wrapper">
-                <img class="assistance-table__image" src="main/img/house.png" alt="house">
+                <img class="assistance-table__image" src="/img/main/house.png" alt="house">
               </div>
               <p class="assistance-table__text">Дома</p>
             </div>
@@ -836,31 +836,31 @@
           <div class="row mx-0">
             <div class="col-4 d-lg-none">
               <div class="assistance-table__image-wrapper-middle">
-                <img class="assistance-table__image" src="main/img/house.png" alt="house">
+                <img class="assistance-table__image" src="/img/main/house.png" alt="house">
               </div>
               <p class="assistance-table__text">Дома</p>
             </div>
             <div class="col-4 col-lg-3">
               <div class="assistance-table__image-wrapper-middle">
-                <img class="assistance-table__image" src="main/img/barn.png" alt="barn">
+                <img class="assistance-table__image" src="/img/main/barn.png" alt="barn">
               </div>
               <p class="assistance-table__text">Сараи</p>
             </div>
             <div class="col-4 col-lg-3">
               <div class="assistance-table__image-wrapper-middle">
-                <img class="assistance-table__image" src="main/img/garage.png" alt="garage">
+                <img class="assistance-table__image" src="/img/main/garage.png" alt="garage">
               </div>
               <p class="assistance-table__text">Гаражи</p>
             </div>
             <div class="col col-lg-3 d-none d-lg-block">
               <div class="assistance-table__image-wrapper-middle">
-                <img class="assistance-table__image" src="main/img/sauna.png" alt="sauna">
+                <img class="assistance-table__image" src="/img/main/sauna.png" alt="sauna">
               </div>
               <p class="assistance-table__text">Бани</p>
             </div>
             <div class="col col-lg-3 d-none d-lg-block">
               <div class="assistance-table__image-wrapper-middle">
-                <img class="assistance-table__image" src="main/img/stairs.png" alt="stairs">
+                <img class="assistance-table__image" src="/img/main/stairs.png" alt="stairs">
               </div>
               <p class="assistance-table__text">Подвалы
                 <br> и еще 20+ помещений</p>
@@ -876,13 +876,13 @@
           <div class="row mx-0 justify-content-center">
             <div class="col-4">
               <div class="assistance-table__image-wrapper-last">
-                <img class="assistance-table__image" src="main/img/sauna.png" alt="sauna">
+                <img class="assistance-table__image" src="/img/main/sauna.png" alt="sauna">
               </div>
               <p class="assistance-table__text">Бани</p>
             </div>
             <div class="col-4">
               <div class="assistance-table__image-wrapper-last">
-                <img class="assistance-table__image" src="main/img/stairs.png" alt="stairs">
+                <img class="assistance-table__image" src="/img/main/stairs.png" alt="stairs">
               </div>
               <p class="assistance-table__text">Подвалы
                 <br> и еще 20+ помещений</p>
@@ -904,25 +904,25 @@
           <div class="row mx-0">
             <div class="col-4 col-lg-3">
               <div class="assistance-table__image-wrapper">
-                <img class="assistance-table__image" src="main/img/company.png" alt="company">
+                <img class="assistance-table__image" src="/img/main/company.png" alt="company">
               </div>
               <p class="assistance-table__text">Офисы</p>
             </div>
             <div class="col-4 col-lg-3">
               <div class="assistance-table__image-wrapper">
-                <img class="assistance-table__image" src="main/img/industry.png" alt="industry">
+                <img class="assistance-table__image" src="/img/main/industry.png" alt="industry">
               </div>
               <p class="assistance-table__text">Заводы</p>
             </div>
             <div class="col-4 col-lg-3">
               <div class="assistance-table__image-wrapper">
-                <img class="assistance-table__image" src="main/img/restaurant.png" alt="restaurant">
+                <img class="assistance-table__image" src="/img/main/restaurant.png" alt="restaurant">
               </div>
               <p class="assistance-table__text">Магазины и ТРК</p>
             </div>
             <div class="col col-lg-3 d-none d-lg-block">
               <div class="assistance-table__image-wrapper">
-                <img class="assistance-table__image" src="main/img/warehouse.png" alt="warehouse">
+                <img class="assistance-table__image" src="/img/main/warehouse.png" alt="warehouse">
               </div>
               <p class="assistance-table__text">Склады</p>
             </div>
@@ -937,31 +937,31 @@
           <div class="row mx-0">
             <div class="col-4 d-lg-none">
               <div class="assistance-table__image-wrapper-middle">
-                <img class="assistance-table__image" src="main/img/warehouse.png" alt="warehouse">
+                <img class="assistance-table__image" src="/img/main/warehouse.png" alt="warehouse">
               </div>
               <p class="assistance-table__text">Склады</p>
             </div>
             <div class="col-4 col-lg-3">
               <div class="assistance-table__image-wrapper-middle">
-                <img class="assistance-table__image" src="main/img/company_2.png" alt="company_2">
+                <img class="assistance-table__image" src="/img/main/company_2.png" alt="company_2">
               </div>
               <p class="assistance-table__text">Производственные помещения</p>
             </div>
             <div class="col-4 col-lg-3">
               <div class="assistance-table__image-wrapper-middle">
-                <img class="assistance-table__image" src="main/img/hospital.png" alt="hospital">
+                <img class="assistance-table__image" src="/img/main/hospital.png" alt="hospital">
               </div>
               <p class="assistance-table__text">Больницы и медицинские центры</p>
             </div>
             <div class="col col-lg-3 d-none d-lg-block">
               <div class="assistance-table__image-wrapper-middle">
-                <img class="assistance-table__image" src="main/img/kindergarten.png" alt="kindergarten">
+                <img class="assistance-table__image" src="/img/main/kindergarten.png" alt="kindergarten">
               </div>
               <p class="assistance-table__text">Детские учреждения</p>
             </div>
             <div class="col col-lg-3 d-none d-lg-block">
               <div class="assistance-table__image-wrapper-middle">
-                <img class="assistance-table__image" src="main/img/real-estate.png" alt="real-estate">
+                <img class="assistance-table__image" src="/img/main/real-estate.png" alt="real-estate">
               </div>
               <p class="assistance-table__text">Бытовки и еще 25+ вариантов</p>
             </div>
@@ -976,13 +976,13 @@
           <div class="row mx-0 justify-content-center">
             <div class="col-4">
               <div class="assistance-table__image-wrapper-last">
-                <img class="assistance-table__image" src="main/img/kindergarten.png" alt="kindergarten">
+                <img class="assistance-table__image" src="/img/main/kindergarten.png" alt="kindergarten">
               </div>
               <p class="assistance-table__text">Детские учреждения</p>
             </div>
             <div class="col-4">
               <div class="assistance-table__image-wrapper-last">
-                <img class="assistance-table__image" src="main/img/real-estate.png" alt="real-estate">
+                <img class="assistance-table__image" src="/img/main/real-estate.png" alt="real-estate">
               </div>
               <p class="assistance-table__text">Бытовки и еще 25+ вариантов</p>
             </div>
@@ -1119,8 +1119,8 @@
       <div class="carousel-item mobile-carousel__item scheme-carousel__item active">
         <div class="mobile-carousel__title">
           <div class="scheme-carousel__img-wrapper">
-            <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="main/img/1.png" alt="1">
-            <img class="mobile-carousel__image scheme-carousel__img" src="main/img/edit.png" alt="edit">
+            <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="/img/main/1.png" alt="1">
+            <img class="mobile-carousel__image scheme-carousel__img" src="/img/main/edit.png" alt="edit">
           </div>
           <div class="container">
             <p class="mobile-carousel__text scheme-carousel__text">Вы оставляете заявку</p>
@@ -1131,8 +1131,8 @@
       <div class="carousel-item mobile-carousel__item scheme-carousel__item">
         <div class="mobile-carousel__title">
           <div class="scheme-carousel__img-wrapper">
-            <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="main/img/2.png" alt="2">
-            <img class="mobile-carousel__image scheme-carousel__img" src="main/img/jeep.png" alt="jeep">
+            <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="/img/main/2.png" alt="2">
+            <img class="mobile-carousel__image scheme-carousel__img" src="/img/main/jeep.png" alt="jeep">
           </div>
           <div class="container">
             <p class="mobile-carousel__text scheme-carousel__text">Специалист выезжает на объект и проводит обследование</p>
@@ -1143,8 +1143,8 @@
       <div class="carousel-item mobile-carousel__item scheme-carousel__item">
         <div class="mobile-carousel__title">
           <div class="scheme-carousel__img-wrapper">
-            <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="main/img/3.png" alt="3">
-            <img class="mobile-carousel__image scheme-carousel__img" src="main/img/pesticide.png" alt="pesticide">
+            <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="/img/main/3.png" alt="3">
+            <img class="mobile-carousel__image scheme-carousel__img" src="/img/main/pesticide.png" alt="pesticide">
           </div>
           <div class="container">
             <p class="mobile-carousel__text scheme-carousel__text">Выполняются работы по обработке помещений</p>
@@ -1155,8 +1155,8 @@
       <div class="carousel-item mobile-carousel__item scheme-carousel__item">
         <div class="mobile-carousel__title">
           <div class="scheme-carousel__img-wrapper">
-            <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="main/img/4.png" alt="4">
-            <img class="mobile-carousel__image scheme-carousel__img" src="main/img/script.png" alt="script">
+            <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="/img/main/4.png" alt="4">
+            <img class="mobile-carousel__image scheme-carousel__img" src="/img/main/script.png" alt="script">
           </div>
           <div class="container">
             <p class="mobile-carousel__text scheme-carousel__text">Вы получаете рекомендации</p>
@@ -1167,8 +1167,8 @@
       <div class="carousel-item mobile-carousel__item scheme-carousel__item">
         <div class="mobile-carousel__title">
           <div class="scheme-carousel__img-wrapper">
-            <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="main/img/5.png" alt="5">
-            <img class="mobile-carousel__image scheme-carousel__img" src="main/img/search.png" alt="search">
+            <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="/img/main/5.png" alt="5">
+            <img class="mobile-carousel__image scheme-carousel__img" src="/img/main/search.png" alt="search">
           </div>
           <div class="container">
             <p class="mobile-carousel__text scheme-carousel__text">Мы контролируем ситуацию на протяжении всего гарантийного срока</p>
@@ -1179,8 +1179,8 @@
       <div class="carousel-item mobile-carousel__item scheme-carousel__item">
         <div class="mobile-carousel__title">
           <div class="scheme-carousel__img-wrapper">
-            <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="main/img/6.png" alt="6">
-            <img class="mobile-carousel__image scheme-carousel__img" src="main/img/shield.png" alt="shield">
+            <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="/img/main/6.png" alt="6">
+            <img class="mobile-carousel__image scheme-carousel__img" src="/img/main/shield.png" alt="shield">
           </div>
           <div class="container">
             <p class="mobile-carousel__text scheme-carousel__text">Наслаждаетесь жизнью без бактерий, паразитов, насекомых и грызунов</p>
@@ -1189,10 +1189,10 @@
       </div>
 
       <a class="carousel-control-prev mobile-carousel__control scheme-carousel__control" href="#carouselScheme" role="button" data-slide="prev">
-        <img src="main/img/control-left.png" alt="prev">
+        <img src="/img/main/control-left.png" alt="prev">
       </a>
       <a class="carousel-control-next mobile-carousel__control scheme-carousel__control" href="#carouselScheme" role="button" data-slide="next">
-        <img src="main/img/control-right.png" alt="next">
+        <img src="/img/main/control-right.png" alt="next">
       </a>
 
     </div>
@@ -1209,8 +1209,8 @@
         <div class="col-5">
           <div class="scheme-table__img-wrapper">
             <div class="scheme-table__divider scheme-table__divider-right"></div>
-            <img class="scheme-table__img-num" src="main/img/1.png" alt="1">
-            <img class="scheme-table__img scheme-table__img-right" src="main/img/edit.png" alt="edit">
+            <img class="scheme-table__img-num" src="/img/main/1.png" alt="1">
+            <img class="scheme-table__img scheme-table__img-right" src="/img/main/edit.png" alt="edit">
           </div>
         </div>
       </div>
@@ -1222,8 +1222,8 @@
         <div class="col-5">
           <div class="scheme-table__img-wrapper">
             <div class="scheme-table__divider"></div>
-            <img class="scheme-table__img-num scheme-table__img-num-left" src="main/img/2.png" alt="2">
-            <img class="scheme-table__img scheme-table__img-left" src="main/img/edit.png" alt="edit">
+            <img class="scheme-table__img-num scheme-table__img-num-left" src="/img/main/2.png" alt="2">
+            <img class="scheme-table__img scheme-table__img-left" src="/img/main/edit.png" alt="edit">
           </div>
         </div>
         <div class="col-7 d-flex align-items-center justify-content-start schema__table-text">
@@ -1241,8 +1241,8 @@
         <div class="col-5">
           <div class="scheme-table__img-wrapper">
             <div class="scheme-table__divider scheme-table__divider-right"></div>
-            <img class="scheme-table__img-num" src="main/img/3.png" alt="3">
-            <img class="scheme-table__img scheme-table__img-right" src="main/img/pesticide.png" alt="pesticide">
+            <img class="scheme-table__img-num" src="/img/main/3.png" alt="3">
+            <img class="scheme-table__img scheme-table__img-right" src="/img/main/pesticide.png" alt="pesticide">
           </div>
         </div>
       </div>
@@ -1254,8 +1254,8 @@
         <div class="col-5">
           <div class="scheme-table__img-wrapper">
             <div class="scheme-table__divider"></div>
-            <img class="scheme-table__img-num scheme-table__img-num-left" src="main/img/4.png" alt="4">
-            <img class="scheme-table__img scheme-table__img-left" src="main/img/script.png" alt="script">
+            <img class="scheme-table__img-num scheme-table__img-num-left" src="/img/main/4.png" alt="4">
+            <img class="scheme-table__img scheme-table__img-left" src="/img/main/script.png" alt="script">
           </div>
         </div>
         <div class="col-7 d-flex align-items-center justify-content-start schema__table-text">
@@ -1273,8 +1273,8 @@
         <div class="col-5">
           <div class="scheme-table__img-wrapper">
             <div class="scheme-table__divider scheme-table__divider-right"></div>
-            <img class="scheme-table__img-num" src="main/img/5.png" alt="5">
-            <img class="scheme-table__img scheme-table__img-right" src="main/img/search.png" alt="search">
+            <img class="scheme-table__img-num" src="/img/main/5.png" alt="5">
+            <img class="scheme-table__img scheme-table__img-right" src="/img/main/search.png" alt="search">
           </div>
         </div>
       </div>
@@ -1286,8 +1286,8 @@
         <div class="col-5">
           <div class="scheme-table__img-wrapper">
             <div class="scheme-table__divider"></div>
-            <img class="scheme-table__img-num scheme-table__img-num-left" src="main/img/6.png" alt="6">
-            <img class="scheme-table__img scheme-table__img-left" src="main/img/shield.png" alt="shield">
+            <img class="scheme-table__img-num scheme-table__img-num-left" src="/img/main/6.png" alt="6">
+            <img class="scheme-table__img scheme-table__img-left" src="/img/main/shield.png" alt="shield">
           </div>
         </div>
         <div class="col-7 d-flex align-items-center justify-content-start schema__table-text">
@@ -1312,7 +1312,7 @@
         <div class="container">
           <div class="shadow-sm rounded">
             <div class="mobile-carousel__title pest-carousel__title shadow rounded">
-              <img class="mobile-carousel__image pest__img" src="main/img/scan.png" alt="scan">
+              <img class="mobile-carousel__image pest__img" src="/img/main/scan.png" alt="scan">
               <p class="mobile-carousel__text pest__subtitle">Ежемесячный мониторинг</p>
               <p class="mobile-carousel__text pest__subtitle-small">
                 Специалист компании обследует территорию на предмет вредителей, мест размножения.
@@ -1326,7 +1326,7 @@
         <div class="container">
           <div class="shadow-sm rounded">
             <div class="mobile-carousel__title pest-carousel__title shadow rounded">
-              <img class="mobile-carousel__image pest__img" src="main/img/target.png" alt="target">
+              <img class="mobile-carousel__image pest__img" src="/img/main/target.png" alt="target">
               <p class="mobile-carousel__text pest__subtitle">
                 Истребление вредителей с необходимой периодичностью
               </p>
@@ -1339,7 +1339,7 @@
         <div class="container">
           <div class="shadow-sm rounded">
             <div class="mobile-carousel__title pest-carousel__title shadow rounded">
-              <img class="mobile-carousel__image pest__img" src="main/img/calendar.png" alt="calendar">
+              <img class="mobile-carousel__image pest__img" src="/img/main/calendar.png" alt="calendar">
               <p class="mobile-carousel__text pest__subtitle">
                 Профилактика два раза в год
               </p>
@@ -1352,7 +1352,7 @@
         <div class="container">
           <div class="shadow-sm rounded">
             <div class="mobile-carousel__title pest-carousel__title shadow rounded">
-              <img class="mobile-carousel__image pest__img" src="main/img/file.png" alt="file">
+              <img class="mobile-carousel__image pest__img" src="/img/main/file.png" alt="file">
               <p class="mobile-carousel__text pest__subtitle">Ведение документации</p>
               <p class="mobile-carousel__text pest__subtitle-small">
                 Заполняем журнал обследований с подписями и рекомендациями.
@@ -1365,10 +1365,10 @@
     </div>
 
     <a class="carousel-control-prev mobile-carousel__control pest-carousel__control" href="#carouselPest" role="button" data-slide="prev">
-      <img src="main/img/control-left.png" alt="prev">
+      <img src="/img/main/control-left.png" alt="prev">
     </a>
     <a class="carousel-control-next mobile-carousel__control pest-carousel__control" href="#carouselPest" role="button" data-slide="next">
-      <img src="main/img/control-right.png" alt="next">
+      <img src="/img/main/control-right.png" alt="next">
     </a>
   </div>
 
@@ -1376,7 +1376,7 @@
   <div id="pestTable" class="container d-none d-lg-block">
     <div class="card-deck">
       <div class="card shadow-sm pest__card">
-        <img class="pest__img" src="main/img/scan.png" alt="scan">
+        <img class="pest__img" src="/img/main/scan.png" alt="scan">
         <div class="card-body pest__card-body">
           <p class="pest__subtitle">Ежемесячный мониторинг</p>
           <p class="pest__subtitle-small">
@@ -1386,21 +1386,21 @@
       </div>
 
       <div class="card shadow-sm pest__card">
-        <img class="pest__img" src="main/img/target.png" alt="target">
+        <img class="pest__img" src="/img/main/target.png" alt="target">
         <div class="card-body pest__card-body">
           <p class="pest__subtitle">Истребление вредителей с необходимой периодичностью</p>
         </div>
       </div>
 
       <div class="card shadow-sm pest__card">
-        <img class="pest__img" src="main/img/calendar.png" alt="calendar">
+        <img class="pest__img" src="/img/main/calendar.png" alt="calendar">
         <div class="card-body pest__card-body">
           <p class="pest__subtitle">Профилактика два раза в год</p>
         </div>
       </div>
 
       <div class="card shadow-sm pest__card">
-        <img class="pest__img" src="main/img/file.png" alt="file">
+        <img class="pest__img" src="/img/main/file.png" alt="file">
         <div class="card-body pest__card-body">
           <p class="pest__subtitle">Ведение документации</p>
           <p class="pest__subtitle-small">
@@ -1422,7 +1422,7 @@
     <ul class="list-unstyled causes__list">
 
       <li class="causes__item">
-        <img class="causes__img" src="main/img/point.png" alt="point">
+        <img class="causes__img" src="/img/main/point.png" alt="point">
         <div class="causes__text">
           <p class="causes__text-title">Индивидуальный подход</p>
           <p class="causes__text-subtitle">
@@ -1432,7 +1432,7 @@
       </li>
 
       <li class="causes__item">
-        <img class="causes__img" src="main/img/point.png" alt="point">
+        <img class="causes__img" src="/img/main/point.png" alt="point">
         <div class="causes__text">
           <p class="causes__text-title">Реальные гарантии</p>
           <p class="causes__text-subtitle">
@@ -1442,7 +1442,7 @@
       </li>
 
       <li class="causes__item">
-        <img class="causes__img" src="main/img/point.png" alt="point">
+        <img class="causes__img" src="/img/main/point.png" alt="point">
         <div class="causes__text">
           <p class="causes__text-title">Договор</p>
           <p class="causes__text-subtitle">
@@ -1452,7 +1452,7 @@
       </li>
 
       <li class="causes__item">
-        <img class="causes__img" src="main/img/point.png" alt="point">
+        <img class="causes__img" src="/img/main/point.png" alt="point">
         <div class="causes__text">
           <p class="causes__text-title">Бесплатная диагностика</p>
           <p class="causes__text-subtitle">
@@ -1462,7 +1462,7 @@
       </li>
 
       <li class="causes__item">
-        <img class="causes__img" src="main/img/point.png" alt="point">
+        <img class="causes__img" src="/img/main/point.png" alt="point">
         <div class="causes__text">
           <p class="causes__text-title">Безопасность</p>
           <p class="causes__text-subtitle">
@@ -1472,7 +1472,7 @@
       </li>
 
       <li class="causes__item">
-        <img class="causes__img" src="main/img/point.png" alt="point">
+        <img class="causes__img" src="/img/main/point.png" alt="point">
         <div class="causes__text">
           <p class="causes__text-title">Ответственность</p>
           <p class="causes__text-subtitle">
@@ -1482,7 +1482,7 @@
       </li>
 
       <li class="causes__item">
-        <img class="causes__img" src="main/img/point.png" alt="point">
+        <img class="causes__img" src="/img/main/point.png" alt="point">
         <div class="causes__text">
           <p class="causes__text-title">Улучшение качества жизни</p>
           <p class="causes__text-subtitle">
@@ -1492,7 +1492,7 @@
       </li>
 
       <li class="causes__item">
-        <img class="causes__img" src="main/img/point.png" alt="point">
+        <img class="causes__img" src="/img/main/point.png" alt="point">
         <div class="causes__text">
           <p class="causes__text-title">Профилактика заболеваний</p>
           <p class="causes__text-subtitle">
@@ -1502,7 +1502,7 @@
       </li>
 
       <li class="causes__item">
-        <img class="causes__img" src="main/img/point.png" alt="point">
+        <img class="causes__img" src="/img/main/point.png" alt="point">
         <div class="causes__text">
           <p class="causes__text-title">Оперативность</p>
           <p class="causes__text-subtitle">
@@ -1512,7 +1512,7 @@
       </li>
 
       <li class="causes__item">
-        <img class="causes__img" src="main/img/point.png" alt="point">
+        <img class="causes__img" src="/img/main/point.png" alt="point">
         <div class="causes__text">
           <p class="causes__text-title">Выгода</p>
           <p class="causes__text-subtitle">
@@ -1521,6 +1521,6 @@
         </div>
       </li>
     </ul>
-    <img class="causes__img-big d-none d-xl-block" src="main/img/man.png" alt="man">
+    <img class="causes__img-big d-none d-xl-block" src="/img/main/man.png" alt="man">
   </div>
 </section>

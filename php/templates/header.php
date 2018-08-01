@@ -2,14 +2,14 @@
 <html lang="ru">
 
 <head>
-  <!-- Required meta tags -->
+  <!-- Required meta tags   -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link rel="icon" href="main/img/favicon.png">
+  <link rel="icon" href="/img/favicon.png">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="main/styles.css?1.2">
+  <link rel="stylesheet" href="/css/main/styles.css?1.3">
 
   <title>Дез-Центр "Прогресс"</title>
 </head>
@@ -51,11 +51,11 @@
   <nav id="navigationBar" class="navbar sticky-top navbar-light navigation">
     <div class="container">
       <a class="navbar-brand navigation__brand" href="/">
-        <img class="img-fluid navigation__logo-img" src="main/img/logo.png" alt="ДезЦентр Прогресс">
+        <img class="img-fluid navigation__logo-img" src="/img/logo.png" alt="ДезЦентр Прогресс">
       </a>
       <div class="d-flex navigation__contacts">
         <div class="d-flex align-items-center mr-3 phone">
-          <img class="d-block phone__img" src="main/img/phone.png" alt="phone">
+          <img class="d-block phone__img" src="/img/phone.png" alt="phone">
           <a class="m-0 ml-2 font-weight-bold roistatphone phone__text"></a>
         </div>
         <button id="btnRequestCall" class="btn btn-success navigation__btn" onclick="window.roistatLeadHunterShow();">

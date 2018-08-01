@@ -1,19 +1,17 @@
-//const page = 'main';
-const page = 'disinsection';
+const localhost_dir = 'C:\\OSPanel\\domains\\dezcenter';
 
-module.exports = config = {
+module.exports = {
   src: {
-    html: `html/${page}/index.html`,
-    php: ['php/*.php', 'php/*/*.php'],
-    styles: `scss/${page}/styles.scss`,
-    stylesWatch: [`scss/${page}/styles.scss`, `scss/${page}/source/*.scss`],
-    js: `js/${page}/*.js`,
-    jsShared: 'js/shared-scripts/*.js',
-    img: `img/${page}/*`
+    img: 'img/**',
+    php: 'php/**',
+    js: 'js/**',
+    styles: 'scss/*/styles.scss',
+    stylesWatch: 'scss/**'
   },
-  dest: {
-    main: 'dist',
-    php: 'dist/php',
-    page: page
+  dest: { 
+    root: localhost_dir,
+    img: `${localhost_dir}/img`,
+    js: `${localhost_dir}/js`,
+    styles: `${localhost_dir}/css`,
   }
 }

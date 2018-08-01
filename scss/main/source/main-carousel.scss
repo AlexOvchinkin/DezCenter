@@ -101,11 +101,11 @@
 }
 
 .main-carousel__slide:nth-child(1) {
-  background: url("/main/img/main-individ-sm.jpg") no-repeat center;
+  background: url("/img/main/main-individ-sm.jpg") no-repeat center;
   background-size: cover;
 
   @include media-breakpoint-up(md) {
-    background-image: url("/main/img/main-individ-lg.jpg");
+    background-image: url("/img/main/main-individ-lg.jpg");
   }
 
   @include media-breakpoint-up(lg) {
@@ -114,11 +114,11 @@
 }
 
 .main-carousel__slide:nth-child(2) {
-  background: url("/main/img/main-entity-sm.jpg") no-repeat center;
+  background: url("/img/main/main-entity-sm.jpg") no-repeat center;
   background-size: cover;
 
   @include media-breakpoint-up(md) {
-    background-image: url("/main/img/main-entity-lg.jpg");
+    background-image: url("/img/main/main-entity-lg.jpg");
   }
 
   @include media-breakpoint-up(lg) {

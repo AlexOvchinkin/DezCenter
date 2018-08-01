@@ -12,26 +12,18 @@ const merge = require('merge-stream');
 const reload = browserSync.reload;
 
 
-/* IMG
- /
+/* 
+ / IMG
 */
 gulp.task('img', function () {
   return gulp.src(config.src.img)
-    .pipe(gulp.dest(`${config.dest.main}/${config.dest.page}/${config.dest.page}/img`))
-    .pipe(gulp.dest(`${config.dest.php}/${config.dest.page}/img`));
+    .pipe(gulp.dest(config.dest.img))
 });
 
-/* HTML
- /
+/* 
+ / PHP
 */
-gulp.task('html', function () {
-  return compileHtml();
-});
-
-/* HTML to PHP
- /
-*/
-gulp.task('php-build', function () {
+gulp.task('php', function () {
   return compilePhp();
 });
 
@@ -53,26 +45,6 @@ gulp.task('js', function () {
  / Watcher
 */
 gulp.task('watch', function () {
-  gulp.watch(config.src.html)
-    .on('change', function (path, stats) {
-      compileHtml();
-    });
-
-  gulp.watch(config.src.stylesWatch)
-    .on('change', function (path, stats) {
-      compileStyles();
-    });
-
-  gulp.watch(config.src.js)
-    .on('change', function (path, stats) {
-      compileJavascript();
-    });
-});
-
-/*
- / PHP Watcher
-*/
-gulp.task('watch-php', function () {
   gulp.watch(config.src.php)
     .on('change', function (path, stats) {
       compilePhp();
@@ -80,6 +52,7 @@ gulp.task('watch-php', function () {
 
   gulp.watch(config.src.stylesWatch)
     .on('change', function (path, stats) {
+      console.log(`path: ${path}`);
       compileStyles();
     });
 
@@ -93,32 +66,18 @@ gulp.task('watch-php', function () {
  / browserSync task
 */
 gulp.task('browserSync', function () {
-  return browserSync({
-    server: {
-      baseDir: `./dist/${config.dest.page}`
-    },
-    open: true,
-    notify: false
-  });
-});
-
-gulp.task('browserSync-php', function () {
   return browserSync.init({
-    server: {
-      proxy: 'localhost'
-    }
+    proxy: 'dezcenter'
   });
 });
 
 /*
  / DEFAULT task
 */
-gulp.task('default', gulp.parallel('img', 'html', 'styles', 'js', 'watch', 'browserSync'));
+// gulp.task('default', gulp.parallel('img', 'html', 'styles', 'js', 'watch', 'browserSync'));
+gulp.task('default', gulp.parallel('php', 'js', 'styles', 'watch', 'browserSync'));
 
-/*
- / task for PHP
-*/
-gulp.task('php', gulp.parallel('img', 'php-build', 'styles', 'js', 'watch-php'));
+gulp.task('full', gulp.parallel('img', 'php', 'js', 'styles'));
 
 
 /*
@@ -126,17 +85,9 @@ gulp.task('php', gulp.parallel('img', 'php-build', 'styles', 'js', 'watch-php'))
  / FUNCTIONS
 */
 function compileJavascript() {
-  const first = gulp.src(config.src.js)
-    //.pipe(uglify())
-    .pipe(gulp.dest(`${config.dest.main}/${config.dest.page}/${config.dest.page}`))
-    .pipe(gulp.dest(`${config.dest.php}/${config.dest.page}`));
-
-  const second = gulp.src(config.src.jsShared)
-    //.pipe(uglify())
-    .pipe(gulp.dest(`${config.dest.main}/${config.dest.page}`))
-    .pipe(gulp.dest(`${config.dest.php}`))
-
-  return merge(first, second)
+  return gulp.src(config.src.js)
+    .pipe(uglify())
+    .pipe(gulp.dest(config.dest.js))
     .pipe(reload({
       stream: true
     }));
@@ -144,24 +95,12 @@ function compileJavascript() {
 
 function compileStyles() {
   return gulp.src(config.src.styles)
-    //.pipe(sourcemaps.init())
+    .pipe(sourcemaps.init())
     .pipe(sass())
     .pipe(prefixer())
     .pipe(cleanCSS())
-    //.pipe(sourcemaps.write())
-    .pipe(gulp.dest(`${config.dest.main}/${config.dest.page}/${config.dest.page}`))
-    .pipe(gulp.dest(`${config.dest.php}/${config.dest.page}`))
-    .pipe(reload({
-      stream: true
-    }));
-}
-
-function compileHtml() {
-  return gulp.src(config.src.html)
-    .pipe(htmlmin({
-      collapseWhitespace: true
-    }))
-    .pipe(gulp.dest(`${config.dest.main}/${config.dest.page}`))
+    .pipe(sourcemaps.write())
+    .pipe(gulp.dest(config.dest.styles))
     .pipe(reload({
       stream: true
     }));
@@ -169,7 +108,7 @@ function compileHtml() {
 
 function compilePhp() {
   return gulp.src(config.src.php)
-    .pipe(gulp.dest(config.dest.php))
+    .pipe(gulp.dest(config.dest.root))
     .pipe(reload({
       stream: true
     }));
