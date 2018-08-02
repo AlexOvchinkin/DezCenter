@@ -1,0 +1,157 @@
+@import "scss/mixins";
+
+.qualities {
+  background: url("/img/disinsection/qualities-bg-sm.jpg") no-repeat center;
+  background-size: cover;
+  height: 27rem;
+  color: white;
+  padding-top: 1rem;
+  position: relative;
+
+  @include media-breakpoint-up(md) {
+    background: url("/img/disinsection/qualities-bg-lg.jpg") no-repeat center;
+    background-size: cover;
+    height: 50rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    height: 40rem;
+  }
+}
+
+.qualities__title {
+  font-size: $h5-font-size;
+  text-align: center;
+  line-height: 1.2;
+  margin-bottom: .8rem;
+  font-weight: $font-weight-bold;
+
+  @include media-breakpoint-up(md) {
+    font-size: $h1-font-size;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+}
+
+.qualities__subtitle {
+  font-size: $h4-font-size;
+  text-align: center;
+  line-height: 1.2;
+  font-weight: $font-weight-bold;
+
+  @include media-breakpoint-up(md) {
+    font-size: $h1-font-size;
+  }
+}
+
+.qualities__carousel {
+  margin-top: 2rem; 
+}
+
+.qualities__item {
+  padding: 0 0 4rem 0;
+}
+
+.qualities__caption {
+  bottom: 0;
+  padding: 0;
+}
+
+.qualities__img {
+  display: block;
+  margin: 0 auto;
+  z-index: 2;
+  position: relative;
+}
+
+.qualities__items-wrapper {
+  position: relative;
+}
+
+.qualities__divider {
+  position: absolute;
+  height: 1px;
+  width: 85%;
+  background-color: lighten($main-txt-color, 10%);
+  left: 50%;
+  top: 3rem;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.qualities__caption {
+  font-size: $h6-font-size;
+
+  &.qualities__caption-wide {
+    left: 5%;
+    right: 5%;
+  }
+
+  &.qualities__caption-short {
+    left: 25%;
+    right: 25%;
+  }
+}
+
+.qualities__control {
+  img {
+    position: absolute;
+
+    top: 2.7rem;
+  }
+}
+
+.qualities__table {
+  margin-top: 3rem;
+}
+
+.qualities__table--first-row {
+  margin-bottom: 1rem;
+
+  @include media-breakpoint-up(lg) {
+    margin-bottom: 2rem;
+  }
+}
+
+.qualities__img-wrapper {
+  position: relative;
+}
+
+.qualities__table-img {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+
+.qualities__table-divider {
+  position: absolute;
+  height: 1px;
+  width: 85%;
+  background-color: lighten($main-txt-color, 10%);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.qualities__table-caption {
+  text-align: center;
+}
+
+.qualities__count-btn {
+  @include button(3rem);
+  position: absolute;
+  bottom: -1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: $h5-font-size;
+
+  @include media-breakpoint-up(md) {
+    @include button(4rem);
+    bottom: -2rem;
+  }
+}
