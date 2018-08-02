@@ -14,7 +14,13 @@
 }
 
 .phone__text {
-  color: $main-txt-color;
+  color: $main-txt-color !important;
+  font-size: 80%;
+
+  @include media-breakpoint-up(sm) {
+    margin-right: 0;
+    font-size: 100%;
+  }
 }
 
 .navigation__contacts {

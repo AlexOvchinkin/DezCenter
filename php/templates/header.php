@@ -59,7 +59,7 @@
       <div class="d-flex navigation__contacts">
         <div class="d-flex align-items-center mr-3 phone">
           <img class="d-block phone__img" src="/img/phone.png" alt="phone">
-          <a class="m-0 ml-2 font-weight-bold roistatphone phone__text"></a>
+          <a href="tel:84951111111" class="m-0 ml-2 font-weight-bold roistatphone phone__text"></a>
         </div>
         <button id="btnRequestCall" class="btn btn-success navigation__btn" onclick="window.roistatLeadHunterShow();">
           ОБРАТНЫЙ ЗВОНОК

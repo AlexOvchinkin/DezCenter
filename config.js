@@ -1,4 +1,4 @@
-const localhost_dir = 'C:\\OSPanel\\domains\\dezcenter';
+const localhost_dir = 'C:\\OSPanel\\domains\\dez-center';
 
 module.exports = {
   src: {
