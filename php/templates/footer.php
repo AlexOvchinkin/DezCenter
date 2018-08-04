@@ -102,10 +102,14 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
   crossorigin="anonymous"></script>
 
-<script src="/js/callback-forms.js"></script>
-<script src="/js/main/scripts.js?1.4"></script>
+<script src="/js/callback-forms.js?1.2"></script>
+<script src="/js/main/scripts.js?1.2"></script>
 
-<?php include_once(dirname(__DIR__)."/roistat-counter.php"); ?>
+<?php 
+include_once(dirname(__DIR__)."/analitics/roistat-counter.php"); 
+include_once(dirname(__DIR__)."/analitics/google.php"); 
+include_once(dirname(__DIR__)."/analitics/yandex.php"); 
+?>
 
 </body>
 

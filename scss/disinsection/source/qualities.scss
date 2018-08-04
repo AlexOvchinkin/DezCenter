@@ -140,6 +140,12 @@
 
 .qualities__table-caption {
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media-breakpoint-up(lg) {
+    max-width: 80%;
+  }
 }
 
 .qualities__count-btn {

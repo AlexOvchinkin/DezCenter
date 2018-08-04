@@ -24,6 +24,7 @@
 </div>
 
 <section class="directions">
+  <p class="m-0 p-0"><a  class="m-0 p-0" name="directions"></a></p>
   <div class="container">
     <p class="directions__text">
       Компания "ДезЦентр "Прогресс" уже 9 лет успешно проводит дезинфекцию, дезодорацию, дезинсекцию и дератизацию. На 100% эффективно
@@ -546,6 +547,7 @@
 </section>
 
 <section class="equipment">
+  <p class="m-0 p-0"><a  class="m-0 p-0" name="equipment"></a></p>
   <div class="container">
     <p class="equipment__title">СОВРЕМЕННОЕ ОБОРУДОВАНИЕ</p>
     <p class="equipment__subtitle">И БЕЗОПАСНЫЕ МОЩНЫЕ СРЕДСТВА</p>
@@ -555,7 +557,7 @@
     <div class="col-12 col-xl-6 order-first order-xl-last">
       <div class="container d-xl-flex flex-column justify-content-center h-100">
         <p class="equipment__text">
-          Используем передовое оборудование европейского и американского производства. Наиболее распространенная техника для обработки
+          Используем оборудование только европейских производителей. Наиболее распространенная техника для обработки
           — генератор холодного тумана. С его помощью достигается максимальное распыление действующих составов и их проникновение
           в самые труднодоступные места.
         </p>
@@ -580,6 +582,7 @@
 </section>
 
 <section class="assistance">
+  <p class="m-0 p-0"><a  class="m-0 p-0" name="assistance"></a></p>
   <div class="container">
     <p class="assistance__title">ПОМОГАЕМ ВСЕМ</p>
     <p class="assistance__subtitle">КТО В ЭТОМ НУЖДАЕТСЯ</p>
@@ -994,6 +997,7 @@
 </section>
 
 <section class="pricing">
+  <p class="m-0 p-0"><a  class="m-0 p-0" name="pricing"></a></p>
   <div class="container">
     <div class="shadow rounded pricing__content-wrapper">
       <p class="pricing__title">ДОРОГО ЛИ ЭТО</p>
@@ -1107,6 +1111,7 @@
 </section>
 
 <section class="scheme">
+  <p class="m-0 p-0"><a  class="m-0 p-0" name="scheme"></a></p>
   <div class="container">
     <p class="scheme__title">ПРОСТАЯ СХЕМА РАБОТЫ</p>
     <div class="small-divider"></div>
@@ -1300,6 +1305,7 @@
 
 <!-- add/remove class "d-none" -->
 <section id="pest" class="pest d-none">
+  <p class="m-0 p-0"><a  class="m-0 p-0" name="pest"></a></p>
   <div class="container">
     <p class="pest__title">БЕРЕМ НА ПЕСТ-КОНТРОЛЬ</p>
     <div class="small-divider"></div>
@@ -1414,6 +1420,7 @@
 </section>
 
 <section id="causes" class="causes pest-hidden">
+  <p class="m-0 p-0"><a  class="m-0 p-0" name="causes"></a></p>
   <div class="container causes__container">
     <p class="causes__title">10 ПРИЧИН ЗАКАЗАТЬ УСЛУГИ</p>
     <p class="causes__subtitle">В "ДЕЗЦЕНТР "ПРОГРЕСС"</p>

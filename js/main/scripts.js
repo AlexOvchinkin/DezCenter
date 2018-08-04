@@ -82,11 +82,23 @@ var entityClasses = [{
 $(function () {
   $('.main-carousel__indicator').on('click', changeIndividEntityMode);
   $(window).scroll(scrolling);
+
+  // switch mode ("entity" or "individ") depending on ads type
+  autoDetectMode();
 });
 
 
 /////////////////////////////////////////////////
 // DEFINITIONS
+function autoDetectMode() {
+  var params = window.location.search;
+
+  if (params.search('entity-mode') === 1) {
+    $('#carouselIndicators').carousel('next');
+    changeMode(false);
+  }
+}
+
 function scrolling() {
   if ($(this).scrollTop() > 100) {
     $("#navigationBar").addClass('shadow-sm');

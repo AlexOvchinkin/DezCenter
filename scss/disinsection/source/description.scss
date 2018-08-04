@@ -1,0 +1,176 @@
+@import "scss/mixins";
+
+.description {
+  padding-top: 5rem;
+  color: $main-txt-color;
+  background-color: $bg-gray;
+  
+}
+
+.description__carousel {
+  margin-top: 3rem;
+}
+
+.description__title {
+  @include sectionTitle();
+}
+
+.description__text {
+  font-size: $h5-font-size;
+  text-align: justify;
+}
+
+.description__caption {
+  padding: 0;
+  position: absolute;
+  bottom: 50%;
+  transform: translateY(50%);
+}
+
+.description__carousel-img {
+  height: 24rem;
+}
+
+.description__caption-title {
+  font-size: $h4-font-size;
+}
+
+.description__caption-price {
+  font-size: $h4-font-size;
+  font-weight: $font-weight-bold;
+  margin-bottom: 0;
+}
+
+.description__control {
+  bottom: -4rem;
+  align-items: flex-end;
+  opacity: 1;
+
+  img {
+    display: block;
+    z-index: 100;
+  }
+
+  &.carousel-control-prev {
+    left: 30%;
+  }
+
+  &.carousel-control-next {
+    right: 30%;
+  }
+}
+
+.description__table {
+  color: white;
+  margin-top: 3rem;
+}
+
+.description__table-item {
+  height: 21rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem 2rem 2rem;
+  justify-content: space-between;
+
+  @include media-breakpoint-up(xl) {
+    height: 19rem;
+  }
+
+}
+
+.description__img-cockroach {
+  background: url("/img/disinsection/cockroaches.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.description__img-ant {
+  background: url("/img/disinsection/ant.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.description__img-bug {
+  background: url("/img/disinsection/bug.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.description__img-spider {
+  background: url("/img/disinsection/spider.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.description__table-title {
+  font-size: $h4-font-size;
+  text-align: center;
+}
+
+.description__table-text {
+  text-align: center;
+  font-size: $h5-font-size;
+}
+
+.description__table-price {
+  font-size: $h4-font-size;
+  font-weight: $font-weight-bold;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.description__collapse-list {
+  margin-top: 8rem;
+  //margin-bottom: -2rem;
+
+  @include media-breakpoint-up(lg) {
+    margin-top: 5rem;
+    margin-bottom: 0;
+  }
+}
+
+.description__collapse-btn {
+  @include button(4rem);
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -2rem;
+  margin-top: 4rem;
+  font-size: $h5-font-size;
+}
+
+.description__collapse-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.description__collapse-item:last-child {
+
+  @include media-breakpoint-up(md) {
+    justify-content: center;
+    margin-top: 2rem;
+
+    & .description__collapse-text {
+      width: 40%;
+      line-height: 1.2;
+      text-align: center;
+    }
+
+    & .description__collapse-img {
+      display: none;
+    }
+  }
+}
+
+.description__collapse-item:last-child {
+  margin-bottom: 0;
+}
+
+.description__collapse-img {
+  display: block;
+  margin-left: 25%;
+}
+
+.description__collapse-text {
+  margin: 0 0 0 1rem;
+  font-size: $h5-font-size;
+  line-height: 1;
+}
+
