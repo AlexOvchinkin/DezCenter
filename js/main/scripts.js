@@ -15,10 +15,16 @@ var individClasses = [{
     hide: 'REMOVE'
   },
   {
-    id: '#pricingTableIndivid',
+    id: '#pricingTableIndivid_xm',
     class: 'd-none',
     show: 'REMOVE',
     hide: 'ADD'
+  },
+  {
+    id: '#pricingTableIndivid_md',
+    class: 'd-md-block',
+    show: 'ADD',
+    hide: 'REMOVE'
   },
   {
     id: '#carouselDirectionsIndivid',

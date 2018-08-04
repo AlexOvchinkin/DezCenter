@@ -5,7 +5,7 @@ function getHeader($page) {
 }
 
 function getStylesheet($page) {
-  return '<link rel="stylesheet" href="css/'.$page.'/styles.css?1.2">';
+  return '<link rel="stylesheet" href="css/'.$page.'/styles.css?1.4">';
 }
 
 function getTemplate($template) {

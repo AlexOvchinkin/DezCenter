@@ -150,10 +150,6 @@
         </div>
 
         <div class="carousel-item description__carousel-item">
-          <!--<picture>
-            <source srcset="img/disinsection/spider.jpg" media="(min-width: 768px)">
-            <img class="image-fluid description__carousel-img" src="/img/disinsection/spider_sm.jpg" alt="spider">
-          </picture>-->
           <img class="image-fluid description__carousel-img" src="/img/disinsection/spider.jpg" alt="spider">
           <div class="carousel-caption description__caption">
             <p class="description__caption-title">Пауки</p>
@@ -305,6 +301,9 @@
       aria-controls="collapseInsects">
       Еще 10+ категорий
     </button>
-
   </div>
+</section>
+
+<section>
+  
 </section>

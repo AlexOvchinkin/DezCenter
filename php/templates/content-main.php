@@ -24,7 +24,9 @@
 </div>
 
 <section class="directions">
-  <p class="m-0 p-0"><a  class="m-0 p-0" name="directions"></a></p>
+  <p class="m-0 p-0">
+    <a class="m-0 p-0" name="directions"></a>
+  </p>
   <div class="container">
     <p class="directions__text">
       Компания "ДезЦентр "Прогресс" уже 9 лет успешно проводит дезинфекцию, дезодорацию, дезинсекцию и дератизацию. На 100% эффективно
@@ -547,7 +549,9 @@
 </section>
 
 <section class="equipment">
-  <p class="m-0 p-0"><a  class="m-0 p-0" name="equipment"></a></p>
+  <p class="m-0 p-0">
+    <a class="m-0 p-0" name="equipment"></a>
+  </p>
   <div class="container">
     <p class="equipment__title">СОВРЕМЕННОЕ ОБОРУДОВАНИЕ</p>
     <p class="equipment__subtitle">И БЕЗОПАСНЫЕ МОЩНЫЕ СРЕДСТВА</p>
@@ -557,9 +561,9 @@
     <div class="col-12 col-xl-6 order-first order-xl-last">
       <div class="container d-xl-flex flex-column justify-content-center h-100">
         <p class="equipment__text">
-          Используем оборудование только европейских производителей. Наиболее распространенная техника для обработки
-          — генератор холодного тумана. С его помощью достигается максимальное распыление действующих составов и их проникновение
-          в самые труднодоступные места.
+          Используем оборудование только европейских производителей. Наиболее распространенная техника для обработки — генератор холодного
+          тумана. С его помощью достигается максимальное распыление действующих составов и их проникновение в самые труднодоступные
+          места.
         </p>
         <p class="equipment__text">
           В своей деятельности используем научные разработки, поэтому наши методы безопасны и действенны.
@@ -582,7 +586,9 @@
 </section>
 
 <section class="assistance">
-  <p class="m-0 p-0"><a  class="m-0 p-0" name="assistance"></a></p>
+  <p class="m-0 p-0">
+    <a class="m-0 p-0" name="assistance"></a>
+  </p>
   <div class="container">
     <p class="assistance__title">ПОМОГАЕМ ВСЕМ</p>
     <p class="assistance__subtitle">КТО В ЭТОМ НУЖДАЕТСЯ</p>
@@ -997,7 +1003,9 @@
 </section>
 
 <section class="pricing">
-  <p class="m-0 p-0"><a  class="m-0 p-0" name="pricing"></a></p>
+  <p class="m-0 p-0">
+    <a class="m-0 p-0" name="pricing"></a>
+  </p>
   <div class="container">
     <div class="shadow rounded pricing__content-wrapper">
       <p class="pricing__title">ДОРОГО ЛИ ЭТО</p>
@@ -1006,61 +1014,171 @@
         микроорганизмов и паразитов, поэтому предлагаем демократичные цены.
       </p>
       <!-- add/remove class "d-none" -->
-      <div id="pricingTableIndivid" class="pricing__table-wrapper pricing__individ">
-        <div class="row pricing__row pricing__row-head rounded d-none d-md-flex">
-          <div class="col-12 col-md-3 pricing__cell">Тип помещения</div>
-          <div class="col-12 col-md-3 pricing__cell">Вредитель</div>
-          <div class="col-12 col-md-4 pricing__cell">Вариант обработки</div>
-          <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">Стоимость</div>
-        </div>
+      <!-- for mobile -->
+      <div id="pricingTableIndivid_xm" class="d-md-none pricing__table-wrapper pricing__individ">
         <div class="row pricing__row rounded">
-          <div class="col-12 col-md-3 pricing__cell">Квартира</div>
           <div class="col-12 col-md-3 pricing__cell">Тараканы, клопы и т.д.</div>
-          <div class="col-12 col-md-4 pricing__cell">Базовая</div>
+          <div class="col-12 col-md-3 pricing__cell">Уничтожение</div>
+          <div class="col-12 col-md-4 pricing__cell">Квартира</div>
           <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">от 1800 руб.*</div>
         </div>
+
         <div class="row pricing__row rounded">
-          <div class="col-12 col-md-3 pricing__cell">Дом</div>
           <div class="col-12 col-md-3 pricing__cell">Тараканы, клопы и т.д.</div>
-          <div class="col-12 col-md-4 pricing__cell">Комплексное уничтожение</div>
+          <div class="col-12 col-md-3 pricing__cell">Уничтожение + барьерная обработка</div>
+          <div class="col-12 col-md-4 pricing__cell">Квартира</div>
           <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">от 3000 руб.*</div>
         </div>
         <div class="row pricing__row rounded">
-          <div class="col-12 col-md-3 pricing__cell">Квартира, дом (бетон)</div>
-          <div class="col-12 col-md-3 pricing__cell">Плесень / грибок</div>
-          <div class="col-12 col-md-4 pricing__cell">Уничтожение + дезинфекция воздушного пространства</div>
-          <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">от 4000 руб.*</div>
-        </div>
-        <div class="row pricing__row rounded">
-          <div class="col-12 col-md-3 pricing__cell">Дом (дерево)</div>
-          <div class="col-12 col-md-3 pricing__cell">Плесень / грибок</div>
-          <div class="col-12 col-md-4 pricing__cell">Уничтожение</div>
+          <div class="col-12 col-md-3 pricing__cell">Тараканы, клопы и т.д.</div>
+          <div class="col-12 col-md-3 pricing__cell">Комплексное уничтожение</div>
+          <div class="col-12 col-md-4 pricing__cell">Дом</div>
           <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">от 3000 руб.*</div>
         </div>
         <div class="row pricing__row rounded">
-          <div class="col-12 col-md-3 pricing__cell">Квартира</div>
-          <div class="col-12 col-md-3 pricing__cell">Крысы, мыши</div>
-          <div class="col-12 col-md-4 pricing__cell">Уничтожение</div>
+          <div class="col-12 col-md-3 pricing__cell">Плесень/грибок</div>
+          <div class="col-12 col-md-3 pricing__cell">Уничтожение</div>
+          <div class="col-12 col-md-4 pricing__cell">Квартира, дом (бетон)</div>
           <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">от 2000 руб.*</div>
         </div>
         <div class="row pricing__row rounded">
-          <div class="col-12 col-md-3 pricing__cell">Дом, участок</div>
-          <div class="col-12 col-md-3 pricing__cell">Крысы, мыши и т.д.</div>
-          <div class="col-12 col-md-4 pricing__cell">Уничтожение + барьер</div>
-          <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">от 3900 руб.*</div>
+          <div class="col-12 col-md-3 pricing__cell">Плесень/грибок</div>
+          <div class="col-12 col-md-3 pricing__cell">Уничтожение + дезинфекция воздушного пространства</div>
+          <div class="col-12 col-md-4 pricing__cell">Квартира, дом (бетон)</div>
+          <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">от 3500 руб.*</div>
         </div>
         <div class="row pricing__row rounded">
-          <div class="col-12 col-md-3 pricing__cell">Участок</div>
+          <div class="col-12 col-md-3 pricing__cell">Плесень/грибок</div>
+          <div class="col-12 col-md-3 pricing__cell">Уничтожение</div>
+          <div class="col-12 col-md-4 pricing__cell">Дом (дерево)</div>
+          <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">от 2900 руб.*</div>
+        </div>
+        <div class="row pricing__row rounded">
+          <div class="col-12 col-md-3 pricing__cell">Крысы, мыши</div>
+          <div class="col-12 col-md-3 pricing__cell">Уничтожение</div>
+          <div class="col-12 col-md-4 pricing__cell">Квартира</div>
+          <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">от 2000 руб.*</div>
+        </div>
+        <div class="row pricing__row rounded">
+          <div class="col-12 col-md-3 pricing__cell">Крысы, мыши</div>
+          <div class="col-12 col-md-3 pricing__cell">Уничтожение</div>
+          <div class="col-12 col-md-4 pricing__cell">Дом, участок</div>
+          <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">от 3000 руб.*</div>
+        </div>
+        <div class="row pricing__row rounded">
+          <div class="col-12 col-md-3 pricing__cell">Мухи, осы, клещи</div>
+          <div class="col-12 col-md-3 pricing__cell">Уничтожение + защитное действие</div>
+          <div class="col-12 col-md-4 pricing__cell">Дом, участок</div>
+          <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">от 3600 руб.*</div>
+        </div>
+        <div class="row pricing__row rounded">
           <div class="col-12 col-md-3 pricing__cell">Кроты, землеройки и т.д.</div>
-          <div class="col-12 col-md-4 pricing__cell">Уничтожение</div>
+          <div class="col-12 col-md-3 pricing__cell">Уничтожение</div>
+          <div class="col-12 col-md-4 pricing__cell">Участок</div>
+          <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">от 3100 руб.*</div>
+        </div>
+        <div class="row pricing__row rounded">
+          <div class="col-12 col-md-3 pricing__cell">Неприятные запахи</div>
+          <div class="col-12 col-md-3 pricing__cell">Уничтожение</div>
+          <div class="col-12 col-md-4 pricing__cell">Квартира</div>
           <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">от 2500 руб.*</div>
         </div>
         <div class="row pricing__row rounded">
-          <div class="col-12 col-md-3 pricing__cell">Автомобиль</div>
           <div class="col-12 col-md-3 pricing__cell">Неприятные запахи</div>
-          <div class="col-12 col-md-4 pricing__cell">Уничтожение</div>
+          <div class="col-12 col-md-3 pricing__cell">Уничтожение</div>
+          <div class="col-12 col-md-4 pricing__cell">Автомобиль</div>
           <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">от 2500 руб.*</div>
         </div>
+      </div>
+
+      <!-- for MD+ resolution -->
+      <div id="pricingTableIndivid_md" class="d-none d-md-block pricing__table-wrapper pricing__individ">
+        <table class="table pricing__table">
+          <thead>
+            <tr class="pricing__row-head">
+              <th scope="col" class="pricing__table-cell">Вредитель</th>
+              <th scope="col" class="pricing__table-cell">Вариант обработки</th>
+              <th scope="col" class="pricing__table-cell">Тип помещения</th>
+              <th scope="col" class="pricing__table-cell">Стоимость</th>
+            </tr>
+            <tbody>
+              <!-- first row -->
+              <tr>
+                <td rowspan="3" class="pricing__table-cell">Тараканы, клопы и т.д.</td>
+                <td class="pricing__table-cell">Уничтожение</td>
+                <td rowspan="2" class="pricing__table-cell">Квартира</td>
+                <td class="pricing__table-cell pricing__cell-price">от 1800*</td>
+              </tr>
+              <tr>
+                <td class="pricing__table-cell">Уничтожение + барьерная обработка</td>
+                <td class="pricing__table-cell pricing__cell-price">от 3000*</td>
+              </tr>
+              <tr>
+                <td class="pricing__table-cell">Комплексное уничтожение</td>
+                <td class="pricing__table-cell">Дом</td>
+                <td class="pricing__table-cell pricing__cell-price">от 3000*</td>
+              </tr>
+
+              <!-- second row -->
+              <tr>
+                <td rowspan="3" class="pricing__table-cell">Плесень / грибок</td>
+                <td class="pricing__table-cell">Уничтожение</td>
+                <td rowspan="2" class="pricing__table-cell">Квартира, дом (бетон)</td>
+                <td class="pricing__table-cell pricing__cell-price">от 2000*</td>
+              </tr>
+              <tr>
+                <td class="pricing__table-cell">Уничтожение + дезинфекция воздушного пространства</td>
+                <td class="pricing__table-cell pricing__cell-price">от 3500*</td>
+              </tr>
+              <tr>
+                <td class="pricing__table-cell">Уничтожение</td>
+                <td class="pricing__table-cell">Дом (дерево)</td>
+                <td class="pricing__table-cell pricing__cell-price">от 2900*</td>
+              </tr>
+
+              <!-- third row -->
+              <tr>
+                <td rowspan="2" class="pricing__table-cell">Крысы, мыши</td>
+                <td rowspan="2" class="pricing__table-cell">Уничтожение</td>
+                <td class="pricing__table-cell">Квартира</td>
+                <td class="pricing__table-cell pricing__cell-price">от 2000*</td>
+              </tr>
+              <tr>
+                <td class="pricing__table-cell">Дом, участок</td>
+                <td class="pricing__table-cell pricing__cell-price">от 3000*</td>
+              </tr>
+
+              <!-- fourth row -->
+              <tr>
+                <td class="pricing__table-cell">Мухи, осы, клещи</td>
+                <td class="pricing__table-cell">Уничтожение + защитное действие</td>
+                <td class="pricing__table-cell">Дом, участок</td>
+                <td class="pricing__table-cell pricing__cell-price">от 3600*</td>
+              </tr>
+
+              <!-- fifth row -->
+              <tr>
+                <td class="pricing__table-cell">Кроты, землеройки и т.д</td>
+                <td class="pricing__table-cell">Уничтожение</td>
+                <td class="pricing__table-cell">Участок</td>
+                <td class="pricing__table-cell pricing__cell-price">от 3100*</td>
+              </tr>
+
+              <!-- sixth row -->
+              <tr>
+                <td rowspan="2" class="pricing__table-cell">Неприятные запахи</td>
+                <td rowspan="2" class="pricing__table-cell">Уничтожение</td>
+                <td class="pricing__table-cell">Квартира</td>
+                <td class="pricing__table-cell pricing__cell-price">от 2500*</td>
+              </tr>
+              <tr>
+                <td class="pricing__table-cell">Автомобиль</td>
+                <td class="pricing__table-cell pricing__cell-price">от 2500*</td>
+              </tr>
+
+            </tbody>
+          </thead>
+        </table>
       </div>
 
       <div id="pricingTableEntity" class="pricing__table-wrapper pricing__entity d-none">
@@ -1101,7 +1219,10 @@
         </div>
       </div>
 
-      <p class="px-4 pt-3"><small>* - примерная цена обработки, все обработки индивидуальны и точная цена рассчитывается для каждого на месте. Для уточнения примерной цены лично для Вас, закажите обратный звонок.</small></p>
+      <p class="px-4 pt-3">
+        <small>* - примерная цена обработки, все обработки индивидуальны и точная цена рассчитывается для каждого объекта после
+          его диагностики на месте. Для уточнения примерной цены лично для вас, закажите обратный звонок.</small>
+      </p>
 
       <button class="btn btn-success pricing__btn" data-toggle="modal" data-target="#callFormModal">
         Узнать стоимость
@@ -1111,7 +1232,9 @@
 </section>
 
 <section class="scheme">
-  <p class="m-0 p-0"><a  class="m-0 p-0" name="scheme"></a></p>
+  <p class="m-0 p-0">
+    <a class="m-0 p-0" name="scheme"></a>
+  </p>
   <div class="container">
     <p class="scheme__title">ПРОСТАЯ СХЕМА РАБОТЫ</p>
     <div class="small-divider"></div>
@@ -1305,7 +1428,9 @@
 
 <!-- add/remove class "d-none" -->
 <section id="pest" class="pest d-none">
-  <p class="m-0 p-0"><a  class="m-0 p-0" name="pest"></a></p>
+  <p class="m-0 p-0">
+    <a class="m-0 p-0" name="pest"></a>
+  </p>
   <div class="container">
     <p class="pest__title">БЕРЕМ НА ПЕСТ-КОНТРОЛЬ</p>
     <div class="small-divider"></div>
@@ -1420,7 +1545,9 @@
 </section>
 
 <section id="causes" class="causes pest-hidden">
-  <p class="m-0 p-0"><a  class="m-0 p-0" name="causes"></a></p>
+  <p class="m-0 p-0">
+    <a class="m-0 p-0" name="causes"></a>
+  </p>
   <div class="container causes__container">
     <p class="causes__title">10 ПРИЧИН ЗАКАЗАТЬ УСЛУГИ</p>
     <p class="causes__subtitle">В "ДЕЗЦЕНТР "ПРОГРЕСС"</p>

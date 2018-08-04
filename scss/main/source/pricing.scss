@@ -49,6 +49,7 @@
 
 .pricing__cell-price {
   font-weight: $font-weight-bold;
+  text-align: center;
 }
 
 .pricing__row-head {
@@ -58,6 +59,16 @@
   .pricing__cell-price {
     font-weight: $font-weight-normal;
   }
+}
+
+.pricing__table {
+  background-color: white;
+}
+
+.pricing__table-cell {
+  vertical-align: middle !important;
+  text-align: center;
+  border: 1px solid $main-txt-color !important;
 }
 
 .pricing__btn {
