@@ -37,6 +37,40 @@
   }
 }
 
+.pricing__table-title {
+  font-weight: $font-weight-bold;
+  font-style: italic;
+}
+
+.pricing__mobile-table-cell {
+  padding: .5rem 0 .5rem 1rem;
+  text-align: left;
+}
+
+.pricing__mobile-table-title {
+  font-weight: $font-weight-bold;
+  font-style: italic;
+  font-size: $h5-font-size;
+  text-align: center;
+}
+
+.pricing__mobile-table-subtitle {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.pricing__mobile-table-price {
+  text-align: center;
+  font-weight: $font-weight-bold;
+  padding: .5rem 0;
+}
+
+.pricing__mobile-table-footer {
+  text-align: center;
+  font-weight: $font-weight-bold;
+  padding: .5rem;
+}
+
 .pricing__row {
   padding-top: .5rem;
   padding-bottom: .5rem;
@@ -56,6 +90,10 @@
   background-color: $main-txt-color !important;
   color: white;
   
+  .pricing__cell {
+    text-align: center;
+  }
+
   .pricing__cell-price {
     font-weight: $font-weight-normal;
   }
@@ -63,12 +101,17 @@
 
 .pricing__table {
   background-color: white;
+  border: 2px solid $main-txt-color !important;
 }
 
 .pricing__table-cell {
   vertical-align: middle !important;
   text-align: center;
   border: 1px solid $main-txt-color !important;
+}
+
+.pricing__table-row {
+  border: 2px solid $main-txt-color !important;
 }
 
 .pricing__btn {
