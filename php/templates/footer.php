@@ -106,9 +106,9 @@
 <script src="/js/main/scripts.js?1.3"></script>
 
 <?php 
-include_once(dirname(__DIR__)."/analitics/roistat-counter.php"); 
-include_once(dirname(__DIR__)."/analitics/google.php"); 
-include_once(dirname(__DIR__)."/analitics/yandex.php"); 
+// include_once(dirname(__DIR__)."/analitics/roistat-counter.php"); 
+// include_once(dirname(__DIR__)."/analitics/google.php"); 
+// include_once(dirname(__DIR__)."/analitics/yandex.php"); 
 ?>
 
 </body>

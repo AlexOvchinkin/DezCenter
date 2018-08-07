@@ -1,0 +1,99 @@
+@import "scss/mixins";
+
+.collation {
+  background-color: $bg-gray;
+}
+
+.collation__carousel {
+  position: relative;
+}
+
+.collation__indicator-group {
+  position: absolute;
+  top: -8rem; 
+  margin: 0 !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between !important;
+  align-items: flex-start;
+  height: 7rem;
+
+  @include media-breakpoint-up(lg) {
+    height: 3rem;
+    top: -5rem;
+  }
+}
+
+.collation__indicator {
+  height: 3rem !important;
+  width: 49% !important;
+  margin: 0 !important;
+  border-radius: 2px;
+  color: $main-txt-color !important; 
+  background-color: white !important;
+  text-indent: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: $font-weight-bold;
+  border: 1px solid $main-txt-color;
+
+  @include media-breakpoint-up(lg) {
+    width: 24% !important;
+  }
+
+  .collation__img-active {
+    display: none;
+  }
+
+  .collation__img-inactive {
+    display: block;
+  }
+
+  img {
+    height: 2rem;
+    margin: 0 .5rem 0 0;
+  }
+
+  &.active {
+    background-color: $main-txt-color !important;
+    color: white !important;
+
+    .collation__img-active {
+      display: block;
+    }
+  
+    .collation__img-inactive {
+      display: none;
+    }
+  }
+
+  
+}
+
+.collation__carousel-inner {
+  margin-top: 10rem;
+
+  @include media-breakpoint-up(lg) {
+    margin-top: 8rem;
+  }
+}
+
+.collation__img-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  @include media-breakpoint-up(lg) {
+    flex-direction: row;
+  }
+}
+
+.collation__img {
+  display: block;
+  width: 100%;
+
+  @include media-breakpoint-up(lg) {
+    width: 49%;
+  }
+}

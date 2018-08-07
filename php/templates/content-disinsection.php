@@ -536,3 +536,64 @@
 
   </div>
 </section>
+
+<section class="collation">
+  <div class="container">
+    <p class="rooms__title">
+      ТУТ ДАЖЕ СРАВНИВАТЬ НЕ НУЖНО - ВСЕ ВИДНО СРАЗУ
+    </p>
+    <div class="small-divider"></div>
+
+    <div id="carouselCollation" class="carousel slide collation__carousel" data-ride="carousel" data-interval="0">
+      <ol class="carousel-indicators collation__indicator-group">
+        <li data-target="#carouselCollation" data-slide-to="0" class="collation__indicator active">
+          <img class="collation__img-active" src="/img/disinsection/cockroach-white.png" alt="cocroach">
+          <img class="collation__img-inactive" src="/img/disinsection/cockroach-green.png" alt="cocroach"> ТАРАКАНЫ
+        </li>
+        <li data-target="#carouselCollation" data-slide-to="1" class="collation__indicator">
+          <img class="collation__img-active" src="/img/disinsection/bug-white.png" alt="bug">
+          <img class="collation__img-inactive" src="/img/disinsection/bug-green.png" alt="bug"> КЛОПЫ
+        </li>
+        <li data-target="#carouselCollation" data-slide-to="2" class="collation__indicator">
+          <img class="collation__img-active" src="/img/disinsection/ant-white.png" alt="ant">
+          <img class="collation__img-inactive" src="/img/disinsection/ant-green.png" alt="ant"> МУРАВЬИ
+        </li>
+        <li data-target="#carouselCollation" data-slide-to="3" class="collation__indicator">
+          <img class="collation__img-active" src="/img/disinsection/spider-white.png" alt="spider">
+          <img class="collation__img-inactive" src="/img/disinsection/spider-green.png" alt="spider"> ПАУКИ
+        </li>
+      </ol>
+
+      <div class="carousel-inner collation__carousel-inner">
+        <div class="carousel-item active">
+          <div class="collation__img-wrapper">
+            <img class="collation__img" src="/img/disinsection/collation-cockroach-L.jpg" alt="cockroach">
+            <img class="collation__img mt-1 mt-lg-0" src="/img/disinsection/collation-cockroach-R.jpg" alt="cockroach">
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="collation__img-wrapper">
+            <img class="collation__img" src="/img/disinsection/collation-cockroach-L.jpg" alt="cockroach">
+            <img class="collation__img mt-1 mt-lg-0" src="/img/disinsection/collation-cockroach-R.jpg" alt="cockroach">
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="collation__img-wrapper">
+            <img class="collation__img" src="/img/disinsection/collation-cockroach-L.jpg" alt="cockroach">
+            <img class="collation__img mt-1 mt-lg-0" src="/img/disinsection/collation-cockroach-R.jpg" alt="cockroach">
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="collation__img-wrapper">
+            <img class="collation__img" src="/img/disinsection/collation-cockroach-L.jpg" alt="cockroach">
+            <img class="collation__img mt-1 mt-lg-0" src="/img/disinsection/collation-cockroach-R.jpg" alt="cockroach">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
