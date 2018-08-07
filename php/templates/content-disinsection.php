@@ -304,6 +304,235 @@
   </div>
 </section>
 
-<section>
-  
+<section class="rooms">
+  <div class="container">
+    <p class="rooms__title">
+      В ТАКИХ ПОМЕЩЕНИЯХ РАБОТАЕМ ЧАЩЕ ВСЕГО
+    </p>
+    <div class="small-divider"></div>
+    <p class="rooms__subtitle">
+      За годы работы сталкивались с насекомыми в самых разных помещениях:
+    </p>
+
+    <!-- for mobile resolution -->
+    <div id="carouselRooms" class="carousel slide d-md-none rooms__carousel" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item p-1 active">
+          <div class="card shadow-sm rooms__card">
+            <img class="card-img-top rooms__card-img" src="/img/disinsection/apartment.png" alt="apartment">
+            <div class="card-body rooms__card-body">
+              <div>
+                <h5 class="card-title rooms__card-title">Квартиры</h5>
+                <p class="card-text rooms__card-text">Проводим обработку, которая не повреждает предметы интерьера. При этом эффект быстрый и стойкий.</p>
+              </div>
+              <h5 class="card-title rooms__card-title">От 1700 руб.</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item p-1">
+          <div class="card shadow-sm rooms__card">
+            <img class="card-img-top rooms__card-img" src="/img/disinsection/house.png" alt="house">
+            <div class="card-body rooms__card-body">
+              <div>
+                <h5 class="card-title rooms__card-title">Дома</h5>
+                <p class="card-text rooms__card-text">Уничтожаем насекомых в частных домах любой площади. Гарантируем безопасность и 100% результат.</p>
+              </div>
+              <h5 class="card-title rooms__card-title">От 65 руб./ метр</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item p-1">
+          <div class="card shadow-sm rooms__card">
+            <img class="card-img-top rooms__card-img" src="/img/disinsection/company.png" alt="company">
+            <div class="card-body rooms__card-body">
+              <div>
+                <h5 class="card-title rooms__card-title">Офисы</h5>
+                <p class="card-text rooms__card-text">Зачастую паразиты селятся в офисных помещениях, нарушая нормальный рабочий процесс. Решим проблему полностью.</p>
+              </div>
+              <h5 class="card-title rooms__card-title">От 70 руб./ метр</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item p-1">
+          <div class="card shadow-sm rooms__card">
+            <img class="card-img-top rooms__card-img" src="/img/disinsection/company_2.png" alt="company">
+            <div class="card-body rooms__card-body">
+              <div>
+                <h5 class="card-title rooms__card-title">Производственные помещения</h5>
+                <p class="card-text rooms__card-text">Уничтожим даже смешанные колонии паразитов. Проведем дезинсекцию в помещениях от 100 кв.м.</p>
+              </div>
+              <h5 class="card-title rooms__card-title">Цена договорная</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item p-1">
+          <div class="card shadow-sm rooms__card">
+            <img class="card-img-top rooms__card-img" src="/img/disinsection/coffee-shop.png" alt="coffee-shop">
+            <div class="card-body rooms__card-body">
+              <div>
+                <h5 class="card-title rooms__card-title">Рестораны и кафе</h5>
+                <p class="card-text rooms__card-text">Проведем обеззараживание вашего заведения, подготовим к проверкам. Повысим вашу репутацию.</p>
+              </div>
+              <h5 class="card-title rooms__card-title">От 70 руб./ метр</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item p-1">
+          <div class="card shadow-sm rooms__card">
+            <img class="card-img-top rooms__card-img" src="/img/disinsection/real-estate.png" alt="real-estate">
+            <div class="card-body rooms__card-body">
+              <div>
+                <h5 class="card-title rooms__card-title">Любые другие помещения</h5>
+                <p class="card-text rooms__card-text">Выезжаем на самые разные объекты. Помогаем всем, кто нуждается в устранении вредителей и паразитов.</p>
+              </div>
+              <h5 class="card-title rooms__card-title">От 70 руб./ метр</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev rooms__control" href="#carouselRooms" role="button" data-slide="prev">
+        <img src="/img/disinsection/prev.png" alt="next">
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next rooms__control" href="#carouselRooms" role="button" data-slide="next">
+        <img src="/img/disinsection/next.png" alt="next">
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <!-- for MD+ resolution -->
+    <div class="rooms__deck d-none d-md-block">
+
+      <div class="row">
+        <div class="col-6 col-lg-4">
+          <div class="card shadow-sm rooms__card">
+            <img class="card-img-top rooms__card-img" src="/img/disinsection/apartment.png" alt="apartment">
+            <div class="card-body rooms__card-body">
+              <div>
+                <h5 class="card-title rooms__card-title">Квартиры</h5>
+                <p class="card-text rooms__card-text">Проводим обработку, которая не повреждает предметы интерьера. При этом эффект быстрый и стойкий.</p>
+              </div>
+              <h5 class="card-title rooms__card-title">От 1700 руб.</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-4">
+          <div class="card shadow-sm rooms__card">
+            <img class="card-img-top rooms__card-img" src="/img/disinsection/house.png" alt="house">
+            <div class="card-body rooms__card-body">
+              <div>
+                <h5 class="card-title rooms__card-title">Дома</h5>
+                <p class="card-text rooms__card-text">Уничтожаем насекомых в частных домах любой площади. Гарантируем безопасность и 100% результат.</p>
+              </div>
+              <h5 class="card-title rooms__card-title">От 65 руб./ метр</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-none d-lg-block col-lg-4">
+          <div class="card shadow-sm rooms__card">
+            <img class="card-img-top rooms__card-img" src="/img/disinsection/company.png" alt="company">
+            <div class="card-body rooms__card-body">
+              <div>
+                <h5 class="card-title rooms__card-title">Офисы</h5>
+                <p class="card-text rooms__card-text">Зачастую паразиты селятся в офисных помещениях, нарушая нормальный рабочий процесс. Решим проблему полностью.</p>
+              </div>
+              <h5 class="card-title rooms__card-title">От 70 руб./ метр</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="d-lg-none col-md-6">
+          <div class="card shadow-sm rooms__card">
+            <img class="card-img-top rooms__card-img" src="/img/disinsection/company.png" alt="company">
+            <div class="card-body rooms__card-body">
+              <div>
+                <h5 class="card-title rooms__card-title">Офисы</h5>
+                <p class="card-text rooms__card-text">Зачастую паразиты селятся в офисных помещениях, нарушая нормальный рабочий процесс. Решим проблему полностью.</p>
+              </div>
+              <h5 class="card-title rooms__card-title">От 70 руб./ метр</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-4">
+          <div class="card shadow-sm rooms__card">
+            <img class="card-img-top rooms__card-img" src="/img/disinsection/company_2.png" alt="company">
+            <div class="card-body rooms__card-body">
+              <div>
+                <h5 class="card-title rooms__card-title">Производственные помещения</h5>
+                <p class="card-text rooms__card-text">Уничтожим даже смешанные колонии паразитов. Проведем дезинсекцию в помещениях от 100 кв.м.</p>
+              </div>
+              <h5 class="card-title rooms__card-title">Цена договорная</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-none d-lg-block col-lg-4">
+          <div class="card shadow-sm rooms__card">
+            <img class="card-img-top rooms__card-img" src="/img/disinsection/coffee-shop.png" alt="coffee-shop">
+            <div class="card-body rooms__card-body">
+              <div>
+                <h5 class="card-title rooms__card-title">Рестораны и кафе</h5>
+                <p class="card-text rooms__card-text">Проведем обеззараживание вашего заведения, подготовим к проверкам. Повысим вашу репутацию.</p>
+              </div>
+              <h5 class="card-title rooms__card-title">От 70 руб./ метр</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-none d-lg-block col-lg-4">
+          <div class="card shadow-sm rooms__card">
+            <img class="card-img-top rooms__card-img" src="/img/disinsection/real-estate.png" alt="real-estate">
+            <div class="card-body rooms__card-body">
+              <div>
+                <h5 class="card-title rooms__card-title">Любые другие помещения</h5>
+                <p class="card-text rooms__card-text">Выезжаем на самые разные объекты. Помогаем всем, кто нуждается в устранении вредителей и паразитов.</p>
+              </div>
+              <h5 class="card-title rooms__card-title">От 70 руб./ метр</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-4 d-lg-none">
+        <div class="col-6">
+          <div class="card shadow-sm rooms__card">
+            <img class="card-img-top rooms__card-img" src="/img/disinsection/coffee-shop.png" alt="coffee-shop">
+            <div class="card-body rooms__card-body">
+              <div>
+                <h5 class="card-title rooms__card-title">Рестораны и кафе</h5>
+                <p class="card-text rooms__card-text">Проведем обеззараживание вашего заведения, подготовим к проверкам. Повысим вашу репутацию.</p>
+              </div>
+              <h5 class="card-title rooms__card-title">От 70 руб./ метр</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="card shadow-sm rooms__card">
+            <img class="card-img-top rooms__card-img" src="/img/disinsection/real-estate.png" alt="real-estate">
+            <div class="card-body rooms__card-body">
+              <div>
+                <h5 class="card-title rooms__card-title">Любые другие помещения</h5>
+                <p class="card-text rooms__card-text">Выезжаем на самые разные объекты. Помогаем всем, кто нуждается в устранении вредителей и паразитов.</p>
+              </div>
+              <h5 class="card-title rooms__card-title">От 70 руб./ метр</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
 </section>

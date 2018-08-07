@@ -1,0 +1,82 @@
+@import "scss/mixins";
+
+.rooms {
+  padding-top: 5rem;
+  padding-bottom: 6rem;
+  background: linear-gradient(to top, $bg-gray 0%, $bg-gray 15%,  white 15%, white 100%);
+
+  @include media-breakpoint-up(lg) {
+    background: linear-gradient(to top, $bg-gray 0%, $bg-gray 18%,  white 18%, white 100%);
+  }
+}
+
+.rooms__title {
+  @include sectionTitle();
+}
+
+.rooms__subtitle {
+  @include sectionSubtitle();
+  font-size: $h4-font-size;
+}
+
+.rooms__carousel {
+  margin-top: 3rem;
+}
+
+.rooms__card {
+  height: 24rem;
+  color: $main-txt-color;
+}
+
+.rooms__card-img {
+  height: 6rem;
+  width: 6rem;
+  display: block;
+  margin: 2rem auto 0 auto;
+}
+
+.rooms__card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.rooms__card-title {
+  text-align: center;
+  font-size: $h4-font-size;
+  margin-bottom: .5rem;
+}
+
+.rooms__card-text {
+  text-align: center;
+  font-size: 110%;
+}
+
+.rooms__control {
+  bottom: -4rem;
+  align-items: flex-end;
+  opacity: 1;
+
+  img {
+    display: block;
+    z-index: 100;
+  }
+
+  &.carousel-control-prev {
+    left: 30%;
+  }
+
+  &.carousel-control-next {
+    right: 30%;
+  }
+}
+
+.rooms__deck {
+  margin-top: 3rem;
+
+  .rooms__card {
+    max-width: 20rem;
+  }
+}
