@@ -1,0 +1,98 @@
+@import "scss/mixins";
+
+.result {
+  padding-top: 3rem;
+
+  @include media-breakpoint-up(lg) {
+    background: linear-gradient(to bottom, $bg-gray 0%, $bg-gray 40%,  white 40%, white 100%);
+  }  
+}
+
+.result__title {
+  @include sectionTitle();
+}
+
+.result__subtitle {
+  @include sectionSubtitle();
+  font-size: $h4-font-size;
+}
+
+.result__description {
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: column-reverse;
+
+  @include media-breakpoint-up(lg) {
+    flex-direction: row;
+  }
+}
+
+.result__img-wrapper {
+  background: url("/img/disinsection/cockroaches-blue-bg.jpg") no-repeat center;
+  background-size: cover;
+  height: 15rem;
+  width: 90%;
+  position: relative;
+
+  @include media-breakpoint-up(md) {
+    height: 20rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    height: 30rem;
+    width: 50%;
+  }
+}
+
+.result__list-wrapper {
+
+  @include media-breakpoint-up(lg) {
+    width: 50%;
+    padding-left: 7rem;
+  }
+}
+
+.result__img {
+  position: absolute;
+  bottom: -4rem;
+  right: -2rem;
+
+  @include media-breakpoint-up(lg) {
+    right: -4rem;  
+  }
+}
+
+.result__list {
+  padding: 1rem 10%;
+
+  @include media-breakpoint-up(md) {
+    padding: 1rem 10% 1rem 20%;
+  }
+
+  @include media-breakpoint-up(lg) {
+    margin-top: 4rem;
+    padding: 0;
+  }
+}
+
+.result__list-item {
+  display: flex;
+  align-items: flex-start;
+  height: 3.5rem;
+  
+  @include media-breakpoint-up(lg) {
+    height: 3.5rem;
+  }
+}
+
+.result__item-img {
+  display: block;
+  margin-right: 1rem;
+}
+
+.result__item-text {
+  font-size: 110%;
+  color: $main-txt-color;
+  font-weight: $font-weight-bold;
+  line-height: 1;
+}

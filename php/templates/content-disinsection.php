@@ -597,3 +597,63 @@
 
   </div>
 </section>
+
+<section class="result">
+  <div class="container">
+    <p class="result__title">
+      НУЖНЫЙ РЕЗУЛЬТАТ С ПЕРВОГО РАЗА
+    </p>
+    <div class="small-divider"></div>
+    <p class="result__subtitle">
+      Паразиты очень нарушают привычный ритм жизни. После мощной обработки вы забудете о проблеме, а главными итогами будут:
+    </p>
+  </div>
+
+  <div class="result__description">
+    <div class="result__img-wrapper">
+      <picture>
+        <source srcset="/img/disinsection/man.png" media="(min-width: 1024px)">
+        <img class="result__img" src="/img/disinsection/man-sm.png" alt="man">
+      </picture>
+    </div>
+
+    <div class="result__list-wrapper">
+      <ul class="list-unstyled result__list">
+        <li class="result__list-item">
+          <img class="result__item-img" src="/img/disinsection/point.png" alt="point">
+          <span class="result__item-text">Устранение возможных инфекций</span>
+        </li>
+
+        <li class="result__list-item">
+          <img class="result__item-img" src="/img/disinsection/point.png" alt="point">
+          <span class="result__item-text">Спасение растений</span>
+        </li>
+
+        <li class="result__list-item">
+          <img class="result__item-img" src="/img/disinsection/point.png" alt="point">
+          <span class="result__item-text">Защита животных</span>
+        </li>
+
+        <li class="result__list-item">
+          <img class="result__item-img" src="/img/disinsection/point.png" alt="point">
+          <span class="result__item-text">Предотвращение разрушения дома</span>
+        </li>
+
+        <li class="result__list-item mb-1">
+          <img class="result__item-img" src="/img/disinsection/point.png" alt="point">
+          <span class="result__item-text">Создание благоприятного микроклимата</span>
+        </li>
+
+        <li class="result__list-item">
+          <img class="result__item-img" src="/img/disinsection/point.png" alt="point">
+          <span class="result__item-text">Психологический комфорт</span>
+        </li>
+
+        <li class="result__list-item">
+          <img class="result__item-img" src="/img/disinsection/point.png" alt="point">
+          <span class="result__item-text">Избавление от аллергии и кожных высыпаний</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
