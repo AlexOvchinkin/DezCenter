@@ -52,7 +52,6 @@ gulp.task('watch', function () {
 
   gulp.watch(config.src.stylesWatch)
     .on('change', function (path, stats) {
-      console.log(`path: ${path}`);
       compileStyles();
     });
 
@@ -86,7 +85,7 @@ gulp.task('full', gulp.parallel('img', 'php', 'js', 'styles'));
 */
 function compileJavascript() {
   return gulp.src(config.src.js)
-    .pipe(uglify())
+    //.pipe(uglify())
     .pipe(gulp.dest(config.dest.js))
     .pipe(reload({
       stream: true

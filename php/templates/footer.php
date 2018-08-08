@@ -103,7 +103,11 @@
   crossorigin="anonymous"></script>
 
 <script src="/js/callback-forms.js?1.4"></script>
-<script src="/js/main/scripts.js?1.4"></script>
+
+<?php
+  include_once dirname(__DIR__)."/lib/functions.php";
+  echo getScript($page);
+?>
 
 <?php 
 // include_once(dirname(__DIR__)."/analitics/roistat-counter.php"); 
@@ -111,6 +115,6 @@
 // include_once(dirname(__DIR__)."/analitics/yandex.php"); 
 ?>
 
-</body>
+  </body>
 
-</html>
+  </html>

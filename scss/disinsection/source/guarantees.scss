@@ -1,0 +1,67 @@
+@import "scss/mixins";
+
+.guarantees {
+  padding-top: 3rem;
+  color: $main-txt-color;
+}
+
+.guarantees__title {
+  @include sectionTitle();
+}
+
+.guarantees__subtitle {
+  @include sectionSubtitle();
+  font-size: $h4-font-size;
+}
+
+.guarantees__description {
+  text-align: center;
+  font-size: $h5-font-size;
+}
+
+.guarantees__slides {
+  overflow: hidden;
+}
+
+.guarantees__slider {
+  display: flex;
+  width: 1800%;
+  position: relative;
+
+  @include media-breakpoint-up(md) {
+    width: 599.94%;
+  }
+
+  @include media-breakpoint-up(lg) {
+    width: 450%;
+  }
+
+  @include media-breakpoint-up(xl) {
+    width: 360%;
+  }
+}
+
+.guarantees__img-wrapper {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  @include media-breakpoint-up(md) {
+    width: 33.33%;
+  }
+
+  @include media-breakpoint-up(lg) {
+    width: 25%;
+  }
+
+  @include media-breakpoint-up(xl) {
+    width: 20%;
+  }
+}
+
+.guarantees__img {
+  display: block;
+  margin: auto;
+  height: 15rem;
+}

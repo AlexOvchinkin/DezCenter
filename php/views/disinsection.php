@@ -6,6 +6,6 @@ getHeader('disinsection');
 
 getTemplate('content-disinsection');
 
-getTemplate('footer');
+getFooter('disinsection');
 
 ?>

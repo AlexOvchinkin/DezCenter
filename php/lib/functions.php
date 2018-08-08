@@ -12,4 +12,12 @@ function getTemplate($template) {
   require_once dirname(__DIR__).'/templates/'.$template.'.php';
 }
 
+function getFooter($page) {
+  require_once(dirname(__DIR__).'/templates/footer.php');
+}
+
+function getScript($page) {
+  return '<script src="/js/'.$page.'/scripts.js?1.5"></script>';
+}
+
 ?>

@@ -657,3 +657,97 @@
     </div>
   </div>
 </section>
+
+<section class="guarantees">
+  <div class="container">
+    <p class="guarantees__title">
+      СОТРУДНИЧЕСТВО И ГАРАНТИИ
+    </p>
+    <p class="guarantees__subtitle">
+      ЗАКРЕПЛЕНЫ ДОКУМЕНТАЛЬНО
+    </p>
+    <div class="small-divider"></div>
+    <p class="guarantees__description">
+      Мы работаем честно и открыто. Заключаем договор, который имеет юридическую силу. Прописываем обязательства и неукоснительно
+      их соблюдаем. Оформление договора — это гарантия результата и контроля с нашей стороны.
+    </p>
+
+    <div class="guarantees__slides">
+      <div class="guarantees__slider">
+        <div class="guarantees__img-wrapper">
+          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+        </div>
+
+        <div class="guarantees__img-wrapper">
+          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+        </div>
+
+        <div class="guarantees__img-wrapper">
+          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+        </div>
+
+        <div class="guarantees__img-wrapper">
+          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+        </div>
+
+        <div class="guarantees__img-wrapper">
+          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+        </div>
+
+        <div class="guarantees__img-wrapper">
+          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+        </div>
+
+        <div class="guarantees__img-wrapper">
+          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+        </div>
+
+        <div class="guarantees__img-wrapper">
+          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+        </div>
+
+        <div class="guarantees__img-wrapper">
+          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+        </div>
+
+        <div class="guarantees__img-wrapper">
+          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+        </div>
+
+        <div class="guarantees__img-wrapper">
+          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+        </div>
+
+        <div class="guarantees__img-wrapper">
+          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+        </div>
+
+        <div class="guarantees__img-wrapper">
+          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+        </div>
+
+        <div class="guarantees__img-wrapper">
+          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+        </div>
+
+        <div class="guarantees__img-wrapper">
+          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+        </div>
+
+        <div class="guarantees__img-wrapper">
+          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+        </div>
+
+        <div class="guarantees__img-wrapper">
+          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+        </div>
+
+        <div class="guarantees__img-wrapper">
+          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+        </div>
+      </div>
+      <button class="guarantees__slides-btn guarantees__slides--prev">prev</button>
+      <button class="guarantees__slides-btn guarantees__slides--next">next</button>
+    </div>
+  </div>
+</section>

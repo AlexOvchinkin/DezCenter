@@ -6,6 +6,6 @@ getHeader('main');
 
 getTemplate('content-main');
 
-getTemplate('footer');
+getFooter('main');
 
 ?>
