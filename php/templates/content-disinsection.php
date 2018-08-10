@@ -746,8 +746,14 @@
           <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
         </div>
       </div>
-      <button class="guarantees__slides-btn guarantees__slides--prev">prev</button>
-      <button class="guarantees__slides-btn guarantees__slides--next">next</button>
+      <div class="guarantees__btn-wrapper">
+        <a class="guarantees__slides-btn guarantees__slides--prev">
+          <img src="/img/disinsection/prev.png" alt="prev">
+        </a>
+        <a class="guarantees__slides-btn guarantees__slides--next">
+          <img src="/img/disinsection/next.png" alt="next">
+        </a>
+      </div>
     </div>
   </div>
 </section>

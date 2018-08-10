@@ -21,6 +21,9 @@
 
 .guarantees__slides {
   overflow: hidden;
+  position: relative;
+  padding-bottom: 4rem;
+  margin-top: 2rem;
 }
 
 .guarantees__slider {
@@ -64,4 +67,14 @@
   display: block;
   margin: auto;
   height: 15rem;
+}
+
+.guarantees__btn-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  width: 7rem;
 }
