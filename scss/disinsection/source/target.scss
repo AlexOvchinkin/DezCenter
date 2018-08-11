@@ -1,0 +1,71 @@
+@import "scss/mixins";
+
+.target {
+  margin-top: 7rem;
+  color: $main-txt-color;
+
+  @include media-breakpoint-up(md) {
+    margin-top: 5rem;
+  }
+}
+
+.target__title {
+  @include sectionTitle();
+}
+
+.target__content-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  @include media-breakpoint-up(xl) {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}
+
+.target__text-wrapper {
+  @include media-breakpoint-up(xl) {
+    font-size: $h6-font-size;
+    line-height: 1;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.target__text {
+  text-align: center;
+  font-size: $h5-font-size;
+  padding: 0 1rem;
+  margin: .5rem auto;
+
+  @include media-breakpoint-up(md) {
+    font-size: $h4-font-size;
+    width: 80%;
+  }
+
+  @include media-breakpoint-up(xl) {
+    text-align: left;
+    width: 90%;
+  }
+}
+
+.target__img {
+  background: url("/img/disinsection/man-ok.jpg") no-repeat top;
+  background-size: cover;
+  height: 14rem;
+  margin-top: 2rem;
+
+  @include media-breakpoint-up(md) {
+    height: 24rem;  
+  }
+
+  @include media-breakpoint-up(lg) {
+    height: 30rem;  
+  }
+
+  @include media-breakpoint-up(xl) {
+    width: 45%;
+  }
+}

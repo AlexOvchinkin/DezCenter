@@ -3,6 +3,8 @@
 .equipment {
   padding-top: 3rem;
   color: $main-txt-color;
+  background-color: $bg-gray;
+  background: linear-gradient(to top, white 0%, white 10%,  $bg-gray 10%, $bg-gray 100%);
 }
 
 .equipment__title {

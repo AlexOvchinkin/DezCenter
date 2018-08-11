@@ -4,6 +4,7 @@
   margin-top: 3rem;
   padding-top: 3rem;
   color: $main-txt-color;
+  background: linear-gradient(to top, $bg-gray 0%, $bg-gray 20%,  white 20%, white 100%);
 }
 
 .guarantees__title {
@@ -32,7 +33,7 @@
   position: relative;
 
   @include media-breakpoint-up(md) {
-    width: 599.94%;
+    width: 599.94%; // 33.33% * 18 pictures
   }
 
   @include media-breakpoint-up(lg) {
