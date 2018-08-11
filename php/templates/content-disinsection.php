@@ -671,6 +671,10 @@
       Мы работаем честно и открыто. Заключаем договор, который имеет юридическую силу. Прописываем обязательства и неукоснительно
       их соблюдаем. Оформление договора — это гарантия результата и контроля с нашей стороны.
     </p>
+    <p class="guarantees__description text-center font-italic">
+      <small>* - щелкните по сертификату, чтобы увеличить</small>
+    </p>
+
 
     <div class="guarantees__slides">
       <div class="guarantees__slider">
@@ -747,13 +751,71 @@
         </div>
       </div>
       <div class="guarantees__btn-wrapper">
-        <a class="guarantees__slides-btn guarantees__slides--prev">
+        <a class="mr-2 guarantees__slides-btn guarantees__slides--prev">
           <img src="/img/disinsection/prev.png" alt="prev">
         </a>
-        <a class="guarantees__slides-btn guarantees__slides--next">
+        <a class="ml-2 guarantees__slides-btn guarantees__slides--next">
           <img src="/img/disinsection/next.png" alt="next">
         </a>
       </div>
     </div>
+  </div>
+</section>
+
+<section class="equipment">
+  <div class="container">
+    <p class="equipment__title">
+      ТОЛЬКО СОВРЕМЕННОЕ ЕВРОПЕЙСКОЕ ОБОРУДОВАНИЕ
+    </p>
+    <div class="small-divider"></div>
+    <p class="equipment__description">
+      «ДезЦентр «Прогресс» использует в работе только современное оборудование. Устраняем насекомых с помощью многофункционального
+      генератора холодного тумана. Аппарат снабжен двигателем и форсунками, превращающими препараты для дезинсекции в мелкодисперсную
+      взвесь. Облако с действующим веществом проникает даже в недоступные места — достигается обработка 100% площади помещения.
+    </p>
+
+    <!-- for mobile resolution -->
+    <div id="carouselEquipment" class="carousel slide d-md-none equipment__carousel" data-ride="carousel" data-interval="0">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="equipment__carousel-img" src="/img/disinsection/dis-man-1.jpg" alt="man">
+        </div>
+
+        <div class="carousel-item">
+          <img class="equipment__carousel-img" src="/img/disinsection/dis-man-2.jpg" alt="man">
+        </div>
+
+        <div class="carousel-item">
+          <img class="equipment__carousel-img" src="/img/disinsection/dis-man-3.jpg" alt="man">
+        </div>
+
+        <div class="carousel-item">
+          <img class="equipment__carousel-img" src="/img/disinsection/dis-man-4.jpg" alt="man">
+        </div>
+      </div>
+
+      <a class="carousel-control-prev equipment__control" href="#carouselEquipment" role="button" data-slide="prev">
+        <img src="/img/disinsection/prev.png" alt="next">
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next equipment__control" href="#carouselEquipment" role="button" data-slide="next">
+        <img src="/img/disinsection/next.png" alt="next">
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <!-- for MD+ resolution -->
+    <div class="equipment__table d-none d-md-block">
+      <div class="row mb-4 justify-content-center">
+        <img class="equipment__table-img mr-2" src="/img/disinsection/dis-man-1.jpg" alt="man">
+        <img class="equipment__table-img ml-2" src="/img/disinsection/dis-man-2.jpg" alt="man">
+      </div>
+      <div class="row justify-content-center">
+        <img class="equipment__table-img mr-2" src="/img/disinsection/dis-man-3.jpg" alt="man">
+        <img class="equipment__table-img ml-2" src="/img/disinsection/dis-man-4.jpg" alt="man">
+      </div>
+    </div>
+  </div>
+
   </div>
 </section>

@@ -103,6 +103,7 @@
   crossorigin="anonymous"></script>
 
 <script src="/js/callback-forms.js?1.4"></script>
+<script src="/js/common-scripts.js?1.4"></script>
 
 <?php
   include_once dirname(__DIR__)."/lib/functions.php";
