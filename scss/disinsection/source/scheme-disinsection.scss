@@ -1,6 +1,12 @@
 @import "scss/mixins";
 
 .scheme-disinsection {
+  margin-top: 3rem !important;
+
+  .scheme__title {
+    margin-top: 0;
+  }
+
   .scheme-carousel__item {
     height: 22rem;
   }

@@ -1403,7 +1403,7 @@
           <div class="col-12 col-md-3 pricing__cell">300 метров</div>
           <div class="col-12 col-md-4 pricing__cell">Блохи</div>
           <div class="col-12 col-md-2 pricing__cell  pricing__cell-price">от 7200 р.*</div>
-        </div> 
+        </div>
       </div>
 
       <p class="px-4 pt-3">
@@ -1750,103 +1750,103 @@
     <ul class="list-unstyled causes__list">
 
       <li class="causes__item">
-        <img class="causes__img" src="/img/point.png" alt="point">
         <div class="causes__text">
+          <img class="causes__img" src="/img/point.png" alt="point">
           <p class="causes__text-title">Индивидуальный подход</p>
-          <p class="causes__text-subtitle">
-            Подбираем оптимальные методы и средства для каждого конкретного случая
-          </p>
         </div>
+        <p class="causes__text-subtitle">
+          Подбираем оптимальные методы и средства для каждого конкретного случая
+        </p>
       </li>
 
       <li class="causes__item">
-        <img class="causes__img" src="/img/point.png" alt="point">
         <div class="causes__text">
+          <img class="causes__img" src="/img/point.png" alt="point">
           <p class="causes__text-title">Реальные гарантии</p>
-          <p class="causes__text-subtitle">
-            Гарантийный срок достигает 5 лет и зависит от вида обработки
-          </p>
         </div>
+        <p class="causes__text-subtitle">
+          Гарантийный срок достигает 5 лет и зависит от вида обработки
+        </p>
       </li>
 
       <li class="causes__item">
-        <img class="causes__img" src="/img/point.png" alt="point">
         <div class="causes__text">
+          <img class="causes__img" src="/img/point.png" alt="point">
           <p class="causes__text-title">Договор</p>
-          <p class="causes__text-subtitle">
-            Прописываем обязательства, проводим повторную обработку бесплатно при наступлении гарантийного случая
-          </p>
         </div>
+        <p class="causes__text-subtitle">
+          Прописываем обязательства, проводим повторную обработку бесплатно при наступлении гарантийного случая
+        </p>
       </li>
 
       <li class="causes__item">
-        <img class="causes__img" src="/img/point.png" alt="point">
         <div class="causes__text">
+          <img class="causes__img" src="/img/point.png" alt="point">
           <p class="causes__text-title">Бесплатная диагностика</p>
-          <p class="causes__text-subtitle">
-            Обследуем объект на предмет заражения, находим места обитания и размножения вредителей, скопления бактерий, плесени и т.д.
-          </p>
         </div>
+        <p class="causes__text-subtitle">
+          Обследуем объект на предмет заражения, находим места обитания и размножения вредителей, скопления бактерий, плесени и т.д.
+        </p>
       </li>
 
       <li class="causes__item">
-        <img class="causes__img" src="/img/point.png" alt="point">
         <div class="causes__text">
+          <img class="causes__img" src="/img/point.png" alt="point">
           <p class="causes__text-title">Безопасность</p>
-          <p class="causes__text-subtitle">
-            Гарантируем отсутствие вреда для человека, животных и окружающей среды
-          </p>
         </div>
+        <p class="causes__text-subtitle">
+          Гарантируем отсутствие вреда для человека, животных и окружающей среды
+        </p>
       </li>
 
       <li class="causes__item">
-        <img class="causes__img" src="/img/point.png" alt="point">
         <div class="causes__text">
+          <img class="causes__img" src="/img/point.png" alt="point">
           <p class="causes__text-title">Ответственность</p>
-          <p class="causes__text-subtitle">
-            Добиваемся 100% результата даже в самых запущенных случаях
-          </p>
         </div>
+        <p class="causes__text-subtitle">
+          Добиваемся 100% результата даже в самых запущенных случаях
+        </p>
       </li>
 
       <li class="causes__item">
-        <img class="causes__img" src="/img/point.png" alt="point">
         <div class="causes__text">
+          <img class="causes__img" src="/img/point.png" alt="point">
           <p class="causes__text-title">Улучшение качества жизни</p>
-          <p class="causes__text-subtitle">
-            Вы наконец-то будете наслаждаться чистотой и спокойствием. Создадим хороший микроклимат
-          </p>
         </div>
+        <p class="causes__text-subtitle">
+          Вы наконец-то будете наслаждаться чистотой и спокойствием. Создадим хороший микроклимат
+        </p>
       </li>
 
       <li class="causes__item">
-        <img class="causes__img" src="/img/point.png" alt="point">
         <div class="causes__text">
+          <img class="causes__img" src="/img/point.png" alt="point">
           <p class="causes__text-title">Профилактика заболеваний</p>
-          <p class="causes__text-subtitle">
-            По статистике, дезинфекция, дезинсекция и дератизация снижают риск заражения опасными заболеваниями на 90%
-          </p>
         </div>
+        <p class="causes__text-subtitle">
+          По статистике, дезинфекция, дезинсекция и дератизация снижают риск заражения опасными заболеваниями на 90%
+        </p>
       </li>
 
       <li class="causes__item">
-        <img class="causes__img" src="/img/point.png" alt="point">
         <div class="causes__text">
+          <img class="causes__img" src="/img/point.png" alt="point">
           <p class="causes__text-title">Оперативность</p>
-          <p class="causes__text-subtitle">
-            Наши мастера приезжают минута в минуту
-          </p>
         </div>
+        <p class="causes__text-subtitle">
+          Наши мастера приезжают минута в минуту
+        </p>
       </li>
 
       <li class="causes__item">
-        <img class="causes__img" src="/img/point.png" alt="point">
         <div class="causes__text">
+          <img class="causes__img" src="/img/point.png" alt="point">
           <p class="causes__text-title">Выгода</p>
-          <p class="causes__text-subtitle">
-            Цены — приемлемые. Всегда готовы обсудить индивидуальные условия, предложить скидки, акции
-          </p>
         </div>
+        <p class="causes__text-subtitle">
+          Цены — приемлемые. Всегда готовы обсудить индивидуальные условия, предложить скидки, акции
+        </p>
       </li>
     </ul>
     <img class="causes__img-big d-none d-xl-block" src="/img/main/man.png" alt="man">

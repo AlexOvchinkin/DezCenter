@@ -1,5 +1,4 @@
 @import "scss/mixins";
-
 .causes {
   color: $main-txt-color;
   background: url("/img/main/causes-bg-big.jpg") no-repeat center;
@@ -27,8 +26,9 @@
 
 .causes__item {
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .causes__item:last-child {
@@ -36,22 +36,44 @@
   padding-bottom: 3rem;
 }
 
+.causes__text {
+  display: flex;
+}
+
 .causes__img {
   display: block;
-  margin: 0 1.5rem .7rem 1.5rem;
+  height: 1rem;
+  width: 1rem;
+  margin-top: .3rem;
+
+  @include media-breakpoint-up(md) {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-top: 0;
+  }
 }
 
 .causes__text-title {
   @include sectionTitle();
   text-align: left;
-  font-size: $h5-font-size;
+  font-size: $h4-font-size;
+  line-height: 1;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
 }
 
 .causes__text-subtitle {
   @include sectionSubtitle();
-  text-align: left;
+  text-align: center;
   color: white;
-  max-width: 40rem;
+  max-width: 45rem;
+  font-size: $h5-font-size;
+  align-self: center;
+
+  @include media-breakpoint-up(md) {
+    text-align: left;  
+    align-self: flex-start;
+  }
 }
 
 .causes__img-big {
