@@ -30,23 +30,32 @@
 .guarantees__slides-btn {
   border: none;
   background-color: $bg-gray;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:active {
+    outline: none;
+    border: none;
+  }
 }
 
 .guarantees__slider {
   display: flex;
-  width: 1800%;
+  width: 2100%; // 21 pictures * 100%
   position: relative;
 
   @include media-breakpoint-up(md) {
-    width: 599.94%; // 33.33% * 18 pictures
+    width: 699.93%; // 33.33% * 21 pictures
   }
 
   @include media-breakpoint-up(lg) {
-    width: 450%;
+    width: 525%; // 25% * 21 pictures
   }
 
   @include media-breakpoint-up(xl) {
-    width: 360%;
+    width: 420%; // 20% * 21 pictures
   }
 }
 
@@ -54,7 +63,15 @@
   height: 100%;
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 0.5rem;
+  border-radius: 2px;
+  transition-duration: 400ms;
+
+  &:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px darkgray;
+    background-color: white;
+  }
 
   @include media-breakpoint-up(md) {
     width: 33.33%;
@@ -72,7 +89,7 @@
 .guarantees__img {
   display: block;
   margin: auto;
-  height: 15rem;
+  max-height: 15rem;
 }
 
 .guarantees__btn-wrapper {

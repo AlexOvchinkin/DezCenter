@@ -679,75 +679,87 @@
     <div class="guarantees__slides">
       <div class="guarantees__slider">
         <div class="guarantees__img-wrapper">
-          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+          <img class="guarantees__img" src="/img/certificates/01-sm.jpg" alt="first">
         </div>
 
         <div class="guarantees__img-wrapper">
-          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+          <img class="guarantees__img" src="/img/certificates/02-sm.jpg" alt="first">
         </div>
 
         <div class="guarantees__img-wrapper">
-          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+          <img class="guarantees__img" src="/img/certificates/03-sm.jpg" alt="first">
         </div>
 
         <div class="guarantees__img-wrapper">
-          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+          <img class="guarantees__img" src="/img/certificates/04-sm.jpg" alt="first">
         </div>
 
         <div class="guarantees__img-wrapper">
-          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+          <img class="guarantees__img" src="/img/certificates/05-sm.jpg" alt="first">
         </div>
 
         <div class="guarantees__img-wrapper">
-          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+          <img class="guarantees__img" src="/img/certificates/06-sm.jpg" alt="first">
         </div>
 
         <div class="guarantees__img-wrapper">
-          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+          <img class="guarantees__img" src="/img/certificates/07-sm.jpg" alt="first">
         </div>
 
         <div class="guarantees__img-wrapper">
-          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+          <img class="guarantees__img" src="/img/certificates/08-sm.jpg" alt="first">
         </div>
 
         <div class="guarantees__img-wrapper">
-          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+          <img class="guarantees__img" src="/img/certificates/09-sm.jpg" alt="first">
         </div>
 
         <div class="guarantees__img-wrapper">
-          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+          <img class="guarantees__img" src="/img/certificates/10-sm.jpg" alt="first">
         </div>
 
         <div class="guarantees__img-wrapper">
-          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+          <img class="guarantees__img" src="/img/certificates/11-sm.jpg" alt="first">
         </div>
 
         <div class="guarantees__img-wrapper">
-          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+          <img class="guarantees__img" src="/img/certificates/12-sm.jpg" alt="first">
         </div>
 
         <div class="guarantees__img-wrapper">
-          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+          <img class="guarantees__img" src="/img/certificates/13-sm.jpg" alt="first">
         </div>
 
         <div class="guarantees__img-wrapper">
-          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+          <img class="guarantees__img" src="/img/certificates/14-sm.jpg" alt="first">
         </div>
 
         <div class="guarantees__img-wrapper">
-          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+          <img class="guarantees__img" src="/img/certificates/15-sm.jpg" alt="first">
         </div>
 
         <div class="guarantees__img-wrapper">
-          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+          <img class="guarantees__img" src="/img/certificates/16-sm.jpg" alt="first">
         </div>
 
         <div class="guarantees__img-wrapper">
-          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+          <img class="guarantees__img" src="/img/certificates/17-sm.jpg" alt="first">
         </div>
 
         <div class="guarantees__img-wrapper">
-          <img class="guarantees__img" src="/img/disinsection/s_01_sm.jpg" alt="first">
+          <img class="guarantees__img" src="/img/certificates/18-sm.jpg" alt="first">
+        </div>
+
+        <div class="guarantees__img-wrapper">
+          <img class="guarantees__img" src="/img/certificates/19-sm.jpg" alt="first">
+        </div>
+
+        <div class="guarantees__img-wrapper">
+          <img class="guarantees__img" src="/img/certificates/20-sm.jpg" alt="first">
+        </div>
+
+        <div class="guarantees__img-wrapper">
+          <img class="guarantees__img" src="/img/certificates/21-sm.jpg" alt="first">
         </div>
       </div>
       <div class="guarantees__btn-wrapper">
