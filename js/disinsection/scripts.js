@@ -14,8 +14,18 @@ function refreshSlider() {
 
 function slide( direction ) {
   return function () {
+    // disable current button
+    $(this).prop('disabled', 'true');
+
+    var prev = $( '.guarantees__slides--prev' );
+    var next = $( '.guarantees__slides--next' );
+
     var animationObj = { };
     var slidesWidth = $( '.guarantees__slides' ).width();
+
+    // disable both buttons
+    prev.prop('disabled', 'true');
+    next.prop('disabled', 'true');
 
     if ( direction === 'prev' ) {
       if ( $( '.guarantees__slider' ).css( 'left' ) === "0px" ) {
@@ -36,5 +46,11 @@ function slide( direction ) {
     }
 
     $( '.guarantees__slider' ).animate( animationObj, 500 );
+
+    // enable both buttons after animation
+    setTimeout(function() {
+      prev.removeAttr('disabled', 'false');
+      next.removeAttr('disabled', 'false');
+    }, 600);
   }
 }

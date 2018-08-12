@@ -751,12 +751,12 @@
         </div>
       </div>
       <div class="guarantees__btn-wrapper">
-        <a class="mr-2 guarantees__slides-btn guarantees__slides--prev">
+        <button class="mr-2 guarantees__slides-btn guarantees__slides--prev">
           <img src="/img/disinsection/prev.png" alt="prev">
-        </a>
-        <a class="ml-2 guarantees__slides-btn guarantees__slides--next">
+        </button>
+        <button class="ml-2 guarantees__slides-btn guarantees__slides--next">
           <img src="/img/disinsection/next.png" alt="next">
-        </a>
+        </button>
       </div>
     </div>
   </div>

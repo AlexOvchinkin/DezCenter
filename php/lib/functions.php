@@ -17,7 +17,7 @@ function getFooter($page) {
 }
 
 function getScript($page) {
-  return '<script src="/js/'.$page.'/scripts.js?1.5"></script>';
+  return '<script src="/js/'.$page.'/scripts.js?1.6"></script>';
 }
 
 ?>
