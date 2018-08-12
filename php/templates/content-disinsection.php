@@ -1121,3 +1121,51 @@
     <img class="causes__img-big d-none d-xl-block" src="/img/disinsection/man-causes.png" alt="man">
   </div>
 </section>
+
+<section class="kinds">
+  <div class="container">
+    <p class="kinds__title">ДЕЗИНСЕКЦИЯ</p>
+    <p class="kinds__subtitle">НЕ ЕДИНСТВЕННАЯ НАША ВОСТРЕБОВАННАЯ УСЛУГА</p>
+    <div class="small-divider"></div>
+    <p class="kinds__text">
+      Наши клиенты нередко помимо дезинсекции заказывают дератизацию и дезинфекцию. Особенно это актуально в случае с производственными
+      помещениями, складами, магазинами. Предусмотрели для вас максимально выгодный вариант —
+      <b>даем скидку до 30% при заказе двух и более услуг сразу</b>.
+    </p>
+    <div class="row mb-5">
+      <div class="col-12 col-md-6 p-3 mb-5">
+        <div class="card kinds__card shadow-sm">
+          <img class="kinds__card-img" src="/img/disinsection/bacteria.png" alt="bacteria">
+          <div class="card-body">
+            <h5 class="card-title kinds__card-title">ДЕЗИНФЕКЦИЯ</h5>
+            <p class="card-text kinds__card-text">Проводим комплексную обработку от вирусов, бактерий, грибков, плесени</p>
+          </div>
+          <a href="#" class="btn kinds__btn">УЗНАТЬ ПОДРОБНЕЕ</a>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 p-3">
+        <div class="card kinds__card shadow-sm">
+          <img class="kinds__card-img" src="/img/disinsection/mouse.png" alt="mouse">
+          <div class="card-body">
+            <h5 class="card-title kinds__card-title">ДЕРАТИЗАЦИЯ</h5>
+            <p class="card-text kinds__card-text">Устраняем любых грызунов за одно посещение объекта. Используем современные методы</p>
+          </div>
+          <a href="#" class="btn kinds__btn">УЗНАТЬ ПОДРОБНЕЕ</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <div class="card kinds__card shadow-sm">
+          <img class="kinds__card-img" src="/img/disinsection/shield_2.png" alt="shield">
+          <div class="card-body">
+            <h5 class="card-title kinds__card-title">О НАС ПОДРОБНЕЕ</h5>
+          </div>
+          <a href="/" class="btn kinds__btn">НА ГЛАВНУЮ</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
