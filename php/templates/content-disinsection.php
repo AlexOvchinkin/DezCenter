@@ -842,3 +842,282 @@
     <div class="target__img"></div>
   </div>
 </section>
+
+<section class="scheme scheme-disinsection">
+  <p class="m-0 p-0">
+    <a class="m-0 p-0" name="scheme"></a>
+  </p>
+  <div class="container">
+    <p class="scheme__title">РАБОЧИЙ АЛГОРИТМ</p>
+    <p class="scheme-disinsection__subtitle">
+      НИ ОДИН МЕЛКИЙ НЕПРИЯТЕЛЬ НЕ УСКОЛЬЗНЕТ ОТ НАС
+    </p>
+    <div class="small-divider"></div>
+  </div>
+
+  <!-- CAROUSEL FOR MOBILE -->
+  <div id="carouselScheme" class="carousel d-md-none slide mobile-carousel scheme-carousel" data-ride="carousel" data-interval="0">
+    <div class="carousel-inner mobile-carousel__items-container">
+
+      <div class="carousel-item mobile-carousel__item scheme-carousel__item active">
+        <div class="mobile-carousel__title">
+          <div class="scheme-carousel__img-wrapper">
+            <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="/img/1.png" alt="1">
+            <img class="mobile-carousel__image scheme-carousel__img" src="/img/edit.png" alt="edit">
+          </div>
+          <div class="container">
+            <p class="mobile-carousel__text scheme-carousel__text">Заказ услуги</p>
+            <p class="mobile-carousel__text scheme-carousel__text">Согласовываем время выезда специалиста</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item mobile-carousel__item scheme-carousel__item">
+        <div class="mobile-carousel__title">
+          <div class="scheme-carousel__img-wrapper">
+            <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="/img/2.png" alt="2">
+            <img class="mobile-carousel__image scheme-carousel__img" src="/img/search.png" alt="search">
+          </div>
+          <div class="container">
+            <p class="mobile-carousel__text scheme-carousel__text">Диагностика</p>
+            <p class="mobile-carousel__text scheme-carousel__text">
+              Мастер оценивает степень зараженности и находит места размножения насекомых
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item mobile-carousel__item scheme-carousel__item">
+        <div class="mobile-carousel__title">
+          <div class="scheme-carousel__img-wrapper">
+            <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="/img/3.png" alt="3">
+            <img class="mobile-carousel__image scheme-carousel__img" src="/img/pesticide.png" alt="pesticide">
+          </div>
+          <div class="container">
+            <p class="mobile-carousel__text scheme-carousel__text">Обработка</p>
+            <p class="mobile-carousel__text scheme-carousel__text">
+              Проводится высокотехнологичное распыление активных препаратов
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item mobile-carousel__item scheme-carousel__item">
+        <div class="mobile-carousel__title">
+          <div class="scheme-carousel__img-wrapper">
+            <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="/img/4.png" alt="4">
+            <img class="mobile-carousel__image scheme-carousel__img" src="/img/hand-ok.png" alt="hand-ok">
+          </div>
+          <div class="container">
+            <p class="mobile-carousel__text scheme-carousel__text">Контроль</p>
+            <p class="mobile-carousel__text scheme-carousel__text">
+              Вы оцениваете результат, мы оказываем поддержку на протяжении всего гарантийного срока
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev mobile-carousel__control scheme-carousel__control" href="#carouselScheme" role="button" data-slide="prev">
+        <img src="/img/main/control-left.png" alt="prev">
+      </a>
+      <a class="carousel-control-next mobile-carousel__control scheme-carousel__control" href="#carouselScheme" role="button" data-slide="next">
+        <img src="/img/main/control-right.png" alt="next">
+      </a>
+
+    </div>
+  </div>
+
+  <!-- TABLE FOR MD+ -->
+  <div class="d-none d-md-block schema__table">
+    <div class="row schema__table-row">
+      <div class="scheme-table__divider-big"></div>
+      <div class="container d-flex">
+        <div class="col-7 d-flex align-items-center justify-content-end text-right schema__table-text">
+          <div class="schema__table-text-wrapper">
+            <span>Заказ услуги</span>
+            <span>Согласовываем время выезда специалиста</span>
+          </div>
+        </div>
+        <div class="col-5">
+          <div class="scheme-table__img-wrapper">
+            <div class="scheme-table__divider scheme-table__divider-right"></div>
+            <img class="scheme-table__img-num" src="/img/1.png" alt="1">
+            <img class="scheme-table__img scheme-table__img-right" src="/img/edit.png" alt="edit">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row schema__table-row">
+      <div class="scheme-table__divider-big"></div>
+      <div class="container d-flex">
+        <div class="col-5">
+          <div class="scheme-table__img-wrapper">
+            <div class="scheme-table__divider"></div>
+            <img class="scheme-table__img-num scheme-table__img-num-left" src="/img/2.png" alt="2">
+            <img class="scheme-table__img scheme-table__img-left" src="/img/search.png" alt="search">
+          </div>
+        </div>
+        <div class="col-7 d-flex align-items-center justify-content-start schema__table-text">
+          <div class="schema__table-text-wrapper">
+            <span>Диагностика</span>
+            <span>Мастер оценивает степень зараженности и находит места размножения насекомых</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row schema__table-row">
+      <div class="scheme-table__divider-big"></div>
+      <div class="container d-flex">
+        <div class="col-7 d-flex align-items-center justify-content-end text-right schema__table-text">
+          <div class="schema__table-text-wrapper">
+            <span>Обработка</span>
+            <span>Проводится высокотехнологичное распыление активных препаратов</span>
+          </div>
+        </div>
+        <div class="col-5">
+          <div class="scheme-table__img-wrapper">
+            <div class="scheme-table__divider scheme-table__divider-right"></div>
+            <img class="scheme-table__img-num" src="/img/3.png" alt="3">
+            <img class="scheme-table__img scheme-table__img-right" src="/img/pesticide.png" alt="pesticide">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row schema__table-row">
+      <div class="scheme-table__divider-big"></div>
+      <div class="container d-flex">
+        <div class="col-5">
+          <div class="scheme-table__img-wrapper">
+            <div class="scheme-table__divider"></div>
+            <img class="scheme-table__img-num scheme-table__img-num-left" src="/img/4.png" alt="4">
+            <img class="scheme-table__img scheme-table__img-left" src="/img/hand-ok.png" alt="hand-ok">
+          </div>
+        </div>
+        <div class="col-7 d-flex align-items-center justify-content-start schema__table-text">
+          <div class="schema__table-text-wrapper">
+            <span>Контроль</span>
+            <span>Вы оцениваете результат, мы оказываем поддержку на протяжении всего гарантийного срока</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="causes" class="causes causes-disinsection">
+  <p class="m-0 p-0">
+    <a class="m-0 p-0" name="causes"></a>
+  </p>
+  <div class="container causes__container">
+    <p class="causes__title">10 ПРИЧИН ЗАКАЗАТЬ УСЛУГИ</p>
+    <p class="causes__subtitle">В "ДЕЗЦЕНТР "ПРОГРЕСС"</p>
+    <div class="small-divider"></div>
+
+    <ul class="list-unstyled causes__list">
+
+      <li class="causes__item">
+        <img class="causes__img" src="/img/point.png" alt="point">
+        <div class="causes__text">
+          <p class="causes__text-title">Индивидуальный подход</p>
+          <p class="causes__text-subtitle">
+            Подбираем оптимальные методы и средства для каждого конкретного случая
+          </p>
+        </div>
+      </li>
+
+      <li class="causes__item">
+        <img class="causes__img" src="/img/point.png" alt="point">
+        <div class="causes__text">
+          <p class="causes__text-title">Реальные гарантии</p>
+          <p class="causes__text-subtitle">
+            Гарантийный срок достигает 5 лет и зависит от вида обработки
+          </p>
+        </div>
+      </li>
+
+      <li class="causes__item">
+        <img class="causes__img" src="/img/point.png" alt="point">
+        <div class="causes__text">
+          <p class="causes__text-title">Договор</p>
+          <p class="causes__text-subtitle">
+            Прописываем обязательства, проводим повторную обработку бесплатно при наступлении гарантийного случая
+          </p>
+        </div>
+      </li>
+
+      <li class="causes__item">
+        <img class="causes__img" src="/img/point.png" alt="point">
+        <div class="causes__text">
+          <p class="causes__text-title">Бесплатная диагностика</p>
+          <p class="causes__text-subtitle">
+            Обследуем объект на предмет заражения, находим места обитания и размножения вредителей, скопления бактерий, плесени и т.д.
+          </p>
+        </div>
+      </li>
+
+      <li class="causes__item">
+        <img class="causes__img" src="/img/point.png" alt="point">
+        <div class="causes__text">
+          <p class="causes__text-title">Безопасность</p>
+          <p class="causes__text-subtitle">
+            Гарантируем отсутствие вреда для человека, животных и окружающей среды
+          </p>
+        </div>
+      </li>
+
+      <li class="causes__item">
+        <img class="causes__img" src="/img/point.png" alt="point">
+        <div class="causes__text">
+          <p class="causes__text-title">Ответственность</p>
+          <p class="causes__text-subtitle">
+            Добиваемся 100% результата даже в самых запущенных случаях
+          </p>
+        </div>
+      </li>
+
+      <li class="causes__item">
+        <img class="causes__img" src="/img/point.png" alt="point">
+        <div class="causes__text">
+          <p class="causes__text-title">Улучшение качества жизни</p>
+          <p class="causes__text-subtitle">
+            Вы наконец-то будете наслаждаться чистотой и спокойствием. Создадим хороший микроклимат
+          </p>
+        </div>
+      </li>
+
+      <li class="causes__item">
+        <img class="causes__img" src="/img/point.png" alt="point">
+        <div class="causes__text">
+          <p class="causes__text-title">Профилактика заболеваний</p>
+          <p class="causes__text-subtitle">
+            По статистике, дезинфекция, дезинсекция и дератизация снижают риск заражения опасными заболеваниями на 90%
+          </p>
+        </div>
+      </li>
+
+      <li class="causes__item">
+        <img class="causes__img" src="/img/point.png" alt="point">
+        <div class="causes__text">
+          <p class="causes__text-title">Оперативность</p>
+          <p class="causes__text-subtitle">
+            Наши мастера приезжают минута в минуту
+          </p>
+        </div>
+      </li>
+
+      <li class="causes__item">
+        <img class="causes__img" src="/img/point.png" alt="point">
+        <div class="causes__text">
+          <p class="causes__text-title">Выгода</p>
+          <p class="causes__text-subtitle">
+            Цены — приемлемые. Всегда готовы обсудить индивидуальные условия, предложить скидки, акции
+          </p>
+        </div>
+      </li>
+    </ul>
+    <img class="causes__img-big d-none d-xl-block" src="/img/disinsection/man-causes.png" alt="man">
+  </div>
+</section>

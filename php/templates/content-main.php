@@ -1441,8 +1441,8 @@
       <div class="carousel-item mobile-carousel__item scheme-carousel__item active">
         <div class="mobile-carousel__title">
           <div class="scheme-carousel__img-wrapper">
-            <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="/img/main/1.png" alt="1">
-            <img class="mobile-carousel__image scheme-carousel__img" src="/img/main/edit.png" alt="edit">
+            <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="/img/1.png" alt="1">
+            <img class="mobile-carousel__image scheme-carousel__img" src="/img/edit.png" alt="edit">
           </div>
           <div class="container">
             <p class="mobile-carousel__text scheme-carousel__text">Вы оставляете заявку</p>
@@ -1453,8 +1453,8 @@
       <div class="carousel-item mobile-carousel__item scheme-carousel__item">
         <div class="mobile-carousel__title">
           <div class="scheme-carousel__img-wrapper">
-            <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="/img/main/2.png" alt="2">
-            <img class="mobile-carousel__image scheme-carousel__img" src="/img/main/jeep.png" alt="jeep">
+            <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="/img/2.png" alt="2">
+            <img class="mobile-carousel__image scheme-carousel__img" src="/img/jeep.png" alt="jeep">
           </div>
           <div class="container">
             <p class="mobile-carousel__text scheme-carousel__text">Специалист выезжает на объект и проводит обследование</p>
@@ -1465,8 +1465,8 @@
       <div class="carousel-item mobile-carousel__item scheme-carousel__item">
         <div class="mobile-carousel__title">
           <div class="scheme-carousel__img-wrapper">
-            <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="/img/main/3.png" alt="3">
-            <img class="mobile-carousel__image scheme-carousel__img" src="/img/main/pesticide.png" alt="pesticide">
+            <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="/img/3.png" alt="3">
+            <img class="mobile-carousel__image scheme-carousel__img" src="/img/pesticide.png" alt="pesticide">
           </div>
           <div class="container">
             <p class="mobile-carousel__text scheme-carousel__text">Выполняются работы по обработке помещений</p>
@@ -1477,8 +1477,8 @@
       <div class="carousel-item mobile-carousel__item scheme-carousel__item">
         <div class="mobile-carousel__title">
           <div class="scheme-carousel__img-wrapper">
-            <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="/img/main/4.png" alt="4">
-            <img class="mobile-carousel__image scheme-carousel__img" src="/img/main/script.png" alt="script">
+            <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="/img/4.png" alt="4">
+            <img class="mobile-carousel__image scheme-carousel__img" src="/img/script.png" alt="script">
           </div>
           <div class="container">
             <p class="mobile-carousel__text scheme-carousel__text">Вы получаете рекомендации</p>
@@ -1489,8 +1489,8 @@
       <div class="carousel-item mobile-carousel__item scheme-carousel__item">
         <div class="mobile-carousel__title">
           <div class="scheme-carousel__img-wrapper">
-            <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="/img/main/5.png" alt="5">
-            <img class="mobile-carousel__image scheme-carousel__img" src="/img/main/search.png" alt="search">
+            <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="/img/5.png" alt="5">
+            <img class="mobile-carousel__image scheme-carousel__img" src="/img/search.png" alt="search">
           </div>
           <div class="container">
             <p class="mobile-carousel__text scheme-carousel__text">Мы контролируем ситуацию на протяжении всего гарантийного срока</p>
@@ -1501,8 +1501,8 @@
       <div class="carousel-item mobile-carousel__item scheme-carousel__item">
         <div class="mobile-carousel__title">
           <div class="scheme-carousel__img-wrapper">
-            <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="/img/main/6.png" alt="6">
-            <img class="mobile-carousel__image scheme-carousel__img" src="/img/main/shield.png" alt="shield">
+            <img class="mobile-carousel__image scheme-carousel__img scheme-carousel__img-num" src="/img/6.png" alt="6">
+            <img class="mobile-carousel__image scheme-carousel__img" src="/img/shield.png" alt="shield">
           </div>
           <div class="container">
             <p class="mobile-carousel__text scheme-carousel__text">Наслаждаетесь жизнью без бактерий, паразитов, насекомых и грызунов</p>
@@ -1531,8 +1531,8 @@
         <div class="col-5">
           <div class="scheme-table__img-wrapper">
             <div class="scheme-table__divider scheme-table__divider-right"></div>
-            <img class="scheme-table__img-num" src="/img/main/1.png" alt="1">
-            <img class="scheme-table__img scheme-table__img-right" src="/img/main/edit.png" alt="edit">
+            <img class="scheme-table__img-num" src="/img/1.png" alt="1">
+            <img class="scheme-table__img scheme-table__img-right" src="/img/edit.png" alt="edit">
           </div>
         </div>
       </div>
@@ -1544,8 +1544,8 @@
         <div class="col-5">
           <div class="scheme-table__img-wrapper">
             <div class="scheme-table__divider"></div>
-            <img class="scheme-table__img-num scheme-table__img-num-left" src="/img/main/2.png" alt="2">
-            <img class="scheme-table__img scheme-table__img-left" src="/img/main/edit.png" alt="edit">
+            <img class="scheme-table__img-num scheme-table__img-num-left" src="/img/2.png" alt="2">
+            <img class="scheme-table__img scheme-table__img-left" src="/img/edit.png" alt="edit">
           </div>
         </div>
         <div class="col-7 d-flex align-items-center justify-content-start schema__table-text">
@@ -1563,8 +1563,8 @@
         <div class="col-5">
           <div class="scheme-table__img-wrapper">
             <div class="scheme-table__divider scheme-table__divider-right"></div>
-            <img class="scheme-table__img-num" src="/img/main/3.png" alt="3">
-            <img class="scheme-table__img scheme-table__img-right" src="/img/main/pesticide.png" alt="pesticide">
+            <img class="scheme-table__img-num" src="/img/3.png" alt="3">
+            <img class="scheme-table__img scheme-table__img-right" src="/img/pesticide.png" alt="pesticide">
           </div>
         </div>
       </div>
@@ -1576,8 +1576,8 @@
         <div class="col-5">
           <div class="scheme-table__img-wrapper">
             <div class="scheme-table__divider"></div>
-            <img class="scheme-table__img-num scheme-table__img-num-left" src="/img/main/4.png" alt="4">
-            <img class="scheme-table__img scheme-table__img-left" src="/img/main/script.png" alt="script">
+            <img class="scheme-table__img-num scheme-table__img-num-left" src="/img/4.png" alt="4">
+            <img class="scheme-table__img scheme-table__img-left" src="/img/script.png" alt="script">
           </div>
         </div>
         <div class="col-7 d-flex align-items-center justify-content-start schema__table-text">
@@ -1595,8 +1595,8 @@
         <div class="col-5">
           <div class="scheme-table__img-wrapper">
             <div class="scheme-table__divider scheme-table__divider-right"></div>
-            <img class="scheme-table__img-num" src="/img/main/5.png" alt="5">
-            <img class="scheme-table__img scheme-table__img-right" src="/img/main/search.png" alt="search">
+            <img class="scheme-table__img-num" src="/img/5.png" alt="5">
+            <img class="scheme-table__img scheme-table__img-right" src="/img/search.png" alt="search">
           </div>
         </div>
       </div>
@@ -1608,8 +1608,8 @@
         <div class="col-5">
           <div class="scheme-table__img-wrapper">
             <div class="scheme-table__divider"></div>
-            <img class="scheme-table__img-num scheme-table__img-num-left" src="/img/main/6.png" alt="6">
-            <img class="scheme-table__img scheme-table__img-left" src="/img/main/shield.png" alt="shield">
+            <img class="scheme-table__img-num scheme-table__img-num-left" src="/img/6.png" alt="6">
+            <img class="scheme-table__img scheme-table__img-left" src="/img/shield.png" alt="shield">
           </div>
         </div>
         <div class="col-7 d-flex align-items-center justify-content-start schema__table-text">
@@ -1738,7 +1738,7 @@
 
 </section>
 
-<section id="causes" class="causes pest-hidden">
+<section id="causes" class="causes causes-main pest-hidden">
   <p class="m-0 p-0">
     <a class="m-0 p-0" name="causes"></a>
   </p>
@@ -1750,7 +1750,7 @@
     <ul class="list-unstyled causes__list">
 
       <li class="causes__item">
-        <img class="causes__img" src="/img/main/point.png" alt="point">
+        <img class="causes__img" src="/img/point.png" alt="point">
         <div class="causes__text">
           <p class="causes__text-title">Индивидуальный подход</p>
           <p class="causes__text-subtitle">
@@ -1760,7 +1760,7 @@
       </li>
 
       <li class="causes__item">
-        <img class="causes__img" src="/img/main/point.png" alt="point">
+        <img class="causes__img" src="/img/point.png" alt="point">
         <div class="causes__text">
           <p class="causes__text-title">Реальные гарантии</p>
           <p class="causes__text-subtitle">
@@ -1770,7 +1770,7 @@
       </li>
 
       <li class="causes__item">
-        <img class="causes__img" src="/img/main/point.png" alt="point">
+        <img class="causes__img" src="/img/point.png" alt="point">
         <div class="causes__text">
           <p class="causes__text-title">Договор</p>
           <p class="causes__text-subtitle">
@@ -1780,7 +1780,7 @@
       </li>
 
       <li class="causes__item">
-        <img class="causes__img" src="/img/main/point.png" alt="point">
+        <img class="causes__img" src="/img/point.png" alt="point">
         <div class="causes__text">
           <p class="causes__text-title">Бесплатная диагностика</p>
           <p class="causes__text-subtitle">
@@ -1790,7 +1790,7 @@
       </li>
 
       <li class="causes__item">
-        <img class="causes__img" src="/img/main/point.png" alt="point">
+        <img class="causes__img" src="/img/point.png" alt="point">
         <div class="causes__text">
           <p class="causes__text-title">Безопасность</p>
           <p class="causes__text-subtitle">
@@ -1800,7 +1800,7 @@
       </li>
 
       <li class="causes__item">
-        <img class="causes__img" src="/img/main/point.png" alt="point">
+        <img class="causes__img" src="/img/point.png" alt="point">
         <div class="causes__text">
           <p class="causes__text-title">Ответственность</p>
           <p class="causes__text-subtitle">
@@ -1810,7 +1810,7 @@
       </li>
 
       <li class="causes__item">
-        <img class="causes__img" src="/img/main/point.png" alt="point">
+        <img class="causes__img" src="/img/point.png" alt="point">
         <div class="causes__text">
           <p class="causes__text-title">Улучшение качества жизни</p>
           <p class="causes__text-subtitle">
@@ -1820,7 +1820,7 @@
       </li>
 
       <li class="causes__item">
-        <img class="causes__img" src="/img/main/point.png" alt="point">
+        <img class="causes__img" src="/img/point.png" alt="point">
         <div class="causes__text">
           <p class="causes__text-title">Профилактика заболеваний</p>
           <p class="causes__text-subtitle">
@@ -1830,7 +1830,7 @@
       </li>
 
       <li class="causes__item">
-        <img class="causes__img" src="/img/main/point.png" alt="point">
+        <img class="causes__img" src="/img/point.png" alt="point">
         <div class="causes__text">
           <p class="causes__text-title">Оперативность</p>
           <p class="causes__text-subtitle">
@@ -1840,7 +1840,7 @@
       </li>
 
       <li class="causes__item">
-        <img class="causes__img" src="/img/main/point.png" alt="point">
+        <img class="causes__img" src="/img/point.png" alt="point">
         <div class="causes__text">
           <p class="causes__text-title">Выгода</p>
           <p class="causes__text-subtitle">

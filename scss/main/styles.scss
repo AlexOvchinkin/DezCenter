@@ -6,18 +6,19 @@
 @import "scss/navigation";
 @import "scss/callback-form";
 @import "scss/small-divider";
+@import "scss/mobile-carousel";
+@import "scss/scheme";
+@import "scss/causes";
 
 // styles
 @import "source/main-carousel";
 @import "source/directions";
-@import "source/mobile-carousel";
 @import "source/equipment";
 @import "source/assistance";
 @import "source/pricing";
-@import "source/work-scheme";
-@import "source/causes";
 @import "source/pest";
 @import "source/modal-form";
+@import "source/causes-main";
 
 .divider {
   width: 100%;

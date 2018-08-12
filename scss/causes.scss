@@ -4,19 +4,7 @@
   color: $main-txt-color;
   background: url("/img/main/causes-bg-big.jpg") no-repeat center;
   background-size: cover;
-  padding: 3rem 0 0 0;
   overflow: hidden;
-
-  @include media-breakpoint-up(lg) {
-    padding-top: 7rem;
-  }
-
-  &.pest-hidden {
-    @include media-breakpoint-up(lg) {
-      margin-top: 3rem;
-      padding-top: 3rem;
-    }
-  }
 }
 
 .causes__container {
@@ -50,7 +38,7 @@
 
 .causes__img {
   display: block;
-  margin: .7rem 1.5rem;
+  margin: 0 1.5rem .7rem 1.5rem;
 }
 
 .causes__text-title {
