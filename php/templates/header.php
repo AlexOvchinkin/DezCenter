@@ -19,6 +19,13 @@
 
 <body>
 
+  <!-- info source for Roistat -->
+  <form id="hidden-form" class="d-none">
+    <input type="text" id="hidden-form__name">
+    <input type="text" id="hidden-form__phone">
+    <button id="hidden-form__btn" type="button">send info</button>
+  </form>
+
   <div class="callback" id="callbackFormWrapperUp">
     <form id="callbackFormUp" class="callback-form d-none">
       <div class="container">
@@ -33,10 +40,12 @@
         </div>
         <div class="row justify-content-center callback-form__data">
           <div class="col-12 my-3">
-            <input type="text" id="clientName_1" class="form-control callback-form__control" placeholder="Как Вас зовут">
+            <small class="d-none callback-form__label-name">не указано имя</small>
+            <input type="text" id="clientName_1" name="name" class="form-control callback-form__control" placeholder="Как Вас зовут">
           </div>
           <div class="col-12 mb-3">
-            <input type="text" id="clientPhone_1" class="form-control callback-form__control" placeholder="Ваш телефон">
+            <small class="d-none callback-form__label-phone">формат +7(ХХХ)ХХХ-ХХ-ХХ</small>
+            <input type="text" id="clientPhone_1" name="phone" class="form-control callback-form__control" placeholder="Ваш телефон">
           </div>
         </div>
         <div class="row callback-form__buttons">

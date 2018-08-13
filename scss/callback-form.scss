@@ -5,6 +5,7 @@
   background-color: $form-bg-color;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .callback-form {
@@ -21,4 +22,10 @@
   font-size: $h5-font-size;
   margin-top: 1rem;
   padding: 0 .5rem;
+}
+
+.callback-form__data {
+  small {
+    color: $green;
+  }
 }

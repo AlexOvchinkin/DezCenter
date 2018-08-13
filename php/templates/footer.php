@@ -25,10 +25,12 @@
         </div>
         <div class="row justify-content-center callback-form__data">
           <div class="col-12 my-3">
-            <input type="text" id="clientName_3" class="form-control callback-form__control" placeholder="Как Вас зовут">
+            <small class="d-none callback-form__label-name">не указано имя</small>
+            <input type="text" id="clientName_3" name="name" class="form-control callback-form__control" placeholder="Как Вас зовут">
           </div>
           <div class="col-12 mb-3">
-            <input type="text" id="clientPhone_3" class="form-control callback-form__control" placeholder="Ваш телефон">
+            <small class="d-none callback-form__label-phone">формат +7(ХХХ)ХХХ-ХХ-ХХ</small>
+            <input type="text" id="clientPhone_3" name="phone" class="form-control callback-form__control" placeholder="Ваш телефон">
           </div>
         </div>
         <div class="row callback-form__buttons">
@@ -74,10 +76,12 @@
           </div>
           <div class="row justify-content-center callback-form__data">
             <div class="col-12 my-3">
-              <input type="text" id="clientName_2" class="form-control callback-form__control" placeholder="Как Вас зовут">
+              <small class="d-none callback-form__label-name">не указано имя</small>
+              <input type="text" id="clientName_2" name="name" class="form-control callback-form__control" placeholder="Как Вас зовут">
             </div>
             <div class="col-12 mb-3">
-              <input type="text" id="clientPhone_2" class="form-control callback-form__control" placeholder="Ваш телефон">
+              <small class="d-none callback-form__label-phone">формат +7(ХХХ)ХХХ-ХХ-ХХ</small>
+              <input type="text" id="clientPhone_2" name="phone" class="form-control callback-form__control" placeholder="Ваш телефон">
             </div>
           </div>
           <div class="row callback-form__buttons">
@@ -102,22 +106,21 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
   crossorigin="anonymous"></script>
 
-<script src="/js/callback-forms.js?1.5"></script>
-<script src="/js/common-scripts.js?1.5"></script>
+<script src="/js/callback-forms.js?1.7"></script>
+<script src="/js/common-scripts.js?1.7"></script>
 
 <?php
   include_once dirname(__DIR__)."/lib/functions.php";
   echo getScript($page);
 ?>
 
-<?php
-/* 
+  <?php
 include_once(dirname(__DIR__)."/analitics/roistat-counter.php"); 
 include_once(dirname(__DIR__)."/analitics/google.php"); 
 include_once(dirname(__DIR__)."/analitics/yandex.php"); 
-*/
+
 ?>
 
-  </body>
+    </body>
 
-  </html>
+    </html>
