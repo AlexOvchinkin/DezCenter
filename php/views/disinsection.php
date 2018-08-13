@@ -6,6 +6,8 @@ getHeader('disinsection');
 
 getTemplate('content-disinsection');
 
+getTemplate('certificates-form');
+
 getFooter('disinsection');
 
 ?>

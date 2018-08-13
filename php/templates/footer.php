@@ -115,10 +115,11 @@
 ?>
 
   <?php
+  /*
 include_once(dirname(__DIR__)."/analitics/roistat-counter.php"); 
 include_once(dirname(__DIR__)."/analitics/google.php"); 
 include_once(dirname(__DIR__)."/analitics/yandex.php"); 
-
+*/
 ?>
 
     </body>

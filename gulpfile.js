@@ -94,11 +94,11 @@ function compileJavascript() {
 
 function compileStyles() {
   return gulp.src(config.src.styles)
-    //.pipe(sourcemaps.init())
+    .pipe(sourcemaps.init())
     .pipe(sass())
     .pipe(prefixer())
     .pipe(cleanCSS())
-    //.pipe(sourcemaps.write())
+    .pipe(sourcemaps.write())
     .pipe(gulp.dest(config.dest.styles))
     .pipe(reload({
       stream: true

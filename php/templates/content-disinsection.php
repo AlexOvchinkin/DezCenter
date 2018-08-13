@@ -678,7 +678,7 @@
 
     <div class="guarantees__slides">
       <div class="guarantees__slider">
-        <div class="guarantees__img-wrapper">
+        <div id="cert-01" class="guarantees__img-wrapper">
           <img class="guarantees__img" src="/img/certificates/01-sm.jpg" alt="first">
         </div>
 
