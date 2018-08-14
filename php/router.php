@@ -20,7 +20,7 @@ class Router {
     $routes = array(
       "disinsection" => __DIR__."/views/disinsection.php",
       "disinfection" => __DIR__."/views/disinfection.php",
-      "deratisation" => __DIR__."/views/deratisation.php"
+      "deratization" => __DIR__."/views/deratization.php"
     );
 
     foreach($routes as $pattern => $path) {

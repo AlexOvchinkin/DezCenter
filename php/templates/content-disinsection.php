@@ -66,14 +66,14 @@
         <div class="col-4">
           <div class="qualities__img-wrapper">
             <div class="qualities__table-divider"></div>
-            <img class="qualities__table-img" src="/img/disinsection/award.png" alt="award">
+            <img class="qualities__table-img" src="/img/disinsection/car.png" alt="car">
           </div>
           <p class="qualities__table-caption">Мастер выезжает через 5 минут после звонка</p>
         </div>
         <div class="col-4">
           <div class="qualities__img-wrapper">
             <div class="qualities__table-divider"></div>
-            <img class="qualities__table-img" src="/img/disinsection/award.png" alt="award">
+            <img class="qualities__table-img" src="/img/disinsection/pig.png" alt="pig">
           </div>
           <p class="qualities__table-caption">Бесплатная диагностика при заказе услуги у нас</p>
         </div>
@@ -82,21 +82,21 @@
         <div class="col-4">
           <div class="qualities__img-wrapper">
             <div class="qualities__table-divider"></div>
-            <img class="qualities__table-img" src="/img/disinsection/award.png" alt="award">
+            <img class="qualities__table-img" src="/img/disinsection/shield.png" alt="shield">
           </div>
           <p class="qualities__table-caption">Только безопасные для человека химвещества</p>
         </div>
         <div class="col-4">
           <div class="qualities__img-wrapper">
             <div class="qualities__table-divider"></div>
-            <img class="qualities__table-img" src="/img/disinsection/award.png" alt="award">
+            <img class="qualities__table-img" src="/img/disinsection/stopwatch.png" alt="stopwatch">
           </div>
           <p class="qualities__table-caption">Работаем оперативно, сводя неудобства к минимуму</p>
         </div>
       </div>
     </div>
   </div>
-  <button class="btn qualities__count-btn">Рассчитать цену</button>
+  <button id="btnMoreInfo" class="btn qualities__count-btn">Рассчитать цену</button>
 </section>
 
 <section class="description">
@@ -1163,7 +1163,7 @@
             <h5 class="card-title kinds__card-title">ДЕРАТИЗАЦИЯ</h5>
             <p class="card-text kinds__card-text">Устраняем любых грызунов за одно посещение объекта. Используем современные методы</p>
           </div>
-          <a href="#" class="btn kinds__btn">УЗНАТЬ ПОДРОБНЕЕ</a>
+          <a href="/deratization" class="btn kinds__btn">УЗНАТЬ ПОДРОБНЕЕ</a>
         </div>
       </div>
     </div>

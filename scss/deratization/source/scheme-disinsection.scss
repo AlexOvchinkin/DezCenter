@@ -1,0 +1,46 @@
+@import "scss/mixins";
+
+.scheme-disinsection {
+  margin-top: 3rem !important;
+
+  .scheme__title {
+    margin-top: 0;
+  }
+
+  .scheme-carousel__item {
+    height: 22rem;
+  }
+
+  .mobile-carousel__text {
+    &.scheme-carousel__text {
+      padding-top: 0;
+  
+      &:last-child {
+        font-weight: $font-weight-normal; 
+      }
+    }
+  }
+
+  .schema__table-text-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    span {
+      &:first-child {
+        font-weight: $font-weight-bold;
+      }
+
+      &:last-child {
+        line-height: 1.1;
+      }
+    }
+  }
+
+  .schema__table-row {
+    height: 11rem;
+  }
+}
+
+.scheme-disinsection__subtitle {
+  @include sectionSubtitle();
+}

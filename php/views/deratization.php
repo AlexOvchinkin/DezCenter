@@ -2,12 +2,12 @@
 
 include_once dirname(__DIR__)."/lib/functions.php";
 
-getHeader('disinfection');
+getHeader('deratization');
 
-getTemplate('content-disinfection');
+getTemplate('content-deratization');
 
 getTemplate('certificates-form');
 
-getFooter('disinfection');
+getFooter('deratization');
 
 ?>

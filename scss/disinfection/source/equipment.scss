@@ -1,0 +1,54 @@
+@import "scss/mixins";
+
+.equipment {
+  padding-top: 3rem;
+  color: $main-txt-color;
+  background-color: $bg-gray;
+  background: linear-gradient(to top, white 0%, white 10%,  $bg-gray 10%, $bg-gray 100%);
+}
+
+.equipment__title {
+  @include sectionTitle();
+}
+
+.equipment__description {
+  text-align: center;
+  font-size: $h4-font-size;
+}
+
+.equipment__carousel {
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+
+.equipment__carousel-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.equipment__control {
+  bottom: -4rem;
+  align-items: flex-end;
+  opacity: 1;
+
+  img {
+    display: block;
+    z-index: 100;
+  }
+
+  &.carousel-control-prev {
+    left: 30%;
+  }
+
+  &.carousel-control-next {
+    right: 30%;
+  }
+}
+
+.equipment__table {
+  margin-top: 3rem;
+}
+
+.equipment__table-img {
+  height: 18rem;
+}

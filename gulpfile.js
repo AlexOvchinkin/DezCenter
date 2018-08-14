@@ -5,9 +5,9 @@ const cleanCSS = require('gulp-clean-css');
 const sourcemaps = require('gulp-sourcemaps');
 const browserSync = require('browser-sync');
 const uglify = require('gulp-uglify');
-var htmlmin = require('gulp-htmlmin');
+const imagemin = require('gulp-imagemin');
 const config = require('./config');
-const merge = require('merge-stream');
+
 
 const reload = browserSync.reload;
 
@@ -17,6 +17,7 @@ const reload = browserSync.reload;
 */
 gulp.task('img', function () {
   return gulp.src(config.src.img)
+    //.pipe(imagemin())
     .pipe(gulp.dest(config.dest.img))
 });
 

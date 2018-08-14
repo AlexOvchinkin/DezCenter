@@ -106,8 +106,8 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
   crossorigin="anonymous"></script>
 
-<script src="/js/callback-forms.js?1.7"></script>
-<script src="/js/common-scripts.js?1.7"></script>
+<script src="/js/callback-forms.js?1.8"></script>
+<script src="/js/common-scripts.js?1.8"></script>
 
 <?php
   include_once dirname(__DIR__)."/lib/functions.php";
