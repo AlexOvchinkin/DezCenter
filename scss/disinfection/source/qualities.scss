@@ -1,7 +1,7 @@
 @import "scss/mixins";
 
 .qualities {
-  background: url("/img/disinsection/qualities-bg-sm.jpg") no-repeat center;
+  background: url("/img/disinfection/qualities-bg-sm.jpg") no-repeat center;
   background-size: cover;
   height: 27rem;
   color: white;
@@ -9,13 +9,13 @@
   position: relative;
 
   @include media-breakpoint-up(md) {
-    background: url("/img/disinsection/qualities-bg-lg.jpg") no-repeat center;
+    background: url("/img/disinfection/qualities-bg-lg.jpg") no-repeat center;
     background-size: cover;
-    height: 52rem;
+    height: 50rem;
   }
 
   @include media-breakpoint-up(lg) {
-    height: 42rem;
+    height: 45rem;
   }
 }
 

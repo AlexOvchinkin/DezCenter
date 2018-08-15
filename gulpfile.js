@@ -17,7 +17,7 @@ const reload = browserSync.reload;
 */
 gulp.task('img', function () {
   return gulp.src(config.src.img)
-    //.pipe(imagemin())
+    .pipe(imagemin())
     .pipe(gulp.dest(config.dest.img))
 });
 
@@ -86,7 +86,7 @@ gulp.task('full', gulp.parallel('img', 'php', 'js', 'styles'));
 */
 function compileJavascript() {
   return gulp.src(config.src.js)
-    //.pipe(uglify())
+    .pipe(uglify())
     .pipe(gulp.dest(config.dest.js))
     .pipe(reload({
       stream: true
@@ -95,11 +95,11 @@ function compileJavascript() {
 
 function compileStyles() {
   return gulp.src(config.src.styles)
-    .pipe(sourcemaps.init())
+    //.pipe(sourcemaps.init())
     .pipe(sass())
     .pipe(prefixer())
     .pipe(cleanCSS())
-    .pipe(sourcemaps.write())
+    //.pipe(sourcemaps.write())
     .pipe(gulp.dest(config.dest.styles))
     .pipe(reload({
       stream: true

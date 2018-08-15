@@ -1,10 +1,14 @@
 @import "scss/mixins";
 
-.scheme-disinsection {
+.scheme-disinfection {
   margin-top: 3rem !important;
 
   .scheme__title {
-    margin-top: 0;
+    margin-top: 7rem;
+
+    @include media-breakpoint-up(md) {
+      margin-top: 3rem;
+    }
   }
 
   .scheme-carousel__item {
@@ -41,6 +45,6 @@
   }
 }
 
-.scheme-disinsection__subtitle {
+.scheme-disinfection__subtitle {
   @include sectionSubtitle();
 }

@@ -1152,7 +1152,7 @@
             <h5 class="card-title kinds__card-title">ДЕЗИНФЕКЦИЯ</h5>
             <p class="card-text kinds__card-text">Проводим комплексную обработку от вирусов, бактерий, грибков, плесени</p>
           </div>
-          <a href="#" class="btn kinds__btn">УЗНАТЬ ПОДРОБНЕЕ</a>
+          <a href="/disinfection" class="btn kinds__btn">УЗНАТЬ ПОДРОБНЕЕ</a>
         </div>
       </div>
 

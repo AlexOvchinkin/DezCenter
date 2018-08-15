@@ -109,10 +109,10 @@
     </p>
 
     <!-- carousel for SM -->
-    <div id="carouselDescription" class="carousel slide carousel-fade d-lg-none description__carousel" data-ride="carousel">
+    <div id="carouselDescription" class="carousel slide carousel-fade d-lg-none description__carousel" data-ride="carousel" data-interval="0">
       <div class="carousel-inner">
         <div class="carousel-item description__carousel-item active">
-          <img class="image-fluid description__carousel-img" src="/img/deratization/cockroaches.jpg" alt="cockroaches">
+          <img class="image-fluid description__carousel-img" src="/img/deratization/mouse_sm.jpg" alt="mouse">
           <div class="carousel-caption description__caption">
             <p class="description__caption-title">Мыши</p>
             <p class="description__caption-text">
@@ -124,7 +124,7 @@
         </div>
 
         <div class="carousel-item description__carousel-item">
-          <img class="image-fluid description__carousel-img" src="/img/deratization/bug.jpg" alt="bug">
+          <img class="image-fluid description__carousel-img" src="/img/deratization/rat_sm.jpg" alt="rat">
           <div class="carousel-caption description__caption">
             <p class="description__caption-title">Крысы</p>
             <p class="description__caption-text">
@@ -136,18 +136,18 @@
         </div>
 
         <div class="carousel-item description__carousel-item">
-          <img class="image-fluid description__carousel-img" src="/img/deratization/ant.jpg" alt="ant">
+          <img class="image-fluid description__carousel-img" src="/img/deratization/vole_sm.jpg" alt="vole">
           <div class="carousel-caption description__caption">
             <p class="description__caption-title">Полевки</p>
             <p class="description__caption-text">
-              С виду безобидные, но наносят немалый ущерб сельскому и домашнему хозяйству. Уничтожим быстрои эффективно.
+              С виду безобидные, но наносят немалый ущерб сельскому и домашнему хозяйству. Уничтожим быстро и эффективно.
             </p>
             <p class="description__caption-price">От 2000 Руб.</p>
           </div>
         </div>
 
         <div class="carousel-item description__carousel-item">
-          <img class="image-fluid description__carousel-img" src="/img/deratization/spider.jpg" alt="spider">
+          <img class="image-fluid description__carousel-img" src="/img/deratization/mole_sm.jpg" alt="mole">
           <div class="carousel-caption description__caption">
             <p class="description__caption-title">Кроты</p>
             <p class="description__caption-text">
@@ -172,7 +172,7 @@
     <div class="d-none d-lg-block description__table">
       <div class="row mb-4">
         <div class="col-6">
-          <div class="description__table-item description__img-cockroach">
+          <div class="description__table-item description__img-mouse">
             <div>
               <p class="description__table-title">Мыши</p>
               <p class="description__table-text">
@@ -184,7 +184,7 @@
           </div>
         </div>
         <div class="col-6">
-          <div class="description__table-item description__img-bug">
+          <div class="description__table-item description__img-rat">
             <div>
               <p class="description__table-title">Крысы</p>
               <p class="description__table-text">
@@ -199,18 +199,18 @@
 
       <div class="row">
         <div class="col-6">
-          <div class="description__table-item description__img-ant">
+          <div class="description__table-item description__img-vole">
             <div>
               <p class="description__table-title">Полевки</p>
               <p class="description__table-text">
-                С виду безобидные, но наносят немалый ущерб сельскому и домашнему хозяйству. Уничтожим быстрои эффективно.
+                С виду безобидные, но наносят немалый ущерб сельскому и домашнему хозяйству. Уничтожим быстро и эффективно.
               </p>
             </div>
             <p class="description__table-price">От 2000 Руб.</p>
           </div>
         </div>
         <div class="col-6">
-          <div class="description__table-item description__img-spider">
+          <div class="description__table-item description__img-mole">
             <div>
               <p class="description__table-title">Кроты</p>
               <p class="description__table-text">

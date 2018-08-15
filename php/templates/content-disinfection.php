@@ -1,7 +1,7 @@
 <section class="qualities">
   <div class="container">
     <p class="qualities__title">
-      Избавим ваш дом, офис, ресторан от надоедливых насекомых за одну обработку.
+      Проводим дезинфекцию и дезодорацию любого помещения
     </p>
     <p class="qualities__subtitle">
       ОТ 1500 РУБ. С ВЫЕЗДОМ В ДЕНЬ ЗАЯВКИ
@@ -11,45 +11,45 @@
       <div class="carousel-inner qualities__items-wrapper">
         <div class="carousel-item qualities__item active">
           <div class="qualities__divider"></div>
-          <img class="qualities__img" src="/img/disinsection/award.png" alt="award">
+          <img class="qualities__img" src="/img/disinfection/award.png" alt="award">
           <div class="carousel-caption qualities__caption qualities__caption-short">
-            <p class="qualities__caption">Гарантия на работу до 3х лет</p>
+            <p class="qualities__caption">Следим за инновациями</p>
           </div>
         </div>
         <div class="carousel-item qualities__item">
           <div class="qualities__divider"></div>
-          <img class="qualities__img" src="/img/disinsection/car.png" alt="car">
+          <img class="qualities__img" src="/img/disinfection/award.png" alt="award">
           <div class="carousel-caption qualities__caption">
-            <p class="qualities__caption">Мастер выезжает через 5 минут после звонка</p>
+            <p class="qualities__caption">Более 5000 завершенных объектов</p>
           </div>
         </div>
         <div class="carousel-item qualities__item">
           <div class="qualities__divider"></div>
-          <img class="qualities__img" src="/img/disinsection/pig.png" alt="pig">
+          <img class="qualities__img" src="/img/disinfection/award.png" alt="award">
           <div class="carousel-caption qualities__caption">
-            <p class="qualities__caption">Бесплатная диагностика при заказе услуги у нас</p>
+            <p class="qualities__caption">Работаем с физическими и юридическими лицами</p>
           </div>
         </div>
         <div class="carousel-item qualities__item">
           <div class="qualities__divider"></div>
-          <img class="qualities__img" src="/img/disinsection/shield.png" alt="shield">
+          <img class="qualities__img" src="/img/disinfection/award.png" alt="award">
           <div class="carousel-caption qualities__caption">
-            <p class="qualities__caption">Только безопасные для человека химвещества</p>
+            <p class="qualities__caption">Бесплатные консультации по подготовке помещения</p>
           </div>
         </div>
         <div class="carousel-item qualities__item">
           <div class="qualities__divider"></div>
-          <img class="qualities__img" src="/img/disinsection/stopwatch.png" alt="stopwatch">
+          <img class="qualities__img" src="/img/disinfection/award.png" alt="award">
           <div class="carousel-caption qualities__caption qualities__caption-wide">
-            <p class="qualities__caption">Работаем оперативно, сводя неудобства к минимуму</p>
+            <p class="qualities__caption">У каждого мастера многолетний опыт</p>
           </div>
         </div>
       </div>
       <a class="carousel-control-prev qualities__control" href="#qualitiesCarousel" role="button" data-slide="prev">
-        <img src="/img/disinsection/left-arrow.png" alt="arrow">
+        <img src="/img/disinfection/left-arrow.png" alt="arrow">
       </a>
       <a class="carousel-control-next qualities__control" href="#qualitiesCarousel" role="button" data-slide="next">
-        <img src="/img/disinsection/right-arrow.png" alt="arrow">
+        <img src="/img/disinfection/right-arrow.png" alt="arrow">
       </a>
     </div>
 
@@ -59,39 +59,39 @@
         <div class="col-4">
           <div class="qualities__img-wrapper">
             <div class="qualities__table-divider"></div>
-            <img class="qualities__table-img" src="/img/disinsection/award.png" alt="award">
+            <img class="qualities__table-img" src="/img/disinfection/award.png" alt="award">
           </div>
-          <p class="qualities__table-caption">Гарантия на работу до 3х лет</p>
+          <p class="qualities__table-caption">Следим за инновациями в сфере дезинфектологии</p>
         </div>
         <div class="col-4">
           <div class="qualities__img-wrapper">
             <div class="qualities__table-divider"></div>
-            <img class="qualities__table-img" src="/img/disinsection/award.png" alt="award">
+            <img class="qualities__table-img" src="/img/disinfection/award.png" alt="award">
           </div>
-          <p class="qualities__table-caption">Мастер выезжает через 5 минут после звонка</p>
+          <p class="qualities__table-caption">Более 5000 завершенных объектов</p>
         </div>
         <div class="col-4">
           <div class="qualities__img-wrapper">
             <div class="qualities__table-divider"></div>
-            <img class="qualities__table-img" src="/img/disinsection/award.png" alt="award">
+            <img class="qualities__table-img" src="/img/disinfection/award.png" alt="award">
           </div>
-          <p class="qualities__table-caption">Бесплатная диагностика при заказе услуги у нас</p>
+          <p class="qualities__table-caption">Работаем с физическими и юридическими лицами</p>
         </div>
       </div>
       <div class="row justify-content-center">
         <div class="col-4">
           <div class="qualities__img-wrapper">
             <div class="qualities__table-divider"></div>
-            <img class="qualities__table-img" src="/img/disinsection/award.png" alt="award">
+            <img class="qualities__table-img" src="/img/disinfection/award.png" alt="award">
           </div>
-          <p class="qualities__table-caption">Только безопасные для человека химвещества</p>
+          <p class="qualities__table-caption">Бесплатные консультации по подготовке помещения для обработки</p>
         </div>
         <div class="col-4">
           <div class="qualities__img-wrapper">
             <div class="qualities__table-divider"></div>
-            <img class="qualities__table-img" src="/img/disinsection/award.png" alt="award">
+            <img class="qualities__table-img" src="/img/disinfection/award.png" alt="award">
           </div>
-          <p class="qualities__table-caption">Работаем оперативно, сводя неудобства к минимуму</p>
+          <p class="qualities__table-caption">У каждого мастера многолетний опыт</p>
         </div>
       </div>
     </div>
@@ -101,72 +101,70 @@
 
 <section class="description">
   <div class="container">
-    <p class="description__title">ВАШ ДОМ ПРИНАДЛЕЖИТ ТОЛЬКО ВАМ!</p>
+    <p class="description__title">УСТРАНЕНИЕ ПЛЕСЕНИ, ГРИБКОВ, ЗАПАХОВ - НАСТУПЛЕНИЕ ПО ВСЕМ ФРОНТАМ!</p>
     <div class="small-divider"></div>
-    <p class="description__text">Мы понимаем, насколько серьезно насекомые отравляют жизнь. Используем действенные методы, которые позволяют забыть о
-      неприятных «гостях» навсегда.
-    </p>
-    <p class="description__text">Применяем метод холодного тумана для распыления средств и препаратов в виде мелкодисперсной смеси. Действующее вещество
-      проникает даже в самые труднодоступные места: углы, закрытые поверхности и т. д. Гарантируем абсолютное истребление
-      насекомых.
+    <p class="description__text">
+      Проводим дезинфекцию и дезодорацию самыми эффективными методами: генератором холодного тумана, мощным ультрафиолетовым излучателем,
+      а также методами распыления и кварцевания. Подбираем оптимальный способ или их комбинацию, в зависимости от Вашей ситуации.
+      Устраняем абсолютно все виды патогенных микроорганизмов и любые запахи.
     </p>
 
     <!-- carousel for SM -->
     <div id="carouselDescription" class="carousel slide carousel-fade d-lg-none description__carousel" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item description__carousel-item active">
-          <img class="image-fluid description__carousel-img" src="/img/disinsection/cockroaches.jpg" alt="cockroaches">
+          <img class="image-fluid description__carousel-img" src="/img/disinfection/virus_1.jpg" alt="virus">
           <div class="carousel-caption description__caption">
-            <p class="description__caption-title">Тараканы</p>
+            <p class="description__caption-title">Вирусы</p>
             <p class="description__caption-text">
-              Самые распространенные насекомые, которые селятся и у чистоплотных хозяев. Устраним даже самых живучих.
+              Проводим дезинфекцию в больницах, детских учреждениях, квартирах и домах - при наличии зараженных людей, после перенесенных
+              заболеваний, в зонах повышенного риска и т.д.
             </p>
-            <p class="description__caption-price">От 1500 Руб.</p>
+            <p class="description__caption-price">От 2500 Руб.</p>
           </div>
         </div>
 
         <div class="carousel-item description__carousel-item">
-          <img class="image-fluid description__carousel-img" src="/img/disinsection/bug.jpg" alt="bug">
+          <img class="image-fluid description__carousel-img" src="/img/disinfection/gribok_1.jpg" alt="gribok">
           <div class="carousel-caption description__caption">
-            <p class="description__caption-title">Клопы</p>
+            <p class="description__caption-title">Грибки</p>
             <p class="description__caption-text">
-              Живут в щелях, трещинах, сгибах мягкой мебели. Их почти невозможно вытравить собственными силами. Поможем в борьбе и выиграем
-              ее.
+              Полностью выводим грибки и споры, которые могут появиться в любом помещении. Чаще всего им подвержены ванные комнаты, бани,
+              душевые, дачи и т.д.
             </p>
-            <p class="description__caption-price">От 1500 Руб.</p>
+            <p class="description__caption-price">От 2500 Руб.</p>
           </div>
         </div>
 
         <div class="carousel-item description__carousel-item">
-          <img class="image-fluid description__carousel-img" src="/img/disinsection/ant.jpg" alt="ant">
+          <img class="image-fluid description__carousel-img" src="/img/disinfection/plesen_1.jpg" alt="plesen">
           <div class="carousel-caption description__caption">
-            <p class="description__caption-title">Муравьи</p>
+            <p class="description__caption-title">Плесень</p>
             <p class="description__caption-text">
-              При распространении начинают ползать буквально везде, в том числе на пищевых продуктах. Подберем правильные средства, которые
-              сразу уничтожат колонии.
+              Патогенные микрооганизмы, которые селятся в домах, квартирах, магазинах, складах. Уничтожим плесень полностью и предовратим
+              ее появление в будущем.
             </p>
-            <p class="description__caption-price">От 1500 Руб.</p>
+            <p class="description__caption-price">От 2500 Руб.</p>
           </div>
         </div>
 
         <div class="carousel-item description__carousel-item">
-          <img class="image-fluid description__carousel-img" src="/img/disinsection/spider.jpg" alt="spider">
+          <img class="image-fluid description__carousel-img" src="/img/disinfection/smell_sm.jpg" alt="smell">
           <div class="carousel-caption description__caption">
-            <p class="description__caption-title">Пауки</p>
+            <p class="description__caption-title">Неприятные запахи</p>
             <p class="description__caption-text">
-              На первый взгляд безобидные, они наносят сильный вред — переносят инфекции и бактерии, причиняют психологический дискомфорт.
-              Уничтожим даже самые многочисленные поселения пауков.
+              Решим проблему даже в самом запущенном случае. От специфичного и въевшегося запаха не останется и следа.
             </p>
-            <p class="description__caption-price">От 1500 Руб.</p>
+            <p class="description__caption-price">От 2500 Руб.</p>
           </div>
         </div>
       </div>
       <a class="carousel-control-prev description__control" href="#carouselDescription" role="button" data-slide="prev">
-        <img src="/img/disinsection/prev.png" alt="prev">
+        <img src="/img/disinfection/prev.png" alt="prev">
         <span class="sr-only">Previous</span>
       </a>
       <a class="carousel-control-next description__control" href="#carouselDescription" role="button" data-slide="next">
-        <img src="/img/disinsection/next.png" alt="next">
+        <img src="/img/disinfection/next.png" alt="next">
         <span class="sr-only">Next</span>
       </a>
     </div>
@@ -175,143 +173,68 @@
     <div class="d-none d-lg-block description__table">
       <div class="row mb-4">
         <div class="col-6">
-          <div class="description__table-item description__img-cockroach">
+          <div class="description__table-item description__img-virus">
             <div>
-              <p class="description__table-title">Тараканы</p>
+              <p class="description__table-title">Вирусы</p>
               <p class="description__table-text">
-                Самые распространенные насекомые, которые селятся и у чистоплотных хозяев. Устраним даже самых живучих.
+                Проводим дезинфекцию в больницах, детских учреждениях, квартирах и домах - при наличии зараженных людей, после перенесенных
+                заболеваний, в зонах повышенного риска и т.д.
               </p>
             </div>
-            <p class="description__table-price">От 1500 Руб.</p>
+            <p class="description__table-price">От 2500 Руб.</p>
           </div>
         </div>
         <div class="col-6">
-          <div class="description__table-item description__img-bug">
+          <div class="description__table-item description__img-fungus">
             <div>
-              <p class="description__table-title">Клопы</p>
+              <p class="description__table-title">Грибки</p>
               <p class="description__table-text">
-                Живут в щелях, трещинах, сгибах мягкой мебели. Их почти невозможно вытравить собственными силами. Поможем в борьбе и выиграем
-                ее.
+                Полностью выводим грибки и споры, которые могут появиться в любом помещении. Чаще всего им подвержены ванные комнаты, бани,
+                душевые, дачи и т.д.
               </p>
             </div>
-            <p class="description__table-price">От 1500 Руб.</p>
+            <p class="description__table-price">От 2500 Руб.</p>
           </div>
         </div>
       </div>
 
       <div class="row">
         <div class="col-6">
-          <div class="description__table-item description__img-ant">
+          <div class="description__table-item description__img-mold">
             <div>
-              <p class="description__table-title">Муравьи</p>
+              <p class="description__table-title">Плесень</p>
               <p class="description__table-text">
-                При распространении начинают ползать буквально везде, в том числе на пищевых продуктах. Подберем правильные средства, которые
-                сразу уничтожат колонии.
+                Патогенные микрооганизмы, которые селятся в домах, квартирах, магазинах, складах. Уничтожим плесень полностью и предовратим
+                ее появление в будущем.
               </p>
             </div>
-            <p class="description__table-price">От 1500 Руб.</p>
+            <p class="description__table-price">От 2500 Руб.</p>
           </div>
         </div>
         <div class="col-6">
-          <div class="description__table-item description__img-spider">
+          <div class="description__table-item description__img-smell">
             <div>
-              <p class="description__table-title">Пауки</p>
+              <p class="description__table-title">Неприятные запахи</p>
               <p class="description__table-text">
-                На первый взгляд безобидные, они наносят сильный вред — переносят инфекции и бактерии, причиняют психологический дискомфорт.
-                Уничтожим даже самые многочисленные поселения пауков.
+                Решим проблему даже в самом запущенном случае. От специфичного и въевшегося запаха не останется и следа.
               </p>
             </div>
-            <p class="description__table-price">От 1500 Руб.</p>
+            <p class="description__table-price">От 2500 Руб.</p>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="collapse" id="collapseInsects">
-      <div class="row list-unstyled description__collapse-list">
-        <div class="col-12 col-md-4 col-lg-3 description__collapse-item">
-          <img class="description__collapse-img" src="/img/disinsection/point.png" alt="point">
-          <p class="description__collapse-text">Мухи</p>
-        </div>
-
-        <div class="col-12 col-md-4 col-lg-3 description__collapse-item">
-          <img class="description__collapse-img" src="/img/disinsection/point.png" alt="point">
-          <p class="description__collapse-text">Чешуйницы</p>
-        </div>
-
-        <div class="col-12 col-md-4 col-lg-3 description__collapse-item">
-          <img class="description__collapse-img" src="/img/disinsection/point.png" alt="point">
-          <p class="description__collapse-text">Мокрицы</p>
-        </div>
-
-        <div class="col-12 col-md-4 col-lg-3 description__collapse-item">
-          <img class="description__collapse-img" src="/img/disinsection/point.png" alt="point">
-          <p class="description__collapse-text">Блохи</p>
-        </div>
-
-        <div class="col-12 col-md-4 col-lg-3 description__collapse-item">
-          <img class="description__collapse-img" src="/img/disinsection/point.png" alt="point">
-          <p class="description__collapse-text">Клещи</p>
-        </div>
-
-        <div class="col-12 col-md-4 col-lg-3 description__collapse-item">
-          <img class="description__collapse-img" src="/img/disinsection/point.png" alt="point">
-          <p class="description__collapse-text">Комары</p>
-        </div>
-
-        <div class="col-12 col-md-4 col-lg-3 description__collapse-item">
-          <img class="description__collapse-img" src="/img/disinsection/point.png" alt="point">
-          <p class="description__collapse-text">Осы</p>
-        </div>
-
-        <div class="col-12 col-md-4 col-lg-3 description__collapse-item">
-          <img class="description__collapse-img" src="/img/disinsection/point.png" alt="point">
-          <p class="description__collapse-text">Пчелы</p>
-        </div>
-
-        <div class="col-12 col-md-4 col-lg-3 description__collapse-item">
-          <img class="description__collapse-img" src="/img/disinsection/point.png" alt="point">
-          <p class="description__collapse-text">Шершни</p>
-        </div>
-
-        <div class="col-12 col-md-4 col-lg-3 description__collapse-item">
-          <img class="description__collapse-img" src="/img/disinsection/point.png" alt="point">
-          <p class="description__collapse-text">Слепни</p>
-        </div>
-
-        <div class="col-12 col-md-4 col-lg-3 description__collapse-item">
-          <img class="description__collapse-img" src="/img/disinsection/point.png" alt="point">
-          <p class="description__collapse-text">Сороконожки</p>
-        </div>
-
-        <div class="col-12 col-md-4 col-lg-3 description__collapse-item">
-          <img class="description__collapse-img" src="/img/disinsection/point.png" alt="point">
-          <p class="description__collapse-text">Майские жуки</p>
-        </div>
-
-        <div class="col-12 description__collapse-item">
-          <img class="description__collapse-img" src="/img/disinsection/point.png" alt="point">
-          <p class="description__collapse-text">И еще 15+ разновидностей насекомых</p>
-        </div>
-
-      </div>
-
-    </div>
-    <button class="btn description__collapse-btn" type="button" data-toggle="collapse" data-target="#collapseInsects" aria-expanded="false"
-      aria-controls="collapseInsects">
-      Еще 10+ категорий
-    </button>
   </div>
 </section>
 
 <section class="rooms">
   <div class="container">
     <p class="rooms__title">
-      В ТАКИХ ПОМЕЩЕНИЯХ РАБОТАЕМ ЧАЩЕ ВСЕГО
+      ОЧИСТИМ ЛЮБОЕ ПОМЕЩЕНИЕ
     </p>
     <div class="small-divider"></div>
     <p class="rooms__subtitle">
-      За годы работы сталкивались с насекомыми в самых разных помещениях:
+      Не ставим ограничений по местам обработки. Помогаем всегда и везде:
     </p>
 
     <!-- for mobile resolution -->
@@ -319,89 +242,99 @@
       <div class="carousel-inner">
         <div class="carousel-item p-1 active">
           <div class="card shadow-sm rooms__card">
-            <img class="card-img-top rooms__card-img" src="/img/disinsection/apartment.png" alt="apartment">
+            <img class="card-img-top rooms__card-img" src="/img/disinfection/flat_dsf.png" alt="flat">
             <div class="card-body rooms__card-body">
               <div>
                 <h5 class="card-title rooms__card-title">Квартиры</h5>
-                <p class="card-text rooms__card-text">Проводим обработку, которая не повреждает предметы интерьера. При этом эффект быстрый и стойкий.</p>
+                <p class="card-text rooms__card-text">
+                  Обрабатываем квартиры любой площади безопасными для жильцов средствами. Выезд и процедуры не отнимают много времени.
+                </p>
               </div>
-              <h5 class="card-title rooms__card-title">От 1700 руб.</h5>
+              <h5 class="card-title rooms__card-title">От 2500 руб.</h5>
             </div>
           </div>
         </div>
 
         <div class="carousel-item p-1">
           <div class="card shadow-sm rooms__card">
-            <img class="card-img-top rooms__card-img" src="/img/disinsection/house.png" alt="house">
+            <img class="card-img-top rooms__card-img" src="/img/disinfection/house_dsf.png" alt="house">
             <div class="card-body rooms__card-body">
               <div>
                 <h5 class="card-title rooms__card-title">Дома</h5>
-                <p class="card-text rooms__card-text">Уничтожаем насекомых в частных домах любой площади. Гарантируем безопасность и 100% результат.</p>
+                <p class="card-text rooms__card-text">
+                  Выезжаем в частные дома, дачи до 250 км от МКАД. Проводим качественную обработку со стойким эффектом.
+                </p>
               </div>
-              <h5 class="card-title rooms__card-title">От 65 руб./ метр</h5>
+              <h5 class="card-title rooms__card-title">От 3000 руб.</h5>
             </div>
           </div>
         </div>
 
         <div class="carousel-item p-1">
           <div class="card shadow-sm rooms__card">
-            <img class="card-img-top rooms__card-img" src="/img/disinsection/company.png" alt="company">
+            <img class="card-img-top rooms__card-img" src="/img/disinfection/garage_dsf.png" alt="garage">
             <div class="card-body rooms__card-body">
               <div>
-                <h5 class="card-title rooms__card-title">Офисы</h5>
-                <p class="card-text rooms__card-text">Зачастую паразиты селятся в офисных помещениях, нарушая нормальный рабочий процесс. Решим проблему полностью.</p>
+                <h5 class="card-title rooms__card-title">Автомобили</h5>
+                <p class="card-text rooms__card-text">
+                  Устраним все микроорганизмы, бактерии и любые запахи в легковой и грузовой машине.
+                </p>
               </div>
-              <h5 class="card-title rooms__card-title">От 70 руб./ метр</h5>
+              <h5 class="card-title rooms__card-title">От 2500 руб.</h5>
             </div>
           </div>
         </div>
 
         <div class="carousel-item p-1">
           <div class="card shadow-sm rooms__card">
-            <img class="card-img-top rooms__card-img" src="/img/disinsection/company_2.png" alt="company">
+            <img class="card-img-top rooms__card-img" src="/img/disinfection/company_dsf.png" alt="company">
             <div class="card-body rooms__card-body">
               <div>
                 <h5 class="card-title rooms__card-title">Производственные помещения</h5>
-                <p class="card-text rooms__card-text">Уничтожим даже смешанные колонии паразитов. Проведем дезинсекцию в помещениях от 100 кв.м.</p>
+                <p class="card-text rooms__card-text">
+                  Качественная комплексная обработка без вреда для продуктов питания и людей.
+                </p>
               </div>
-              <h5 class="card-title rooms__card-title">Цена договорная</h5>
+              <h5 class="card-title rooms__card-title">От 3000 руб.</h5>
             </div>
           </div>
         </div>
 
         <div class="carousel-item p-1">
           <div class="card shadow-sm rooms__card">
-            <img class="card-img-top rooms__card-img" src="/img/disinsection/coffee-shop.png" alt="coffee-shop">
+            <img class="card-img-top rooms__card-img" src="/img/disinfection/hospital_dsf.png" alt="hospital_dsf">
             <div class="card-body rooms__card-body">
               <div>
-                <h5 class="card-title rooms__card-title">Рестораны и кафе</h5>
-                <p class="card-text rooms__card-text">Проведем обеззараживание вашего заведения, подготовим к проверкам. Повысим вашу репутацию.</p>
+                <h5 class="card-title rooms__card-title">Медицинские учреждения</h5>
+                <p class="card-text rooms__card-text">
+                  Обеспечим абсолютную стерильность помещения с помощью комбинации эффективных методов.
+                </p>
               </div>
-              <h5 class="card-title rooms__card-title">От 70 руб./ метр</h5>
+              <h5 class="card-title rooms__card-title">От 2000 руб.</h5>
             </div>
           </div>
         </div>
 
         <div class="carousel-item p-1">
           <div class="card shadow-sm rooms__card">
-            <img class="card-img-top rooms__card-img" src="/img/disinsection/real-estate.png" alt="real-estate">
+            <img class="card-img-top rooms__card-img" src="/img/disinfection/kindergarten_dsf.png" alt="kindergarten">
             <div class="card-body rooms__card-body">
               <div>
-                <h5 class="card-title rooms__card-title">Любые другие помещения</h5>
-                <p class="card-text rooms__card-text">Выезжаем на самые разные объекты. Помогаем всем, кто нуждается в устранении вредителей и паразитов.</p>
+                <h5 class="card-title rooms__card-title">Бассейны и любые помещения</h5>
+                <p class="card-text rooms__card-text">Проведем полную дезинфекцию, после которой будет кристальная чистота.</p>
               </div>
-              <h5 class="card-title rooms__card-title">От 70 руб./ метр</h5>
+              <h5 class="card-title rooms__card-title">От 1500 руб.</h5>
             </div>
           </div>
         </div>
       </div>
 
       <a class="carousel-control-prev rooms__control" href="#carouselRooms" role="button" data-slide="prev">
-        <img src="/img/disinsection/prev.png" alt="next">
+        <img src="/img/disinfection/prev.png" alt="next">
         <span class="sr-only">Previous</span>
       </a>
       <a class="carousel-control-next rooms__control" href="#carouselRooms" role="button" data-slide="next">
-        <img src="/img/disinsection/next.png" alt="next">
+        <img src="/img/disinfection/next.png" alt="next">
         <span class="sr-only">Next</span>
       </a>
     </div>
@@ -412,39 +345,45 @@
       <div class="row">
         <div class="col-6 col-lg-4">
           <div class="card shadow-sm rooms__card">
-            <img class="card-img-top rooms__card-img" src="/img/disinsection/apartment.png" alt="apartment">
+            <img class="card-img-top rooms__card-img" src="/img/disinfection/flat_dsf.png" alt="flat">
             <div class="card-body rooms__card-body">
               <div>
                 <h5 class="card-title rooms__card-title">Квартиры</h5>
-                <p class="card-text rooms__card-text">Проводим обработку, которая не повреждает предметы интерьера. При этом эффект быстрый и стойкий.</p>
+                <p class="card-text rooms__card-text">
+                  Обрабатываем квартиры любой площади безопасными для жильцов средствами. Выезд и процедуры не отнимают много времени.
+                </p>
               </div>
-              <h5 class="card-title rooms__card-title">От 1700 руб.</h5>
+              <h5 class="card-title rooms__card-title">От 2500 руб.</h5>
             </div>
           </div>
         </div>
 
         <div class="col-6 col-lg-4">
           <div class="card shadow-sm rooms__card">
-            <img class="card-img-top rooms__card-img" src="/img/disinsection/house.png" alt="house">
+            <img class="card-img-top rooms__card-img" src="/img/disinfection/house_dsf.png" alt="house">
             <div class="card-body rooms__card-body">
               <div>
                 <h5 class="card-title rooms__card-title">Дома</h5>
-                <p class="card-text rooms__card-text">Уничтожаем насекомых в частных домах любой площади. Гарантируем безопасность и 100% результат.</p>
+                <p class="card-text rooms__card-text">
+                  Выезжаем в частные дома, дачи до 250 км от МКАД. Проводим качественную обработку со стойким эффектом.
+                </p>
               </div>
-              <h5 class="card-title rooms__card-title">От 65 руб./ метр</h5>
+              <h5 class="card-title rooms__card-title">От 3000 руб.</h5>
             </div>
           </div>
         </div>
 
         <div class="d-none d-lg-block col-lg-4">
           <div class="card shadow-sm rooms__card">
-            <img class="card-img-top rooms__card-img" src="/img/disinsection/company.png" alt="company">
+            <img class="card-img-top rooms__card-img" src="/img/disinfection/garage_dsf.png" alt="garage">
             <div class="card-body rooms__card-body">
               <div>
-                <h5 class="card-title rooms__card-title">Офисы</h5>
-                <p class="card-text rooms__card-text">Зачастую паразиты селятся в офисных помещениях, нарушая нормальный рабочий процесс. Решим проблему полностью.</p>
+                <h5 class="card-title rooms__card-title">Автомобили</h5>
+                <p class="card-text rooms__card-text">
+                  Устраним все микроорганизмы, бактерии и любые запахи в легковой и грузовой машине.
+                </p>
               </div>
-              <h5 class="card-title rooms__card-title">От 70 руб./ метр</h5>
+              <h5 class="card-title rooms__card-title">От 2500 руб.</h5>
             </div>
           </div>
         </div>
@@ -453,52 +392,60 @@
       <div class="row mt-4">
         <div class="d-lg-none col-md-6">
           <div class="card shadow-sm rooms__card">
-            <img class="card-img-top rooms__card-img" src="/img/disinsection/company.png" alt="company">
+            <img class="card-img-top rooms__card-img" src="/img/disinfection/garage_dsf.png" alt="garage">
             <div class="card-body rooms__card-body">
               <div>
-                <h5 class="card-title rooms__card-title">Офисы</h5>
-                <p class="card-text rooms__card-text">Зачастую паразиты селятся в офисных помещениях, нарушая нормальный рабочий процесс. Решим проблему полностью.</p>
+                <h5 class="card-title rooms__card-title">Автомобили</h5>
+                <p class="card-text rooms__card-text">
+                  Устраним все микроорганизмы, бактерии и любые запахи в легковой и грузовой машине.
+                </p>
               </div>
-              <h5 class="card-title rooms__card-title">От 70 руб./ метр</h5>
+              <h5 class="card-title rooms__card-title">От 2500 руб.</h5>
             </div>
           </div>
         </div>
 
         <div class="col-6 col-lg-4">
           <div class="card shadow-sm rooms__card">
-            <img class="card-img-top rooms__card-img" src="/img/disinsection/company_2.png" alt="company">
+            <img class="card-img-top rooms__card-img" src="/img/disinfection/company_dsf.png" alt="company">
             <div class="card-body rooms__card-body">
               <div>
                 <h5 class="card-title rooms__card-title">Производственные помещения</h5>
-                <p class="card-text rooms__card-text">Уничтожим даже смешанные колонии паразитов. Проведем дезинсекцию в помещениях от 100 кв.м.</p>
+                <p class="card-text rooms__card-text">
+                  Качественная комплексная обработка без вреда для продуктов питания и людей.
+                </p>
               </div>
-              <h5 class="card-title rooms__card-title">Цена договорная</h5>
+              <h5 class="card-title rooms__card-title">От 3000 руб.</h5>
             </div>
           </div>
         </div>
 
         <div class="d-none d-lg-block col-lg-4">
           <div class="card shadow-sm rooms__card">
-            <img class="card-img-top rooms__card-img" src="/img/disinsection/coffee-shop.png" alt="coffee-shop">
+            <img class="card-img-top rooms__card-img" src="/img/disinfection/hospital_dsf.png" alt="hospital">
             <div class="card-body rooms__card-body">
               <div>
-                <h5 class="card-title rooms__card-title">Рестораны и кафе</h5>
-                <p class="card-text rooms__card-text">Проведем обеззараживание вашего заведения, подготовим к проверкам. Повысим вашу репутацию.</p>
+                <h5 class="card-title rooms__card-title">Медицинские учреждения</h5>
+                <p class="card-text rooms__card-text">
+                  Обеспечим абсолютную стерильность помещения с помощью комбинации эффективных методов.
+                </p>
               </div>
-              <h5 class="card-title rooms__card-title">От 70 руб./ метр</h5>
+              <h5 class="card-title rooms__card-title">От 3000 руб.</h5>
             </div>
           </div>
         </div>
 
         <div class="d-none d-lg-block col-lg-4">
           <div class="card shadow-sm rooms__card">
-            <img class="card-img-top rooms__card-img" src="/img/disinsection/real-estate.png" alt="real-estate">
+            <img class="card-img-top rooms__card-img" src="/img/disinfection/kindergarten_dsf.png" alt="kindergarten">
             <div class="card-body rooms__card-body">
               <div>
-                <h5 class="card-title rooms__card-title">Любые другие помещения</h5>
-                <p class="card-text rooms__card-text">Выезжаем на самые разные объекты. Помогаем всем, кто нуждается в устранении вредителей и паразитов.</p>
+                <h5 class="card-title rooms__card-title">Бассейны и любые помещения</h5>
+                <p class="card-text rooms__card-text">
+                  Проведем полную дезинфекцию, после которой будет кристальная чистота.
+                </p>
               </div>
-              <h5 class="card-title rooms__card-title">От 70 руб./ метр</h5>
+              <h5 class="card-title rooms__card-title">От 1500 руб.</h5>
             </div>
           </div>
         </div>
@@ -507,26 +454,30 @@
       <div class="row mt-4 d-lg-none">
         <div class="col-6">
           <div class="card shadow-sm rooms__card">
-            <img class="card-img-top rooms__card-img" src="/img/disinsection/coffee-shop.png" alt="coffee-shop">
+            <img class="card-img-top rooms__card-img" src="/img/disinfection/hospital_dsf.png" alt="hospital">
             <div class="card-body rooms__card-body">
               <div>
-                <h5 class="card-title rooms__card-title">Рестораны и кафе</h5>
-                <p class="card-text rooms__card-text">Проведем обеззараживание вашего заведения, подготовим к проверкам. Повысим вашу репутацию.</p>
+                <h5 class="card-title rooms__card-title">Медицинские учреждения</h5>
+                <p class="card-text rooms__card-text">
+                  Обеспечим абсолютную стерильность помещения с помощью комбинации эффективных методов.
+                </p>
               </div>
-              <h5 class="card-title rooms__card-title">От 70 руб./ метр</h5>
+              <h5 class="card-title rooms__card-title">От 3000 руб.</h5>
             </div>
           </div>
         </div>
 
         <div class="col-6">
           <div class="card shadow-sm rooms__card">
-            <img class="card-img-top rooms__card-img" src="/img/disinsection/real-estate.png" alt="real-estate">
+            <img class="card-img-top rooms__card-img" src="/img/disinfection/kindergarten_dsf.png" alt="kindergarten">
             <div class="card-body rooms__card-body">
               <div>
-                <h5 class="card-title rooms__card-title">Любые другие помещения</h5>
-                <p class="card-text rooms__card-text">Выезжаем на самые разные объекты. Помогаем всем, кто нуждается в устранении вредителей и паразитов.</p>
+                <h5 class="card-title rooms__card-title">Бассейны и любые помещения</h5>
+                <p class="card-text rooms__card-text">
+                  Проведем полную дезинфекцию, после которой будет кристальная чистота.
+                </p>
               </div>
-              <h5 class="card-title rooms__card-title">От 70 руб./ метр</h5>
+              <h5 class="card-title rooms__card-title">От 1500 руб.</h5>
             </div>
           </div>
         </div>
@@ -540,56 +491,32 @@
 <section class="collation">
   <div class="container">
     <p class="rooms__title">
-      ТУТ ДАЖЕ СРАВНИВАТЬ НЕ НУЖНО - ВСЕ ВИДНО СРАЗУ
+      ОГРОМНАЯ РАЗНИЦА ДО И ПОСЛЕ НАШЕГО ПРИХОДА ВИДНА СРАЗУ
     </p>
     <div class="small-divider"></div>
 
     <div id="carouselCollation" class="carousel slide collation__carousel" data-ride="carousel" data-interval="0">
       <ol class="carousel-indicators collation__indicator-group">
         <li data-target="#carouselCollation" data-slide-to="0" class="collation__indicator active">
-          <img class="collation__img-active" src="/img/disinsection/cockroach-white.png" alt="cocroach">
-          <img class="collation__img-inactive" src="/img/disinsection/cockroach-green.png" alt="cocroach"> ТАРАКАНЫ
+          ПЛЕСЕНЬ
         </li>
         <li data-target="#carouselCollation" data-slide-to="1" class="collation__indicator">
-          <img class="collation__img-active" src="/img/disinsection/bug-white.png" alt="bug">
-          <img class="collation__img-inactive" src="/img/disinsection/bug-green.png" alt="bug"> КЛОПЫ
-        </li>
-        <li data-target="#carouselCollation" data-slide-to="2" class="collation__indicator">
-          <img class="collation__img-active" src="/img/disinsection/ant-white.png" alt="ant">
-          <img class="collation__img-inactive" src="/img/disinsection/ant-green.png" alt="ant"> МУРАВЬИ
-        </li>
-        <li data-target="#carouselCollation" data-slide-to="3" class="collation__indicator">
-          <img class="collation__img-active" src="/img/disinsection/spider-white.png" alt="spider">
-          <img class="collation__img-inactive" src="/img/disinsection/spider-green.png" alt="spider"> ПАУКИ
+          ГРИБКИ
         </li>
       </ol>
 
       <div class="carousel-inner collation__carousel-inner">
         <div class="carousel-item active">
           <div class="collation__img-wrapper">
-            <img class="collation__img" src="/img/disinsection/collation-cockroach-L.jpg" alt="cockroach">
-            <img class="collation__img mt-1 mt-lg-0" src="/img/disinsection/collation-cockroach-R.jpg" alt="cockroach">
+            <img class="collation__img" src="/img/disinfection/collation-cockroach-L.jpg" alt="cockroach">
+            <img class="collation__img mt-1 mt-lg-0" src="/img/disinfection/collation-cockroach-R.jpg" alt="cockroach">
           </div>
         </div>
 
         <div class="carousel-item">
           <div class="collation__img-wrapper">
-            <img class="collation__img" src="/img/disinsection/collation-cockroach-L.jpg" alt="cockroach">
-            <img class="collation__img mt-1 mt-lg-0" src="/img/disinsection/collation-cockroach-R.jpg" alt="cockroach">
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <div class="collation__img-wrapper">
-            <img class="collation__img" src="/img/disinsection/collation-cockroach-L.jpg" alt="cockroach">
-            <img class="collation__img mt-1 mt-lg-0" src="/img/disinsection/collation-cockroach-R.jpg" alt="cockroach">
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <div class="collation__img-wrapper">
-            <img class="collation__img" src="/img/disinsection/collation-cockroach-L.jpg" alt="cockroach">
-            <img class="collation__img mt-1 mt-lg-0" src="/img/disinsection/collation-cockroach-R.jpg" alt="cockroach">
+            <img class="collation__img" src="/img/disinfection/collation-cockroach-L.jpg" alt="cockroach">
+            <img class="collation__img mt-1 mt-lg-0" src="/img/disinfection/collation-cockroach-R.jpg" alt="cockroach">
           </div>
         </div>
       </div>
@@ -601,57 +528,53 @@
 <section class="result">
   <div class="container">
     <p class="result__title">
-      НУЖНЫЙ РЕЗУЛЬТАТ С ПЕРВОГО РАЗА
+      ТАКОЙ ИСХОД НАШЕЙ РАБОТЫ ВАМ ПОНРАВИТСЯ
     </p>
     <div class="small-divider"></div>
     <p class="result__subtitle">
-      Паразиты очень нарушают привычный ритм жизни. После мощной обработки вы забудете о проблеме, а главными итогами будут:
+      Работаем над улучшением качества Вашей жизни. Дезинфекция и дезодорация с нашими мастерами - это всегда реальные и ощутимые
+      результаты:
     </p>
   </div>
 
   <div class="result__description">
     <div class="result__img-wrapper">
       <picture>
-        <source srcset="/img/disinsection/man.png" media="(min-width: 1024px)">
-        <img class="result__img" src="/img/disinsection/man-sm.png" alt="man">
+        <source srcset="/img/disinfection/man.png" media="(min-width: 1024px)">
+        <img class="result__img" src="/img/disinfection/man-sm.png" alt="man">
       </picture>
     </div>
 
     <div class="result__list-wrapper">
       <ul class="list-unstyled result__list">
-        <li class="result__list-item">
-          <img class="result__item-img" src="/img/disinsection/point.png" alt="point">
-          <span class="result__item-text">Устранение возможных инфекций</span>
+        <li class="result__list-item mb-2 mb-md-1">
+          <img class="result__item-img" src="/img/disinfection/point.png" alt="point">
+          <span class="result__item-text">Улучшение микроклимата помещения</span>
+        </li>
+
+        <li class="result__list-item mb-2 mb-md-1">
+          <img class="result__item-img" src="/img/disinfection/point.png" alt="point">
+          <span class="result__item-text">Повышение психологического комфорта</span>
+        </li>
+
+        <li class="result__list-item mb-2 mb-md-1">
+          <img class="result__item-img" src="/img/disinfection/point.png" alt="point">
+          <span class="result__item-text">Избавление от болезней и аллергии</span>
+        </li>
+
+        <li class="result__list-item mb-4 mb-md-1">
+          <img class="result__item-img" src="/img/disinfection/point.png" alt="point">
+          <span class="result__item-text">Профилактика тяжелых и смертельных патологий</span>
+        </li>
+
+        <li class="result__list-item mb-2 mb-md-1">
+          <img class="result__item-img" src="/img/disinfection/point.png" alt="point">
+          <span class="result__item-text">Создание приятной атмосферы в доме или автомобиле</span>
         </li>
 
         <li class="result__list-item">
-          <img class="result__item-img" src="/img/disinsection/point.png" alt="point">
-          <span class="result__item-text">Спасение растений</span>
-        </li>
-
-        <li class="result__list-item">
-          <img class="result__item-img" src="/img/disinsection/point.png" alt="point">
-          <span class="result__item-text">Защита животных</span>
-        </li>
-
-        <li class="result__list-item">
-          <img class="result__item-img" src="/img/disinsection/point.png" alt="point">
-          <span class="result__item-text">Предотвращение разрушения дома</span>
-        </li>
-
-        <li class="result__list-item mb-1">
-          <img class="result__item-img" src="/img/disinsection/point.png" alt="point">
-          <span class="result__item-text">Создание благоприятного микроклимата</span>
-        </li>
-
-        <li class="result__list-item">
-          <img class="result__item-img" src="/img/disinsection/point.png" alt="point">
-          <span class="result__item-text">Психологический комфорт</span>
-        </li>
-
-        <li class="result__list-item">
-          <img class="result__item-img" src="/img/disinsection/point.png" alt="point">
-          <span class="result__item-text">Избавление от аллергии и кожных высыпаний</span>
+          <img class="result__item-img" src="/img/disinfection/point.png" alt="point">
+          <span class="result__item-text">Улучшение репутации в глазах посетителей, гостей или клиентов</span>
         </li>
       </ul>
     </div>
@@ -764,10 +687,10 @@
       </div>
       <div class="guarantees__btn-wrapper">
         <button class="mr-2 guarantees__slides-btn guarantees__slides--prev">
-          <img src="/img/disinsection/prev.png" alt="prev">
+          <img src="/img/disinfection/prev.png" alt="prev">
         </button>
         <button class="ml-2 guarantees__slides-btn guarantees__slides--next">
-          <img src="/img/disinsection/next.png" alt="next">
+          <img src="/img/disinfection/next.png" alt="next">
         </button>
       </div>
     </div>
@@ -781,37 +704,38 @@
     </p>
     <div class="small-divider"></div>
     <p class="equipment__description">
-      «ДезЦентр «Прогресс» использует в работе только современное оборудование. Устраняем насекомых с помощью многофункционального
-      генератора холодного тумана. Аппарат снабжен двигателем и форсунками, превращающими препараты для дезинсекции в мелкодисперсную
-      взвесь. Облако с действующим веществом проникает даже в недоступные места — достигается обработка 100% площади помещения.
+      «ДезЦентр «Прогресс» использует в работе только современное оборудование. Используем широкий спектр оборудования. Генераторы
+      холодного тумана, капли которого в виде мелкодисперсной смеси проникают даже в самые труднодоступные места. Ультрафиолетовые
+      облучатели, обеспечивающие высокую производительность обеззараживания. Кварц - классическая обработка помещений и предметов
+      с помощью ультрафиолета или бактерицидной лампы.
     </p>
 
     <!-- for mobile resolution -->
     <div id="carouselEquipment" class="carousel slide d-md-none equipment__carousel" data-ride="carousel" data-interval="0">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="equipment__carousel-img" src="/img/disinsection/dis-man-1.jpg" alt="man">
+          <img class="equipment__carousel-img" src="/img/disinfection/dis-man-1.jpg" alt="man">
         </div>
 
         <div class="carousel-item">
-          <img class="equipment__carousel-img" src="/img/disinsection/dis-man-2.jpg" alt="man">
+          <img class="equipment__carousel-img" src="/img/disinfection/dis-man-2.jpg" alt="man">
         </div>
 
         <div class="carousel-item">
-          <img class="equipment__carousel-img" src="/img/disinsection/dis-man-3.jpg" alt="man">
+          <img class="equipment__carousel-img" src="/img/disinfection/dis-man-3.jpg" alt="man">
         </div>
 
         <div class="carousel-item">
-          <img class="equipment__carousel-img" src="/img/disinsection/dis-man-4.jpg" alt="man">
+          <img class="equipment__carousel-img" src="/img/disinfection/dis-man-4.jpg" alt="man">
         </div>
       </div>
 
       <a class="carousel-control-prev equipment__control" href="#carouselEquipment" role="button" data-slide="prev">
-        <img src="/img/disinsection/prev.png" alt="next">
+        <img src="/img/disinfection/prev.png" alt="next">
         <span class="sr-only">Previous</span>
       </a>
       <a class="carousel-control-next equipment__control" href="#carouselEquipment" role="button" data-slide="next">
-        <img src="/img/disinsection/next.png" alt="next">
+        <img src="/img/disinfection/next.png" alt="next">
         <span class="sr-only">Next</span>
       </a>
     </div>
@@ -819,12 +743,12 @@
     <!-- for MD+ resolution -->
     <div class="equipment__table d-none d-md-block">
       <div class="row mb-4 justify-content-center">
-        <img class="equipment__table-img mr-2" src="/img/disinsection/dis-man-1.jpg" alt="man">
-        <img class="equipment__table-img ml-2" src="/img/disinsection/dis-man-2.jpg" alt="man">
+        <img class="equipment__table-img mr-2" src="/img/disinfection/dis-man-1.jpg" alt="man">
+        <img class="equipment__table-img ml-2" src="/img/disinfection/dis-man-2.jpg" alt="man">
       </div>
       <div class="row justify-content-center">
-        <img class="equipment__table-img mr-2" src="/img/disinsection/dis-man-3.jpg" alt="man">
-        <img class="equipment__table-img ml-2" src="/img/disinsection/dis-man-4.jpg" alt="man">
+        <img class="equipment__table-img mr-2" src="/img/disinfection/dis-man-3.jpg" alt="man">
+        <img class="equipment__table-img ml-2" src="/img/disinfection/dis-man-4.jpg" alt="man">
       </div>
     </div>
   </div>
@@ -832,36 +756,13 @@
   </div>
 </section>
 
-<section class="target">
-  <div class="container">
-    <p class="target__title">
-      УСПЕШНО УСТРАНЯЕМ НАСЕКОМЫХ С 2009 ГОДА
-    </p>
-    <div class="small-divider"></div>
-  </div>
-
-  <div class="target__content-wrapper">
-    <div class="target__text-wrapper">
-      <p class="target__text">
-        Мы видим своей целью улучшение качества жизни, избавление от мучительных вредителей. Наши профессионализм, опыт, наработанные
-        схемы позволяют быстро достигать поставленных задач.
-      </p>
-      <p class="target__text">
-        В штате компании только высококвалифицированные сотрудники, в том числе врачи-эпидемиологи. Мы провели несколько тысяч обработок,
-        берем на обслуживание общественные заведения и всегда стараемся быть максимально полезными своим клиентам.
-      </p>
-    </div>
-    <div class="target__img"></div>
-  </div>
-</section>
-
-<section class="scheme scheme-disinsection">
+<section class="scheme scheme-disinfection">
   <p class="m-0 p-0">
     <a class="m-0 p-0" name="scheme"></a>
   </p>
   <div class="container">
     <p class="scheme__title">РАБОЧИЙ АЛГОРИТМ</p>
-    <p class="scheme-disinsection__subtitle">
+    <p class="scheme-disinfection__subtitle">
       НИ ОДИН МЕЛКИЙ НЕПРИЯТЕЛЬ НЕ УСКОЛЬЗНЕТ ОТ НАС
     </p>
     <div class="small-divider"></div>
@@ -893,7 +794,7 @@
           <div class="container">
             <p class="mobile-carousel__text scheme-carousel__text">Диагностика</p>
             <p class="mobile-carousel__text scheme-carousel__text">
-              Мастер оценивает степень зараженности и находит места размножения насекомых
+              Мастер осматривает объект, вы заключаете договор
             </p>
           </div>
         </div>
@@ -908,7 +809,7 @@
           <div class="container">
             <p class="mobile-carousel__text scheme-carousel__text">Обработка</p>
             <p class="mobile-carousel__text scheme-carousel__text">
-              Проводится высокотехнологичное распыление активных препаратов
+              Мастер проводит работу и дает дальнейшие рекомендации
             </p>
           </div>
         </div>
@@ -923,7 +824,7 @@
           <div class="container">
             <p class="mobile-carousel__text scheme-carousel__text">Контроль</p>
             <p class="mobile-carousel__text scheme-carousel__text">
-              Вы оцениваете результат, мы оказываем поддержку на протяжении всего гарантийного срока
+              Вы наслаждаетесь чистотой, мы оказываем поддержку на протяжении всего гарантийного срока
             </p>
           </div>
         </div>
@@ -973,7 +874,7 @@
         <div class="col-7 d-flex align-items-center justify-content-start schema__table-text">
           <div class="schema__table-text-wrapper">
             <span>Диагностика</span>
-            <span>Мастер оценивает степень зараженности и находит места размножения насекомых</span>
+            <span>Мастер осматривает объект, вы заключаете договор</span>
           </div>
         </div>
       </div>
@@ -985,7 +886,7 @@
         <div class="col-7 d-flex align-items-center justify-content-end text-right schema__table-text">
           <div class="schema__table-text-wrapper">
             <span>Обработка</span>
-            <span>Проводится высокотехнологичное распыление активных препаратов</span>
+            <span>Мастер проводит работу и дает дальнейшие рекомендации</span>
           </div>
         </div>
         <div class="col-5">
@@ -1011,7 +912,7 @@
         <div class="col-7 d-flex align-items-center justify-content-start schema__table-text">
           <div class="schema__table-text-wrapper">
             <span>Контроль</span>
-            <span>Вы оцениваете результат, мы оказываем поддержку на протяжении всего гарантийного срока</span>
+            <span>Вы наслаждаетесь чистотой, мы оказываем поддержку на протяжении всего гарантийного срока</span>
           </div>
         </div>
       </div>
@@ -1019,13 +920,15 @@
   </div>
 </section>
 
-<section id="causes" class="causes causes-disinsection">
+<section id="causes" class="causes causes-disinfection">
   <p class="m-0 p-0">
     <a class="m-0 p-0" name="causes"></a>
   </p>
   <div class="container causes__container">
-    <p class="causes__title">ЕЩЕ 10 ПРИЧИН</p>
-    <p class="causes__subtitle">ПЕРЕСТАТЬ МИРИТЬСЯ С НАШЕСТВИЕМ НАСЕКОМЫХ И ВЫЗЫВАТЬ НАС</p>
+    <p class="causes__title">ЕЩЕ 8 ПРИЧИН</p>
+    <p class="causes__subtitle">
+      ПОЧЕМУ СТОИТ ОБРАТИТЬСЯ К НАМ НЕ ОТКЛАДЫВАЯ
+    </p>
     <div class="small-divider"></div>
 
     <ul class="list-unstyled causes__list">
@@ -1033,40 +936,40 @@
       <li class="causes__item">
         <div class="causes__text">
           <img class="causes__img" src="/img/point.png" alt="point">
-          <p class="causes__text-title">Закрепительная обработка</p>
+          <p class="causes__text-title">Бесплатные консультации</p>
         </div>
         <p class="causes__text-subtitle">
-          Дожмем вредителей навсегда
+          Отвечаем на любые вопросы по дезинфекции и дезодорации, подробно консультируем
         </p>
       </li>
 
       <li class="causes__item">
         <div class="causes__text">
           <img class="causes__img" src="/img/point.png" alt="point">
-          <p class="causes__text-title">Эффективность</p>
+          <p class="causes__text-title">Рекомендации после обработки</p>
         </div>
         <p class="causes__text-subtitle">
-          Достигаем 100% результата
+          Делимся ценным опытом, даем советы, научим профилактике
         </p>
       </li>
 
       <li class="causes__item">
         <div class="causes__text">
           <img class="causes__img" src="/img/point.png" alt="point">
-          <p class="causes__text-title">Бесплатная диагностика</p>
+          <p class="causes__text-title">Индивидуальный подход</p>
         </div>
         <p class="causes__text-subtitle">
-          Проведем обследование помещения, выявим места скопления и размножения насекомых
+          Изучаем особенности помещения, делаем персональные предложения
         </p>
       </li>
 
       <li class="causes__item">
         <div class="causes__text">
           <img class="causes__img" src="/img/point.png" alt="point">
-          <p class="causes__text-title">Компетентность</p>
+          <p class="causes__text-title">Приятные цены</p>
         </div>
         <p class="causes__text-subtitle">
-          Мастера обучены дезинфектологии, расскажут все от А до Я
+          Предлагаем наиболее привлекательные условия, специальные предложения
         </p>
       </li>
 
@@ -1076,7 +979,7 @@
           <p class="causes__text-title">Скорая помощь</p>
         </div>
         <p class="causes__text-subtitle">
-          Готовы выехать в течение 25–50 минут после заявки, сама обработка занимает не более часа
+          Готовы выехать в течение 25–50 минут после заявки
         </p>
       </li>
 
@@ -1086,7 +989,7 @@
           <p class="causes__text-title">Ответственность</p>
         </div>
         <p class="causes__text-subtitle">
-          Добиваемся абсолютного уничтожения вредителей
+          Добиваемся абсолютного уничтожения бактерий, вирусов, запахов
         </p>
       </li>
 
@@ -1103,34 +1006,14 @@
       <li class="causes__item">
         <div class="causes__text">
           <img class="causes__img" src="/img/point.png" alt="point">
-          <p class="causes__text-title">Грамотный подход</p>
+          <p class="causes__text-title">Универсальность</p>
         </div>
         <p class="causes__text-subtitle">
-          Подберем оптимальные средства для обработки в зависимости от специфики помещения
-        </p>
-      </li>
-
-      <li class="causes__item">
-        <div class="causes__text">
-          <img class="causes__img" src="/img/point.png" alt="point">
-          <p class="causes__text-title">Комфорт для Вас</p>
-        </div>
-        <p class="causes__text-subtitle">
-          Не придется передвигать мебель и выносить вещи
-        </p>
-      </li>
-
-      <li class="causes__item">
-        <div class="causes__text">
-          <img class="causes__img" src="/img/point.png" alt="point">
-          <p class="causes__text-title">Реальные гарантии</p>
-        </div>
-        <p class="causes__text-subtitle">
-          Проводим обработку повторно и абсолютно бесплатно в случае заражения в период гарантии
+          Работаем с физическими и юридическими лицами, берем на Абонентское обслуживание (пест-контроль)
         </p>
       </li>
     </ul>
-    <img class="causes__img-big d-none d-xl-block" src="/img/disinsection/man-causes.png" alt="man">
+    <img class="causes__img-big d-none d-xl-block" src="/img/disinfection/man-causes.png" alt="man">
   </div>
 </section>
 
@@ -1140,17 +1023,19 @@
     <p class="kinds__subtitle">НЕ ЕДИНСТВЕННАЯ НАША ВОСТРЕБОВАННАЯ УСЛУГА</p>
     <div class="small-divider"></div>
     <p class="kinds__text">
-      Наши клиенты нередко помимо дезинсекции заказывают дератизацию и дезинфекцию. Особенно это актуально в случае с производственными
+      Наши клиенты нередко помимо дезинфекции заказывают дератизацию и дезинcекцию. Особенно это актуально в случае с производственными
       помещениями, складами, магазинами. Предусмотрели для вас максимально выгодный вариант —
       <b>даем скидку до 30% при заказе двух и более услуг сразу</b>.
     </p>
     <div class="row mb-5">
       <div class="col-12 col-md-6 p-3 mb-5">
         <div class="card kinds__card shadow-sm">
-          <img class="kinds__card-img" src="/img/disinsection/bacteria.png" alt="bacteria">
+          <img class="kinds__card-img" src="/img/disinfection/cockroach.png" alt="cockroach">
           <div class="card-body">
             <h5 class="card-title kinds__card-title">ДЕЗИНСЕКЦИЯ</h5>
-            <p class="card-text kinds__card-text">Проводим комплексную обработку от вирусов, бактерий, грибков, плесени</p>
+            <p class="card-text kinds__card-text">
+              Устраняем насекомых всех видов с помощью современных методов, даем гарантию
+            </p>
           </div>
           <a href="/disinsection" class="btn kinds__btn">УЗНАТЬ ПОДРОБНЕЕ</a>
         </div>
@@ -1158,7 +1043,7 @@
 
       <div class="col-12 col-md-6 p-3">
         <div class="card kinds__card shadow-sm">
-          <img class="kinds__card-img" src="/img/disinsection/mouse.png" alt="mouse">
+          <img class="kinds__card-img" src="/img/disinfection/mouse.png" alt="mouse">
           <div class="card-body">
             <h5 class="card-title kinds__card-title">ДЕРАТИЗАЦИЯ</h5>
             <p class="card-text kinds__card-text">Устраняем любых грызунов за одно посещение объекта. Используем современные методы</p>
@@ -1171,7 +1056,7 @@
     <div class="row">
       <div class="col-12">
         <div class="card kinds__card shadow-sm">
-          <img class="kinds__card-img" src="/img/disinsection/shield_2.png" alt="shield">
+          <img class="kinds__card-img" src="/img/disinfection/shield_2.png" alt="shield">
           <div class="card-body">
             <h5 class="card-title kinds__card-title">О НАС ПОДРОБНЕЕ</h5>
           </div>
