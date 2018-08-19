@@ -325,7 +325,7 @@
                 <h5 class="card-title rooms__card-title">Квартиры</h5>
                 <p class="card-text rooms__card-text">Проводим обработку, которая не повреждает предметы интерьера. При этом эффект быстрый и стойкий.</p>
               </div>
-              <h5 class="card-title rooms__card-title">От 1700 руб.</h5>
+              <h5 class="card-title rooms__card-title">От 1800 руб.</h5>
             </div>
           </div>
         </div>
@@ -338,7 +338,7 @@
                 <h5 class="card-title rooms__card-title">Дома</h5>
                 <p class="card-text rooms__card-text">Уничтожаем насекомых в частных домах любой площади. Гарантируем безопасность и 100% результат.</p>
               </div>
-              <h5 class="card-title rooms__card-title">От 65 руб./ метр</h5>
+              <h5 class="card-title rooms__card-title">От 1800 руб.</h5>
             </div>
           </div>
         </div>
@@ -390,7 +390,7 @@
                 <h5 class="card-title rooms__card-title">Любые другие помещения</h5>
                 <p class="card-text rooms__card-text">Выезжаем на самые разные объекты. Помогаем всем, кто нуждается в устранении вредителей и паразитов.</p>
               </div>
-              <h5 class="card-title rooms__card-title">От 70 руб./ метр</h5>
+              <h5 class="card-title rooms__card-title">Цена договорная</h5>
             </div>
           </div>
         </div>
@@ -418,7 +418,7 @@
                 <h5 class="card-title rooms__card-title">Квартиры</h5>
                 <p class="card-text rooms__card-text">Проводим обработку, которая не повреждает предметы интерьера. При этом эффект быстрый и стойкий.</p>
               </div>
-              <h5 class="card-title rooms__card-title">От 1700 руб.</h5>
+              <h5 class="card-title rooms__card-title">От 1800 руб.</h5>
             </div>
           </div>
         </div>
@@ -431,7 +431,7 @@
                 <h5 class="card-title rooms__card-title">Дома</h5>
                 <p class="card-text rooms__card-text">Уничтожаем насекомых в частных домах любой площади. Гарантируем безопасность и 100% результат.</p>
               </div>
-              <h5 class="card-title rooms__card-title">От 65 руб./ метр</h5>
+              <h5 class="card-title rooms__card-title">От 1800 руб.</h5>
             </div>
           </div>
         </div>
@@ -498,7 +498,7 @@
                 <h5 class="card-title rooms__card-title">Любые другие помещения</h5>
                 <p class="card-text rooms__card-text">Выезжаем на самые разные объекты. Помогаем всем, кто нуждается в устранении вредителей и паразитов.</p>
               </div>
-              <h5 class="card-title rooms__card-title">От 70 руб./ метр</h5>
+              <h5 class="card-title rooms__card-title">Цена договорная</h5>
             </div>
           </div>
         </div>
@@ -526,7 +526,7 @@
                 <h5 class="card-title rooms__card-title">Любые другие помещения</h5>
                 <p class="card-text rooms__card-text">Выезжаем на самые разные объекты. Помогаем всем, кто нуждается в устранении вредителей и паразитов.</p>
               </div>
-              <h5 class="card-title rooms__card-title">От 70 руб./ метр</h5>
+              <h5 class="card-title rooms__card-title">Цена договорная</h5>
             </div>
           </div>
         </div>

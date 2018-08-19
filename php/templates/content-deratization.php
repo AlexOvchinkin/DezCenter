@@ -250,7 +250,7 @@
                   Крысы и мыши заводятся на первых этажах, а также в квартирах, где есть грязь и мусор. Перебегают из подвалов в поисках пищи.
                 </p>
               </div>
-              <h5 class="card-title rooms__card-title">От 2000 руб.</h5>
+              <h5 class="card-title rooms__card-title">От 1999 руб.</h5>
             </div>
           </div>
         </div>
@@ -265,7 +265,7 @@
                   На дачах и в частных домах обитают любые вредители: кроты, мыши, крысы. Сделаем обработку в доме и саду в день обращения.
                 </p>
               </div>
-              <h5 class="card-title rooms__card-title">От 2000 руб.</h5>
+              <h5 class="card-title rooms__card-title">От 2999 руб.</h5>
             </div>
           </div>
         </div>
@@ -278,7 +278,7 @@
                 <h5 class="card-title rooms__card-title">Офисы</h5>
                 <p class="card-text rooms__card-text">Зачастую такие помещения находятся рядом со складами, откуда и перебегают грызуны. Решим проблему эффективно.</p>
               </div>
-              <h5 class="card-title rooms__card-title">От 70 руб./ метр</h5>
+              <h5 class="card-title rooms__card-title">От 45 руб./ метр</h5>
             </div>
           </div>
         </div>
@@ -304,7 +304,7 @@
                 <h5 class="card-title rooms__card-title">Рестораны и кафе</h5>
                 <p class="card-text rooms__card-text">В таких местах мыши и крысы - частые гости. Мы изменим эту ситуацию надолго.</p>
               </div>
-              <h5 class="card-title rooms__card-title">От 70 руб./ метр</h5>
+              <h5 class="card-title rooms__card-title">От 59 руб./ метр</h5>
             </div>
           </div>
         </div>
@@ -317,7 +317,7 @@
                 <h5 class="card-title rooms__card-title">Бытовки и общежития</h5>
                 <p class="card-text rooms__card-text">Сделаем проживание комфортным и беззаботным.</p>
               </div>
-              <h5 class="card-title rooms__card-title">От 2000 руб.</h5>
+              <h5 class="card-title rooms__card-title">От 1900 руб.</h5>
             </div>
           </div>
         </div>
@@ -347,7 +347,7 @@
                   Крысы и мыши заводятся на первых этажах, а также в квартирах, где есть грязь и мусор. Перебегают из подвалов в поисках пищи.
                 </p>
               </div>
-              <h5 class="card-title rooms__card-title">От 2000 руб.</h5>
+              <h5 class="card-title rooms__card-title">От 1999 руб.</h5>
             </div>
           </div>
         </div>
@@ -362,7 +362,7 @@
                   На дачах и в частных домах обитают любые вредители: кроты, мыши, крысы. Сделаем обработку в доме и саду в день обращения.
                 </p>
               </div>
-              <h5 class="card-title rooms__card-title">От 65 руб./ метр</h5>
+              <h5 class="card-title rooms__card-title">От 2999 руб.</h5>
             </div>
           </div>
         </div>
@@ -375,7 +375,7 @@
                 <h5 class="card-title rooms__card-title">Офисы</h5>
                 <p class="card-text rooms__card-text">Зачастую такие помещения находятся рядом со складами, откуда и перебегают грызуны. Решим проблему эффективно.</p>
               </div>
-              <h5 class="card-title rooms__card-title">От 70 руб./ метр</h5>
+              <h5 class="card-title rooms__card-title">От 45 руб./ метр</h5>
             </div>
           </div>
         </div>
@@ -416,7 +416,7 @@
                 <h5 class="card-title rooms__card-title">Рестораны и кафе</h5>
                 <p class="card-text rooms__card-text">В таких местах мыши и крысы - частые гости. Мы изменим эту ситуацию надолго.</p>
               </div>
-              <h5 class="card-title rooms__card-title">От 70 руб./ метр</h5>
+              <h5 class="card-title rooms__card-title">От 59 руб./метр</h5>
             </div>
           </div>
         </div>
@@ -429,7 +429,7 @@
                 <h5 class="card-title rooms__card-title">Бытовки и общежития</h5>
                 <p class="card-text rooms__card-text">Сделаем проживание комфортным и беззаботным.</p>
               </div>
-              <h5 class="card-title rooms__card-title">От 2000 руб./ метр</h5>
+              <h5 class="card-title rooms__card-title">От 1900 руб./ метр</h5>
             </div>
           </div>
         </div>
@@ -444,7 +444,7 @@
                 <h5 class="card-title rooms__card-title">Рестораны и кафе</h5>
                 <p class="card-text rooms__card-text">В таких местах мыши и крысы - частые гости. Мы изменим эту ситуацию надолго.</p>
               </div>
-              <h5 class="card-title rooms__card-title">От 70 руб./ метр</h5>
+              <h5 class="card-title rooms__card-title">От 59 руб./метр</h5>
             </div>
           </div>
         </div>
@@ -457,7 +457,7 @@
                 <h5 class="card-title rooms__card-title">Бытовки и общежития</h5>
                 <p class="card-text rooms__card-text">Сделаем проживание комфортным и беззаботным.</p>
               </div>
-              <h5 class="card-title rooms__card-title">От 70 руб./ метр</h5>
+              <h5 class="card-title rooms__card-title">От 1900 руб.</h5>
             </div>
           </div>
         </div>

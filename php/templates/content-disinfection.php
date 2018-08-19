@@ -250,7 +250,7 @@
                   Обрабатываем квартиры любой площади безопасными для жильцов средствами. Выезд и процедуры не отнимают много времени.
                 </p>
               </div>
-              <h5 class="card-title rooms__card-title">От 2500 руб.</h5>
+              <h5 class="card-title rooms__card-title">От 1999 руб.</h5>
             </div>
           </div>
         </div>
@@ -265,7 +265,7 @@
                   Выезжаем в частные дома, дачи до 250 км от МКАД. Проводим качественную обработку со стойким эффектом.
                 </p>
               </div>
-              <h5 class="card-title rooms__card-title">От 3000 руб.</h5>
+              <h5 class="card-title rooms__card-title">От 2499 руб.</h5>
             </div>
           </div>
         </div>
@@ -280,7 +280,7 @@
                   Устраним все микроорганизмы, бактерии и любые запахи в легковой и грузовой машине.
                 </p>
               </div>
-              <h5 class="card-title rooms__card-title">От 2500 руб.</h5>
+              <h5 class="card-title rooms__card-title">От 1999 руб.</h5>
             </div>
           </div>
         </div>
@@ -295,7 +295,7 @@
                   Качественная комплексная обработка без вреда для продуктов питания и людей.
                 </p>
               </div>
-              <h5 class="card-title rooms__card-title">От 3000 руб.</h5>
+              <h5 class="card-title rooms__card-title">От 70 руб./метр.</h5>
             </div>
           </div>
         </div>
@@ -310,7 +310,7 @@
                   Обеспечим абсолютную стерильность помещения с помощью комбинации эффективных методов.
                 </p>
               </div>
-              <h5 class="card-title rooms__card-title">От 2000 руб.</h5>
+              <h5 class="card-title rooms__card-title">От 120 руб./метр</h5>
             </div>
           </div>
         </div>
@@ -323,7 +323,7 @@
                 <h5 class="card-title rooms__card-title">Бассейны и любые помещения</h5>
                 <p class="card-text rooms__card-text">Проведем полную дезинфекцию, после которой будет кристальная чистота.</p>
               </div>
-              <h5 class="card-title rooms__card-title">От 1500 руб.</h5>
+              <h5 class="card-title rooms__card-title">От 4000 руб.</h5>
             </div>
           </div>
         </div>
@@ -353,7 +353,7 @@
                   Обрабатываем квартиры любой площади безопасными для жильцов средствами. Выезд и процедуры не отнимают много времени.
                 </p>
               </div>
-              <h5 class="card-title rooms__card-title">От 2500 руб.</h5>
+              <h5 class="card-title rooms__card-title">От 1999 руб.</h5>
             </div>
           </div>
         </div>
@@ -368,7 +368,7 @@
                   Выезжаем в частные дома, дачи до 250 км от МКАД. Проводим качественную обработку со стойким эффектом.
                 </p>
               </div>
-              <h5 class="card-title rooms__card-title">От 3000 руб.</h5>
+              <h5 class="card-title rooms__card-title">От 2499 руб.</h5>
             </div>
           </div>
         </div>
@@ -383,7 +383,7 @@
                   Устраним все микроорганизмы, бактерии и любые запахи в легковой и грузовой машине.
                 </p>
               </div>
-              <h5 class="card-title rooms__card-title">От 2500 руб.</h5>
+              <h5 class="card-title rooms__card-title">От 1999 руб.</h5>
             </div>
           </div>
         </div>
@@ -400,7 +400,7 @@
                   Устраним все микроорганизмы, бактерии и любые запахи в легковой и грузовой машине.
                 </p>
               </div>
-              <h5 class="card-title rooms__card-title">От 2500 руб.</h5>
+              <h5 class="card-title rooms__card-title">От 1999 руб.</h5>
             </div>
           </div>
         </div>
@@ -415,7 +415,7 @@
                   Качественная комплексная обработка без вреда для продуктов питания и людей.
                 </p>
               </div>
-              <h5 class="card-title rooms__card-title">От 3000 руб.</h5>
+              <h5 class="card-title rooms__card-title">От 70 руб. / м.</h5>
             </div>
           </div>
         </div>
@@ -430,7 +430,7 @@
                   Обеспечим абсолютную стерильность помещения с помощью комбинации эффективных методов.
                 </p>
               </div>
-              <h5 class="card-title rooms__card-title">От 3000 руб.</h5>
+              <h5 class="card-title rooms__card-title">От 120 руб./метр</h5>
             </div>
           </div>
         </div>
@@ -445,7 +445,7 @@
                   Проведем полную дезинфекцию, после которой будет кристальная чистота.
                 </p>
               </div>
-              <h5 class="card-title rooms__card-title">От 1500 руб.</h5>
+              <h5 class="card-title rooms__card-title">От 4000 руб.</h5>
             </div>
           </div>
         </div>
@@ -462,7 +462,7 @@
                   Обеспечим абсолютную стерильность помещения с помощью комбинации эффективных методов.
                 </p>
               </div>
-              <h5 class="card-title rooms__card-title">От 3000 руб.</h5>
+              <h5 class="card-title rooms__card-title">От 120 руб./метр</h5>
             </div>
           </div>
         </div>
@@ -477,7 +477,7 @@
                   Проведем полную дезинфекцию, после которой будет кристальная чистота.
                 </p>
               </div>
-              <h5 class="card-title rooms__card-title">От 1500 руб.</h5>
+              <h5 class="card-title rooms__card-title">От 4000 руб.</h5>
             </div>
           </div>
         </div>
