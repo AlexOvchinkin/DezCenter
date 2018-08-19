@@ -30,7 +30,7 @@
     <form id="callbackFormUp" class="callback-form d-none">
       <div class="container">
         <div class="row justify-content-center">
-          <p class="callback-form__title text-center">Наш менеджер перезвонит вам в течение 10 минут</p>
+          <p class="callback-form__title text-center">Наш менеджер перезвонит вам в течение 2ух минут</p>
         </div>
         <div class="row justify-content-center callback-form__loading d-none">
           <p class="py-3 callback-form__title text-center">Отправка заявки ...</p>

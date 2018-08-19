@@ -155,7 +155,7 @@
 }
 
 .qualities__count-btn {
-  @include button(3rem);
+  @include link-btn(3rem, $green);
   position: absolute;
   bottom: -1.5rem;
   left: 50%;
@@ -163,7 +163,7 @@
   font-size: $h5-font-size;
 
   @include media-breakpoint-up(md) {
-    @include button(4rem);
+    @include link-btn(4rem, $green);
     bottom: -2rem;
   }
 }

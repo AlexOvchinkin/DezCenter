@@ -15,7 +15,7 @@
     <form id="callbackFormUp" class="callback-form d-none">
       <div class="container">
         <div class="row justify-content-center">
-          <p class="callback-form__title text-center">Наш менеджер перезвонит вам в течение 10 минут</p>
+          <p class="callback-form__title text-center">Наш менеджер перезвонит вам в течение 2ух минут</p>
         </div>
         <div class="row justify-content-center callback-form__loading d-none">
           <p class="py-3 callback-form__title text-center">Отправка заявки ...</p>
@@ -66,7 +66,7 @@
       <form class="callback-form mx-auto">
         <div class="container">
           <div class="row justify-content-center">
-            <p class="callback-form__title text-center">Наш менеджер перезвонит вам в течение 10 минут</p>
+            <p class="callback-form__title text-center">Наш менеджер перезвонит вам в течение 2ух минут</p>
           </div>
           <div class="row justify-content-center callback-form__loading d-none">
             <p class="py-3 callback-form__title text-center">Отправка заявки ...</p>
@@ -106,8 +106,8 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
   crossorigin="anonymous"></script>
 
-<script src="/js/callback-forms.js?1.8"></script>
-<script src="/js/common-scripts.js?1.8"></script>
+<script src="/js/callback-forms.js?2.1"></script>
+<script src="/js/common-scripts.js?2.1"></script>
 
 <?php
   include_once dirname(__DIR__)."/lib/functions.php";
@@ -115,11 +115,9 @@
 ?>
 
   <?php
-  /*
 include_once(dirname(__DIR__)."/analitics/roistat-counter.php"); 
 include_once(dirname(__DIR__)."/analitics/google.php"); 
 include_once(dirname(__DIR__)."/analitics/yandex.php"); 
-*/
 ?>
 
     </body>

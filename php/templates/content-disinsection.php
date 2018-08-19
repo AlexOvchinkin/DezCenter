@@ -96,7 +96,7 @@
       </div>
     </div>
   </div>
-  <button id="btnMoreInfo" class="btn qualities__count-btn">Рассчитать цену</button>
+  <a href="/#pricing" class="btn qualities__count-btn">Рассчитать цену</a>
 </section>
 
 <section class="description">
@@ -121,7 +121,7 @@
             <p class="description__caption-text">
               Самые распространенные насекомые, которые селятся и у чистоплотных хозяев. Устраним даже самых живучих.
             </p>
-            <p class="description__caption-price">От 1500 Руб.</p>
+            <p class="d-none description__caption-price">От 1500 Руб.</p>
           </div>
         </div>
 
@@ -133,7 +133,7 @@
               Живут в щелях, трещинах, сгибах мягкой мебели. Их почти невозможно вытравить собственными силами. Поможем в борьбе и выиграем
               ее.
             </p>
-            <p class="description__caption-price">От 1500 Руб.</p>
+            <p class="d-none description__caption-price">От 1500 Руб.</p>
           </div>
         </div>
 
@@ -145,7 +145,7 @@
               При распространении начинают ползать буквально везде, в том числе на пищевых продуктах. Подберем правильные средства, которые
               сразу уничтожат колонии.
             </p>
-            <p class="description__caption-price">От 1500 Руб.</p>
+            <p class="d-none description__caption-price">От 1500 Руб.</p>
           </div>
         </div>
 
@@ -157,7 +157,7 @@
               На первый взгляд безобидные, они наносят сильный вред — переносят инфекции и бактерии, причиняют психологический дискомфорт.
               Уничтожим даже самые многочисленные поселения пауков.
             </p>
-            <p class="description__caption-price">От 1500 Руб.</p>
+            <p class="d-none description__caption-price">От 1500 Руб.</p>
           </div>
         </div>
       </div>
@@ -182,7 +182,7 @@
                 Самые распространенные насекомые, которые селятся и у чистоплотных хозяев. Устраним даже самых живучих.
               </p>
             </div>
-            <p class="description__table-price">От 1500 Руб.</p>
+            <p class="d-none description__table-price">От 1500 Руб.</p>
           </div>
         </div>
         <div class="col-6">
@@ -194,7 +194,7 @@
                 ее.
               </p>
             </div>
-            <p class="description__table-price">От 1500 Руб.</p>
+            <p class="d-none description__table-price">От 1500 Руб.</p>
           </div>
         </div>
       </div>
@@ -209,7 +209,7 @@
                 сразу уничтожат колонии.
               </p>
             </div>
-            <p class="description__table-price">От 1500 Руб.</p>
+            <p class="d-none description__table-price">От 1500 Руб.</p>
           </div>
         </div>
         <div class="col-6">
@@ -221,7 +221,7 @@
                 Уничтожим даже самые многочисленные поселения пауков.
               </p>
             </div>
-            <p class="description__table-price">От 1500 Руб.</p>
+            <p class="d-none description__table-price">От 1500 Руб.</p>
           </div>
         </div>
       </div>
@@ -567,29 +567,29 @@
       <div class="carousel-inner collation__carousel-inner">
         <div class="carousel-item active">
           <div class="collation__img-wrapper">
-            <img class="collation__img" src="/img/disinsection/collation-cockroach-L.jpg" alt="cockroach">
-            <img class="collation__img mt-1 mt-lg-0" src="/img/disinsection/collation-cockroach-R.jpg" alt="cockroach">
+            <img class="collation__img" src="/img/disinsection/cockroach_before.jpg" alt="cockroach">
+            <img class="collation__img mt-1 mt-lg-0" src="/img/disinsection/cockroach_after.jpg" alt="cockroach">
           </div>
         </div>
 
         <div class="carousel-item">
           <div class="collation__img-wrapper">
-            <img class="collation__img" src="/img/disinsection/collation-cockroach-L.jpg" alt="cockroach">
-            <img class="collation__img mt-1 mt-lg-0" src="/img/disinsection/collation-cockroach-R.jpg" alt="cockroach">
+            <img class="collation__img" src="/img/disinsection/bug_before.jpg" alt="bug">
+            <img class="collation__img mt-1 mt-lg-0" src="/img/disinsection/bug_after.jpg" alt="bug">
           </div>
         </div>
 
         <div class="carousel-item">
           <div class="collation__img-wrapper">
-            <img class="collation__img" src="/img/disinsection/collation-cockroach-L.jpg" alt="cockroach">
-            <img class="collation__img mt-1 mt-lg-0" src="/img/disinsection/collation-cockroach-R.jpg" alt="cockroach">
+            <img class="collation__img" src="/img/disinsection/ant_before.jpg" alt="ant">
+            <img class="collation__img mt-1 mt-lg-0" src="/img/disinsection/ant_after.jpg" alt="ant">
           </div>
         </div>
 
         <div class="carousel-item">
           <div class="collation__img-wrapper">
-            <img class="collation__img" src="/img/disinsection/collation-cockroach-L.jpg" alt="cockroach">
-            <img class="collation__img mt-1 mt-lg-0" src="/img/disinsection/collation-cockroach-R.jpg" alt="cockroach">
+            <img class="collation__img" src="/img/disinsection/spider_before.jpg" alt="spider">
+            <img class="collation__img mt-1 mt-lg-0" src="/img/disinsection/spider_after.jpg" alt="spider">
           </div>
         </div>
       </div>

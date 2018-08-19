@@ -50,7 +50,7 @@
     <div class="carousel-inner directions-carousel__inner">
       <div class="carousel-item mobile-carousel__item directions-carousel__item active">
         <div class="container px-3">
-          <div class="shadow-sm rounded">
+          <div class="shadow-sm rounded position-relative">
             <div class="mobile-carousel__title">
               <img class="mobile-carousel__image" src="/img/main/cockroach.png" alt="cockroach">
               <p class="mobile-carousel__text">Дезинсекция</p>
@@ -66,28 +66,16 @@
                   <td>Осы</td>
                 </tr>
                 <tr>
-                  <td>Муравьи</td>
-                  <td>Шершни</td>
-                </tr>
-                <tr>
-                  <td>Чешуйницы</td>
-                  <td>Пчелы</td>
-                </tr>
-                <tr>
-                  <td>Мокрицы</td>
-                  <td>Слепни</td>
-                </tr>
-                <tr>
                   <td>Мухи</td>
                   <td>Моль</td>
                 </tr>
                 <tr>
                   <td>Блохи</td>
-                  <td>Сороконожка</td>
+                  <td>Слепни</td>
                 </tr>
                 <tr>
                   <td>Клещи</td>
-                  <td>Короеды</td>
+                  <td>Муравьи</td>
                 </tr>
                 <tr>
                   <td colspan="2">Майский и колорадский жук</td>
@@ -97,16 +85,17 @@
                 </tr>
               </tbody>
             </table>
+            <a href="/disinsection" class="directions-carousel__more-info">Подробнее</a>
           </div>
         </div>
       </div>
 
       <div class="carousel-item mobile-carousel__item directions-carousel__item">
         <div class="container px-3">
-          <div class="shadow-sm rounded">
+          <div class="shadow-sm rounded position-relative">
             <div class="mobile-carousel__title">
               <img class="mobile-carousel__image" src="/img/main/bacteria.png" alt="bacteria">
-              <p class="mobile-carousel__text">Дезинфекция и дезодорация</p>
+              <p class="mobile-carousel__text">Дезинфекция</p>
             </div>
             <table class="table table-sm table-borderless table-striped mobile-carousel__table">
               <tbody>
@@ -133,13 +122,14 @@
                 </tr>
               </tbody>
             </table>
+            <a href="/disinfection" class="directions-carousel__more-info">Подробнее</a>
           </div>
         </div>
       </div>
 
       <div class="carousel-item mobile-carousel__item directions-carousel__item">
         <div class="container px-3">
-          <div class="shadow-sm rounded">
+          <div class="shadow-sm rounded position-relative">
             <div class="mobile-carousel__title">
               <img class="mobile-carousel__image" src="/img/main/mouse.png" alt="mouse">
               <p class="mobile-carousel__text">Дератизация</p>
@@ -166,6 +156,7 @@
                 </tr>
               </tbody>
             </table>
+            <a href="/deratization" class="directions-carousel__more-info">Подробнее</a>
           </div>
         </div>
       </div>
@@ -185,14 +176,14 @@
     <div class="carousel-inner directions-carousel__inner">
       <div class="carousel-item mobile-carousel__item directions-carousel__item active">
         <div class="container px-3">
-          <div class="shadow-sm rounded">
+          <div class="shadow-sm rounded position-relative">
             <div class="mobile-carousel__title">
               <img class="mobile-carousel__image" src="/img/main/cockroach.png" alt="cockroach">
               <p class="mobile-carousel__text">Дезинсекция</p>
             </div>
             <table class="table table-sm table-borderless table-striped mobile-carousel__table">
               <tbody>
-                <tr>
+              <tr>
                   <td>Тараканы</td>
                   <td>Комары</td>
                 </tr>
@@ -201,28 +192,16 @@
                   <td>Осы</td>
                 </tr>
                 <tr>
-                  <td>Муравьи</td>
-                  <td>Шершни</td>
-                </tr>
-                <tr>
-                  <td>Чешуйницы</td>
-                  <td>Пчелы</td>
-                </tr>
-                <tr>
-                  <td>Мокрицы</td>
-                  <td>Слепни</td>
-                </tr>
-                <tr>
                   <td>Мухи</td>
                   <td>Моль</td>
                 </tr>
                 <tr>
                   <td>Блохи</td>
-                  <td>Сороконожка</td>
+                  <td>Слепни</td>
                 </tr>
                 <tr>
                   <td>Клещи</td>
-                  <td>Короеды</td>
+                  <td>Муравьи</td>
                 </tr>
                 <tr>
                   <td colspan="2">Майский и колорадский жук</td>
@@ -232,16 +211,17 @@
                 </tr>
               </tbody>
             </table>
+            <a href="/disinsection" class="directions-carousel__more-info">Подробнее</a>
           </div>
         </div>
       </div>
 
       <div class="carousel-item mobile-carousel__item directions-carousel__item">
         <div class="container px-3">
-          <div class="shadow-sm rounded">
+          <div class="shadow-sm rounded position-relative">
             <div class="mobile-carousel__title">
               <img class="mobile-carousel__image" src="/img/main/bacteria.png" alt="bacteria">
-              <p class="mobile-carousel__text">Дезинфекция и дезодорация</p>
+              <p class="mobile-carousel__text">Дезинфекция</p>
             </div>
             <table class="table table-sm table-borderless table-striped mobile-carousel__table">
               <tbody>
@@ -261,20 +241,21 @@
                   <td>Запахи в помещениях, офисах, транспорте</td>
                 </tr>
                 <tr>
-                  <td>Обработка матрасов, контейнеров, емкостей</td>
+                  <td>Обработка контейнеров</td>
                 </tr>
                 <tr>
                   <td>Фумигация зернохранилищ</td>
                 </tr>
               </tbody>
             </table>
+            <a href="/disinfection" class="directions-carousel__more-info">Подробнее</a>
           </div>
         </div>
       </div>
 
       <div class="carousel-item mobile-carousel__item directions-carousel__item">
         <div class="container px-3">
-          <div class="shadow-sm rounded">
+          <div class="shadow-sm rounded position-relative">
             <div class="mobile-carousel__title">
               <img class="mobile-carousel__image" src="/img/main/mouse.png" alt="mouse">
               <p class="mobile-carousel__text">Дератизация</p>
@@ -301,6 +282,7 @@
                 </tr>
               </tbody>
             </table>
+            <a href="/deratization" class="directions-carousel__more-info">Подробнее</a>
           </div>
         </div>
       </div>
@@ -364,6 +346,7 @@
               </tr>
             </tbody>
           </table>
+          <a href="/disinsection" class="directions-carousel__more-info">Подробнее</a>
         </div>
       </div>
 
@@ -396,6 +379,7 @@
               </tr>
             </tbody>
           </table>
+          <a href="/disinfection" class="directions-carousel__more-info">Подробнее</a>
         </div>
       </div>
 
@@ -425,6 +409,7 @@
               </tr>
             </tbody>
           </table>
+          <a href="/deratization" class="directions-carousel__more-info">Подробнее</a>
         </div>
       </div>
     </div>
@@ -479,6 +464,7 @@
               </tr>
             </tbody>
           </table>
+          <a href="/disinsection" class="directions-carousel__more-info">Подробнее</a>
         </div>
       </div>
 
@@ -511,6 +497,7 @@
               </tr>
             </tbody>
           </table>
+          <a href="/disinfection" class="directions-carousel__more-info">Подробнее</a>
         </div>
       </div>
 
@@ -540,6 +527,7 @@
               </tr>
             </tbody>
           </table>
+          <a href="/deratization" class="directions-carousel__more-info">Подробнее</a>
         </div>
       </div>
     </div>

@@ -3,6 +3,10 @@
 .equipment {
   background-color: white;
   padding-top: 3rem;
+
+  @include media-breakpoint-up(lg) {
+    padding-top: 5rem;
+  }
 }
 
 .equipment__title {

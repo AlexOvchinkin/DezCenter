@@ -96,7 +96,7 @@
       </div>
     </div>
   </div>
-  <button id="btnMoreInfo" class="btn qualities__count-btn">Рассчитать цену</button>
+  <a href="/#pricing" class="btn qualities__count-btn">Рассчитать цену</a>
 </section>
 
 <section class="description">
@@ -120,7 +120,7 @@
               Проводим дезинфекцию в больницах, детских учреждениях, квартирах и домах - при наличии зараженных людей, после перенесенных
               заболеваний, в зонах повышенного риска и т.д.
             </p>
-            <p class="description__caption-price">От 2500 Руб.</p>
+            <p class="d-none description__caption-price">От 2500 Руб.</p>
           </div>
         </div>
 
@@ -132,7 +132,7 @@
               Полностью выводим грибки и споры, которые могут появиться в любом помещении. Чаще всего им подвержены ванные комнаты, бани,
               душевые, дачи и т.д.
             </p>
-            <p class="description__caption-price">От 2500 Руб.</p>
+            <p class="d-none description__caption-price">От 2500 Руб.</p>
           </div>
         </div>
 
@@ -144,7 +144,7 @@
               Патогенные микрооганизмы, которые селятся в домах, квартирах, магазинах, складах. Уничтожим плесень полностью и предовратим
               ее появление в будущем.
             </p>
-            <p class="description__caption-price">От 2500 Руб.</p>
+            <p class="d-none description__caption-price">От 2500 Руб.</p>
           </div>
         </div>
 
@@ -155,7 +155,7 @@
             <p class="description__caption-text">
               Решим проблему даже в самом запущенном случае. От специфичного и въевшегося запаха не останется и следа.
             </p>
-            <p class="description__caption-price">От 2500 Руб.</p>
+            <p class="d-none description__caption-price">От 2500 Руб.</p>
           </div>
         </div>
       </div>
@@ -181,7 +181,7 @@
                 заболеваний, в зонах повышенного риска и т.д.
               </p>
             </div>
-            <p class="description__table-price">От 2500 Руб.</p>
+            <p class="d-none description__table-price">От 2500 Руб.</p>
           </div>
         </div>
         <div class="col-6">
@@ -193,7 +193,7 @@
                 душевые, дачи и т.д.
               </p>
             </div>
-            <p class="description__table-price">От 2500 Руб.</p>
+            <p class="d-none description__table-price">От 2500 Руб.</p>
           </div>
         </div>
       </div>
@@ -208,7 +208,7 @@
                 ее появление в будущем.
               </p>
             </div>
-            <p class="description__table-price">От 2500 Руб.</p>
+            <p class="d-none description__table-price">От 2500 Руб.</p>
           </div>
         </div>
         <div class="col-6">
@@ -219,7 +219,7 @@
                 Решим проблему даже в самом запущенном случае. От специфичного и въевшегося запаха не останется и следа.
               </p>
             </div>
-            <p class="description__table-price">От 2500 Руб.</p>
+            <p class="d-none description__table-price">От 2500 Руб.</p>
           </div>
         </div>
       </div>
@@ -508,15 +508,15 @@
       <div class="carousel-inner collation__carousel-inner">
         <div class="carousel-item active">
           <div class="collation__img-wrapper">
-            <img class="collation__img" src="/img/disinfection/collation-cockroach-L.jpg" alt="cockroach">
-            <img class="collation__img mt-1 mt-lg-0" src="/img/disinfection/collation-cockroach-R.jpg" alt="cockroach">
+            <img class="collation__img" src="/img/disinfection/mold_before.jpg" alt="cockroach">
+            <img class="collation__img mt-1 mt-lg-0" src="/img/disinfection/mold_after.jpg" alt="cockroach">
           </div>
         </div>
 
         <div class="carousel-item">
           <div class="collation__img-wrapper">
-            <img class="collation__img" src="/img/disinfection/collation-cockroach-L.jpg" alt="cockroach">
-            <img class="collation__img mt-1 mt-lg-0" src="/img/disinfection/collation-cockroach-R.jpg" alt="cockroach">
+            <img class="collation__img" src="/img/disinfection/fungus_before.jpg" alt="cockroach">
+            <img class="collation__img mt-1 mt-lg-0" src="/img/disinfection/fungus_after.jpg" alt="cockroach">
           </div>
         </div>
       </div>

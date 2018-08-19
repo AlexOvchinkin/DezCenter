@@ -96,7 +96,7 @@
       </div>
     </div>
   </div>
-  <button id="btnMoreInfo" class="btn qualities__count-btn">Рассчитать цену</button>
+  <a href="/#pricing" class="btn qualities__count-btn">Рассчитать цену</a>
 </section>
 
 <section class="description">
@@ -119,7 +119,7 @@
               Они быстро размножаются, занимают большие площади. Подберем оптимальную технологию и избавим от надоевших вредителей с первого
               раза.
             </p>
-            <p class="description__caption-price">От 2000 Руб.</p>
+            <p class="d-none description__caption-price">От 2000 Руб.</p>
           </div>
         </div>
 
@@ -131,7 +131,7 @@
               Эти паразиты чрезвычайно живучи и устойчивы ко многим средствам. Но мы с помощью комплекса мер гарантированно уничтожим крыс
               на любой территории.
             </p>
-            <p class="description__caption-price">От 2000 Руб.</p>
+            <p class="d-none description__caption-price">От 2000 Руб.</p>
           </div>
         </div>
 
@@ -142,7 +142,7 @@
             <p class="description__caption-text">
               С виду безобидные, но наносят немалый ущерб сельскому и домашнему хозяйству. Уничтожим быстро и эффективно.
             </p>
-            <p class="description__caption-price">От 2000 Руб.</p>
+            <p class="d-none description__caption-price">От 2000 Руб.</p>
           </div>
         </div>
 
@@ -154,7 +154,7 @@
               Они строят целые магистрали под землей и могут сильно нарушать корневую систему растений. Избавим Вас от головной боли, связанной
               с этими грызунами.
             </p>
-            <p class="description__caption-price">От 2000 Руб.</p>
+            <p class="d-none description__caption-price">От 2000 Руб.</p>
           </div>
         </div>
       </div>
@@ -180,7 +180,7 @@
                 раза.
               </p>
             </div>
-            <p class="description__table-price">От 2000 Руб.</p>
+            <p class="d-none description__table-price">От 2000 Руб.</p>
           </div>
         </div>
         <div class="col-6">
@@ -192,7 +192,7 @@
                 на любой территории.
               </p>
             </div>
-            <p class="description__table-price">От 2000 Руб.</p>
+            <p class="d-none description__table-price">От 2000 Руб.</p>
           </div>
         </div>
       </div>
@@ -206,7 +206,7 @@
                 С виду безобидные, но наносят немалый ущерб сельскому и домашнему хозяйству. Уничтожим быстро и эффективно.
               </p>
             </div>
-            <p class="description__table-price">От 2000 Руб.</p>
+            <p class="d-none description__table-price">От 2000 Руб.</p>
           </div>
         </div>
         <div class="col-6">
@@ -218,7 +218,7 @@
                 с этими грызунами.
               </p>
             </div>
-            <p class="description__table-price">От 2000 Руб.</p>
+            <p class="d-none description__table-price">От 2000 Руб.</p>
           </div>
         </div>
       </div>
@@ -494,29 +494,29 @@
       <div class="carousel-inner collation__carousel-inner">
         <div class="carousel-item active">
           <div class="collation__img-wrapper">
-            <img class="collation__img" src="/img/deratization/collation-cockroach-L.jpg" alt="cockroach">
-            <img class="collation__img mt-1 mt-lg-0" src="/img/deratization/collation-cockroach-R.jpg" alt="cockroach">
+            <img class="collation__img" src="/img/deratization/mouse_before.jpg" alt="mouse">
+            <img class="collation__img mt-1 mt-lg-0" src="/img/deratization/mouse_after.jpg" alt="mouse">
           </div>
         </div>
 
         <div class="carousel-item">
           <div class="collation__img-wrapper">
-            <img class="collation__img" src="/img/deratization/collation-cockroach-L.jpg" alt="cockroach">
-            <img class="collation__img mt-1 mt-lg-0" src="/img/deratization/collation-cockroach-R.jpg" alt="cockroach">
+            <img class="collation__img" src="/img/deratization/rat_before.jpg" alt="rat">
+            <img class="collation__img mt-1 mt-lg-0" src="/img/deratization/rat_after.jpg" alt="rat">
           </div>
         </div>
 
         <div class="carousel-item">
           <div class="collation__img-wrapper">
-            <img class="collation__img" src="/img/deratization/collation-cockroach-L.jpg" alt="cockroach">
-            <img class="collation__img mt-1 mt-lg-0" src="/img/deratization/collation-cockroach-R.jpg" alt="cockroach">
+            <img class="collation__img" src="/img/deratization/mole_before.jpg" alt="mole">
+            <img class="collation__img mt-1 mt-lg-0" src="/img/deratization/mole_after.jpg" alt="mole">
           </div>
         </div>
 
         <div class="carousel-item">
           <div class="collation__img-wrapper">
-            <img class="collation__img" src="/img/deratization/collation-cockroach-L.jpg" alt="cockroach">
-            <img class="collation__img mt-1 mt-lg-0" src="/img/deratization/collation-cockroach-R.jpg" alt="cockroach">
+            <img class="collation__img" src="/img/deratization/vole_before.jpg" alt="vole">
+            <img class="collation__img mt-1 mt-lg-0" src="/img/deratization/vole_after.jpg" alt="vole">
           </div>
         </div>
       </div>
