@@ -100,6 +100,8 @@ function showFeedbackInline(id) {
       setHiddenFormValue(id);
       $('#hidden-form__btn').click();
       showFeedback(id);
+      ga('send', 'event', 'order', 'click');
+      console.log('click');
 
       setTimeout(function () {
         closeForm(id)();
@@ -116,6 +118,8 @@ function showFeedbackModal(id) {
       setHiddenFormValue(id);
       $('#hidden-form__btn').click();
       showFeedback(id);
+      ga('send', 'event', 'order', 'click');
+      console.log('click');
 
       setTimeout(function () {
         $(id).modal('hide');

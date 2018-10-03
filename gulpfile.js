@@ -76,8 +76,8 @@ gulp.task('browserSync', function () {
 */
 // gulp.task('default', gulp.parallel('img', 'html', 'styles', 'js', 'watch', 'browserSync'));
 gulp.task('default', gulp.parallel('php', 'js', 'styles', 'watch', 'browserSync'));
-
-gulp.task('full', gulp.parallel('img', 'php', 'js', 'styles'));
+gulp.task('dev', gulp.parallel('php', 'js', 'styles'));
+gulp.task('prod', gulp.parallel('img', 'php', 'js', 'styles'));
 
 
 /*

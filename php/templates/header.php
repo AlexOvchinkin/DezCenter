@@ -14,7 +14,7 @@
   echo getStylesheet($page);
    ?>
 
-    <title>Дез-Центр "Прогресс"</title>
+  <title>Дез-Центр "Прогресс"</title>
 </head>
 
 <body>
@@ -50,7 +50,9 @@
         </div>
         <div class="row callback-form__buttons">
           <div class="col d-flex justify-content-between">
-            <button type="button" id="btnCall_1" class="btn btn-success">Позвоните мне</button>
+            <button type="button" id="btnCall_1" class="btn btn-success">
+              Позвоните мне
+            </button>
             <button type="button" class="btn btn-outline-success btn-close">
               Скрыть
             </button>

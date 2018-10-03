@@ -35,7 +35,9 @@
         </div>
         <div class="row callback-form__buttons">
           <div class="col d-flex justify-content-between">
-            <button type="button" id="btnCall_3" class="btn btn-success">Позвоните мне</button>
+            <button type="button" id="btnCall_3" class="btn btn-success">
+              Позвоните мне
+            </button>
             <button type="button" class="btn btn-outline-success btn-close">
               Скрыть
             </button>
@@ -49,7 +51,8 @@
     <button id="btnOrder" class="btn btn-success">Заказать</button>
     <div class="container">
       <p>© 2018 Дез-Центр “Прогресс”</p>
-      <p class="font-weight-bold">Дезинсекция, дезинфекция, дератизация. Работа с физическими лицами и Абонентское Обслуживание организаций.</p>
+      <p class="font-weight-bold">Дезинсекция, дезинфекция, дератизация. Работа с физическими лицами и Абонентское
+        Обслуживание организаций.</p>
       <p>Дизайн сайта:
         <a href="http:\\www.miridea.ru">www.miridea.ru</a>
       </p>
@@ -81,12 +84,15 @@
             </div>
             <div class="col-12 mb-3">
               <small class="d-none callback-form__label-phone">формат +7(ХХХ)ХХХ-ХХ-ХХ</small>
-              <input type="text" id="clientPhone_2" name="phone" class="form-control callback-form__control" placeholder="Ваш телефон">
+              <input type="text" id="clientPhone_2" name="phone" class="form-control callback-form__control"
+                placeholder="Ваш телефон">
             </div>
           </div>
           <div class="row callback-form__buttons">
             <div class="col d-flex justify-content-between">
-              <button type="button" id="btnCall_2" class="btn btn-success">Позвоните мне</button>
+              <button type="button" id="btnCall_2" class="btn btn-success">
+                Позвоните мне
+              </button>
               <button type="button" class="btn btn-outline-success btn-close" data-dismiss="modal">
                 Скрыть
               </button>
@@ -106,20 +112,20 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
   crossorigin="anonymous"></script>
 
-<script src="/js/callback-forms.js?2.1"></script>
-<script src="/js/common-scripts.js?2.1"></script>
+<script src="/js/callback-forms.js?2.2"></script>
+<script src="/js/common-scripts.js?2.2"></script>
 
 <?php
   include_once dirname(__DIR__)."/lib/functions.php";
   echo getScript($page);
 ?>
 
-  <?php
+<?php
 include_once(dirname(__DIR__)."/analitics/roistat-counter.php"); 
 include_once(dirname(__DIR__)."/analitics/google.php"); 
 include_once(dirname(__DIR__)."/analitics/yandex.php"); 
 ?>
 
-    </body>
+</body>
 
-    </html>
+</html>
