@@ -4,7 +4,7 @@
       Проводим дезинфекцию и дезодорацию любого помещения
     </p>
     <p class="qualities__subtitle">
-      ОТ 1500 РУБ. С ВЫЕЗДОМ В ДЕНЬ ЗАЯВКИ
+      ОТ 1999 РУБ. С ВЫЕЗДОМ В ДЕНЬ ЗАЯВКИ
     </p>
 
     <div id="qualitiesCarousel" class="carousel d-md-none slide qualities__carousel" data-ride="carousel" data-interval="0">

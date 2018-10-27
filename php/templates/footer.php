@@ -53,12 +53,14 @@
       <p>© 2018 Дез-Центр “Прогресс”</p>
       <p class="font-weight-bold">Дезинсекция, дезинфекция, дератизация. Работа с физическими лицами и Абонентское
         Обслуживание организаций.</p>
-      <p>Дизайн сайта:
-        <a href="http:\\www.miridea.ru">www.miridea.ru</a>
-      </p>
-      <p>Разработка сайта:
-        <a href="http:\\www.alexovchinkin.com">www.alexovchinkin.com</a>
-      </p>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <p class="text-center text-md-right"><span class="font-weight-bold">эл. почта:</span> info.dez-progres@yandex.ru</p>
+        </div>
+        <div class="col-12 col-md-6">
+          <p class="text-center text-md-left"><span class="font-weight-bold">адрес:</span> г.Москва, ул.Петровка д.24, стр.2</p>
+        </div>
+      </div>
     </div>
   </div>
 </footer>
