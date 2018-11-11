@@ -1,0 +1,20 @@
+@import "scss/mixins";
+
+.reviews {
+  color: $main-txt-color;
+}
+
+.reviews__title {
+  @include sectionTitle();
+}
+
+.reviews__subtitle {
+  @include sectionSubtitle();
+  font-size: $h4-font-size;
+}
+
+.blockquote__title {
+  font-weight: $font-weight-bold;
+  margin-bottom: .5rem;
+  font-style: italic;
+}
