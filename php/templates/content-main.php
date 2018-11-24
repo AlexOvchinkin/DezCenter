@@ -1,6 +1,7 @@
 <div id="carouselIndicators" class="carousel slide main-carousel" data-ride="carousel" data-interval="0">
   <ol class="carousel-indicators main-carousel__indicators">
-    <li data-target="#carouselIndicators" data-slide-to="0" data-ind="true" class="active main-carousel__indicator">Физ. лица</li>
+    <li data-target="#carouselIndicators" data-slide-to="0" data-ind="true" class="active main-carousel__indicator">Физ.
+      лица</li>
     <li data-target="#carouselIndicators" data-slide-to="1" data-ind="false" class="main-carousel__indicator">Юр. лица</li>
   </ol>
   <div class="carousel-inner">
@@ -16,7 +17,8 @@
       <div class="container">
         <div class="main-carousel__text">
           <p class="main-carousel__title">КОМПЛЕКСНЫЙ ПОДХОД К УСТРАНЕНИЮ НАСЕКОМЫХ, ГРЫЗУНОВ, ГРИБКОВ И НЕ ТОЛЬКО</p>
-          <p class="main-carousel__subtitle">на любом производственном предприятии или в офисном помещении со 100% гарантией результата</p>
+          <p class="main-carousel__subtitle">на любом производственном предприятии или в офисном помещении со 100%
+            гарантией результата</p>
         </div>
       </div>
     </div>
@@ -29,7 +31,8 @@
   </p>
   <div class="container">
     <p class="directions__text">
-      Компания "ДезЦентр "Прогресс" уже 9 лет успешно проводит дезинфекцию, дезодорацию, дезинсекцию и дератизацию. На 100% эффективно
+      Компания "ДезЦентр "Прогресс" уже 9 лет успешно проводит дезинфекцию, дезодорацию, дезинсекцию и дератизацию. На
+      100% эффективно
       устраняем любые патогенные микроорганизмы, запахи, насекомых и грызунов.
     </p>
     <div class="divider">
@@ -162,17 +165,19 @@
       </div>
     </div>
 
-    <a class="carousel-control-prev mobile-carousel__control" href="#carouselDirectionsIndivid" role="button" data-slide="prev">
+    <a class="carousel-control-prev mobile-carousel__control" href="#carouselDirectionsIndivid" role="button"
+      data-slide="prev">
       <img src="/img/main/control-left.png" alt="prev">
     </a>
-    <a class="carousel-control-next mobile-carousel__control" href="#carouselDirectionsIndivid" role="button" data-slide="next">
+    <a class="carousel-control-next mobile-carousel__control" href="#carouselDirectionsIndivid" role="button"
+      data-slide="next">
       <img src="/img/main/control-right.png" alt="next">
     </a>
   </div>
 
   <!-- CAROUSEL FOR ENTITY -->
-  <div id="carouselDirectionsEntity" class="carousel d-none d-lg-none slide directions-carousel mobile-carousel" data-ride="carousel"
-    data-interval="0">
+  <div id="carouselDirectionsEntity" class="carousel d-none d-lg-none slide directions-carousel mobile-carousel"
+    data-ride="carousel" data-interval="0">
     <div class="carousel-inner directions-carousel__inner">
       <div class="carousel-item mobile-carousel__item directions-carousel__item active">
         <div class="container px-3">
@@ -183,7 +188,7 @@
             </div>
             <table class="table table-sm table-borderless table-striped mobile-carousel__table">
               <tbody>
-              <tr>
+                <tr>
                   <td>Тараканы</td>
                   <td>Комары</td>
                 </tr>
@@ -549,15 +554,18 @@
     <div class="col-12 col-xl-6 order-first order-xl-last">
       <div class="container d-xl-flex flex-column justify-content-center h-100">
         <p class="equipment__text">
-          Используем оборудование только европейских производителей. Наиболее распространенная техника для обработки — генератор холодного
-          тумана. С его помощью достигается максимальное распыление действующих составов и их проникновение в самые труднодоступные
+          Используем оборудование только европейских производителей. Наиболее распространенная техника для обработки —
+          генератор холодного
+          тумана. С его помощью достигается максимальное распыление действующих составов и их проникновение в самые
+          труднодоступные
           места.
         </p>
         <p class="equipment__text">
           В своей деятельности используем научные разработки, поэтому наши методы безопасны и действенны.
         </p>
         <p class="equipment__text">
-          Препараты для обработки проходят сертификацию, что подтверждено соответствующими документами. Все средства безопасны для
+          Препараты для обработки проходят сертификацию, что подтверждено соответствующими документами. Все средства
+          безопасны для
           людей, животных и окружающей среды.
         </p>
       </div>
@@ -581,11 +589,13 @@
     <p class="assistance__title">ПОМОГАЕМ ВСЕМ</p>
     <p class="assistance__subtitle">КТО В ЭТОМ НУЖДАЕТСЯ</p>
     <div class="small-divider"></div>
-    <p class="assistance__text">Проводим дезинфекцию, дезодорацию, обработку от насекомых и грызунов на следующих объектах:</p>
+    <p class="assistance__text">Проводим дезинфекцию, дезодорацию, обработку от насекомых и грызунов на следующих
+      объектах:</p>
   </div>
   <!-- CAROUSEL FOR INDIVIDUALS -->
   <!-- add/remove class "d-none" -->
-  <div id="carouselAssistanceIndivid" class="carousel d-md-none slide mobile-carousel" data-ride="carousel" data-interval="0">
+  <div id="carouselAssistanceIndivid" class="carousel d-md-none slide mobile-carousel" data-ride="carousel"
+    data-interval="0">
     <div class="carousel-inner mobile-carousel__items-container assistance-carousel__items-container">
 
       <div class="carousel-item mobile-carousel__item assistance-carousel__item active">
@@ -677,10 +687,12 @@
         </div>
       </div>
 
-      <a class="carousel-control-prev mobile-carousel__control" href="#carouselAssistanceIndivid" role="button" data-slide="prev">
+      <a class="carousel-control-prev mobile-carousel__control" href="#carouselAssistanceIndivid" role="button"
+        data-slide="prev">
         <img src="/img/main/control-left.png" alt="prev">
       </a>
-      <a class="carousel-control-next mobile-carousel__control" href="#carouselAssistanceIndivid" role="button" data-slide="next">
+      <a class="carousel-control-next mobile-carousel__control" href="#carouselAssistanceIndivid" role="button"
+        data-slide="next">
         <img src="/img/main/control-right.png" alt="next">
       </a>
 
@@ -689,7 +701,8 @@
 
   <!-- CAROUSEL FOR ENTITY -->
   <!-- add/remove class "d-none" -->
-  <div id="carouselAssistanceEntity" class="carousel d-none d-md-none slide mobile-carousel" data-ride="carousel" data-interval="0">
+  <div id="carouselAssistanceEntity" class="carousel d-none d-md-none slide mobile-carousel" data-ride="carousel"
+    data-interval="0">
     <div class="carousel-inner mobile-carousel__items-container">
 
       <div class="carousel-item mobile-carousel__item assistance-carousel__item active">
@@ -780,10 +793,12 @@
         </div>
       </div>
 
-      <a class="carousel-control-prev mobile-carousel__control" href="#carouselAssistanceEntity" role="button" data-slide="prev">
+      <a class="carousel-control-prev mobile-carousel__control" href="#carouselAssistanceEntity" role="button"
+        data-slide="prev">
         <img src="/img/main/control-left.png" alt="prev">
       </a>
-      <a class="carousel-control-next mobile-carousel__control" href="#carouselAssistanceEntity" role="button" data-slide="next">
+      <a class="carousel-control-next mobile-carousel__control" href="#carouselAssistanceEntity" role="button"
+        data-slide="next">
         <img src="/img/main/control-right.png" alt="next">
       </a>
 
@@ -998,7 +1013,8 @@
     <div class="shadow rounded pricing__content-wrapper">
       <p class="pricing__title">ДОРОГО ЛИ ЭТО</p>
       <div class="small-divider"></div>
-      <p class="d-none d-md-block pricing__text">Мы выезжаем сами, не работаем с посредниками. Стратегия работы налажена. Хотим, чтобы вы поскорее избавились от патогенных
+      <p class="d-none d-md-block pricing__text">Мы выезжаем сами, не работаем с посредниками. Стратегия работы
+        налажена. Хотим, чтобы вы поскорее избавились от патогенных
         микроорганизмов и паразитов, поэтому предлагаем демократичные цены.
       </p>
       <!-- add/remove class "d-none" -->
@@ -1231,126 +1247,126 @@
             </tr>
 
             <!-- second row -->
-            <tbody class="pricing__table-row">
-              <tr>
-                <td rowspan="4" class="pricing__table-cell">
-                  Короед, древоточец, жук усач и подобные
-                </td>
-                <td rowspan="3" class="pricing__table-cell">
-                  Дом, баня, веранда и другие деревянные постройки
-                </td>
-                <td class="pricing__table-cell">Пропитка</td>
-                <td class="pricing__table-cell pricing__cell-price">от 130 р.* кв. метр</td>
-              </tr>
-              <tr>
-                <td class="pricing__table-cell">Пропитка + хол. / гор. туман</td>
-                <td class="pricing__table-cell pricing__cell-price">от 142 р.* кв. метр</td>
-              </tr>
-              <tr>
-                <td class="pricing__table-cell">Фумигация</td>
-                <td class="pricing__table-cell pricing__cell-price">от 156 р.* кв. метр</td>
-              </tr>
-              <tr>
-                <td colspan="2" class="pricing__table-cell">+ барьерная обработка снаружи дома</td>
-                <td class="pricing__table-cell pricing__cell-price">
-                  + от 119 р.* кв. метр
-                  <span class="text-danger">АКЦИЯ! 20%*</span>
-                </td>
-              </tr>
-            </tbody>
+          <tbody class="pricing__table-row">
+            <tr>
+              <td rowspan="4" class="pricing__table-cell">
+                Короед, древоточец, жук усач и подобные
+              </td>
+              <td rowspan="3" class="pricing__table-cell">
+                Дом, баня, веранда и другие деревянные постройки
+              </td>
+              <td class="pricing__table-cell">Пропитка</td>
+              <td class="pricing__table-cell pricing__cell-price">от 130 р.* кв. метр</td>
+            </tr>
+            <tr>
+              <td class="pricing__table-cell">Пропитка + хол. / гор. туман</td>
+              <td class="pricing__table-cell pricing__cell-price">от 142 р.* кв. метр</td>
+            </tr>
+            <tr>
+              <td class="pricing__table-cell">Фумигация</td>
+              <td class="pricing__table-cell pricing__cell-price">от 156 р.* кв. метр</td>
+            </tr>
+            <tr>
+              <td colspan="2" class="pricing__table-cell">+ барьерная обработка снаружи дома</td>
+              <td class="pricing__table-cell pricing__cell-price">
+                + от 119 р.* кв. метр
+                <span class="text-danger">АКЦИЯ! 20%*</span>
+              </td>
+            </tr>
+          </tbody>
 
-            <!-- third row -->
-            <tbody class="pricing__table-row">
-              <tr>
-                <td rowspan="3" class="pricing__table-cell">
-                  Плесень / грибок
-                </td>
-                <td class="pricing__table-cell">
-                  Ванная ком., стены, потолок и т.д.
-                </td>
-                <td rowspan="2" class="pricing__table-cell">Удаление</td>
-                <td class="pricing__table-cell pricing__cell-price">от 2000 р.*</td>
-              </tr>
-              <tr>
-                <td class="pricing__table-cell">Деревянные поверхности</td>
-                <td class="pricing__table-cell pricing__cell-price">от 2500 р.*</td>
-              </tr>
-              <tr>
-                <td colspan="2" class="pricing__table-cell">+ обработка воздушного пространства</td>
-                <td class="pricing__table-cell pricing__cell-price">
-                  + от 1299 р.*
-                  <span class="text-danger">АКЦИЯ! 20%*</span>
-                </td>
-              </tr>
-            </tbody>
+          <!-- third row -->
+          <tbody class="pricing__table-row">
+            <tr>
+              <td rowspan="3" class="pricing__table-cell">
+                Плесень / грибок
+              </td>
+              <td class="pricing__table-cell">
+                Ванная ком., стены, потолок и т.д.
+              </td>
+              <td rowspan="2" class="pricing__table-cell">Удаление</td>
+              <td class="pricing__table-cell pricing__cell-price">от 2000 р.*</td>
+            </tr>
+            <tr>
+              <td class="pricing__table-cell">Деревянные поверхности</td>
+              <td class="pricing__table-cell pricing__cell-price">от 2500 р.*</td>
+            </tr>
+            <tr>
+              <td colspan="2" class="pricing__table-cell">+ обработка воздушного пространства</td>
+              <td class="pricing__table-cell pricing__cell-price">
+                + от 1299 р.*
+                <span class="text-danger">АКЦИЯ! 20%*</span>
+              </td>
+            </tr>
+          </tbody>
 
-            <!-- fourth row -->
-            <tbody class="pricing__table-row">
-              <tr>
-                <td rowspan="3" class="pricing__table-cell">
-                  Неприятные запахи
-                </td>
-                <td class="pricing__table-cell">
-                  1, 2х, 3х ком. квартира
-                </td>
-                <td rowspan="2" class="pricing__table-cell">Обработка воздушного пространства</td>
-                <td class="pricing__table-cell pricing__cell-price">от 2400 р.*</td>
-              </tr>
-              <tr>
-                <td class="pricing__table-cell">Автомобиль</td>
-                <td class="pricing__table-cell pricing__cell-price">от 2500 р.*</td>
-              </tr>
-              <tr>
-                <td colspan="2" class="pricing__table-cell">
-                  + обработка отдельных предметов (холодильник, диван, багажник и т.д.)
-                </td>
-                <td class="pricing__table-cell pricing__cell-price">
-                  + от 1299 р.*
-                  <span class="text-danger">АКЦИЯ! 20%*</span>
-                </td>
-              </tr>
-            </tbody>
+          <!-- fourth row -->
+          <tbody class="pricing__table-row">
+            <tr>
+              <td rowspan="3" class="pricing__table-cell">
+                Неприятные запахи
+              </td>
+              <td class="pricing__table-cell">
+                1, 2х, 3х ком. квартира
+              </td>
+              <td rowspan="2" class="pricing__table-cell">Обработка воздушного пространства</td>
+              <td class="pricing__table-cell pricing__cell-price">от 2400 р.*</td>
+            </tr>
+            <tr>
+              <td class="pricing__table-cell">Автомобиль</td>
+              <td class="pricing__table-cell pricing__cell-price">от 2500 р.*</td>
+            </tr>
+            <tr>
+              <td colspan="2" class="pricing__table-cell">
+                + обработка отдельных предметов (холодильник, диван, багажник и т.д.)
+              </td>
+              <td class="pricing__table-cell pricing__cell-price">
+                + от 1299 р.*
+                <span class="text-danger">АКЦИЯ! 20%*</span>
+              </td>
+            </tr>
+          </tbody>
 
-            <!-- fifth row -->
-            <tbody class="pricing__table-row">
-              <tr>
-                <td rowspan="2" class="pricing__table-cell">
-                  Крысы, мыши, выдры
-                </td>
-                <td class="pricing__table-cell">
-                  1, 2х, 3х комн. квартира
-                </td>
-                <td rowspan="2" class="pricing__table-cell">Уничтожение</td>
-                <td class="pricing__table-cell pricing__cell-price">от 1999 р.*</td>
-              </tr>
-              <tr>
-                <td class="pricing__table-cell">Дом, участок</td>
-                <td class="pricing__table-cell pricing__cell-price">от 3000 р.*</td>
-              </tr>
-            </tbody>
+          <!-- fifth row -->
+          <tbody class="pricing__table-row">
+            <tr>
+              <td rowspan="2" class="pricing__table-cell">
+                Крысы, мыши, выдры
+              </td>
+              <td class="pricing__table-cell">
+                1, 2х, 3х комн. квартира
+              </td>
+              <td rowspan="2" class="pricing__table-cell">Уничтожение</td>
+              <td class="pricing__table-cell pricing__cell-price">от 1999 р.*</td>
+            </tr>
+            <tr>
+              <td class="pricing__table-cell">Дом, участок</td>
+              <td class="pricing__table-cell pricing__cell-price">от 3000 р.*</td>
+            </tr>
+          </tbody>
 
-            <!-- sixth row -->
-            <tbody class="pricing__table-row">
-              <tr>
-                <td rowspan="2" class="pricing__table-cell">
-                  Крот, землеройка, медведка
-                </td>
-                <td class="pricing__table-cell">
-                  Земельный участок
-                </td>
-                <td class="pricing__table-cell">Уничтожение</td>
-                <td class="pricing__table-cell pricing__cell-price">от 2900 р.*</td>
-              </tr>
-              <tr>
-                <td colspan="2" class="pricing__table-cell">
-                  + отпугивающая обработка
-                </td>
-                <td class="pricing__table-cell pricing__cell-price">
-                  + от 1599 р.*
-                  <span class="text-danger">АКЦИЯ! 20%*</span>
-                </td>
-              </tr>
-            </tbody>
+          <!-- sixth row -->
+          <tbody class="pricing__table-row">
+            <tr>
+              <td rowspan="2" class="pricing__table-cell">
+                Крот, землеройка, медведка
+              </td>
+              <td class="pricing__table-cell">
+                Земельный участок
+              </td>
+              <td class="pricing__table-cell">Уничтожение</td>
+              <td class="pricing__table-cell pricing__cell-price">от 2900 р.*</td>
+            </tr>
+            <tr>
+              <td colspan="2" class="pricing__table-cell">
+                + отпугивающая обработка
+              </td>
+              <td class="pricing__table-cell pricing__cell-price">
+                + от 1599 р.*
+                <span class="text-danger">АКЦИЯ! 20%*</span>
+              </td>
+            </tr>
+          </tbody>
           </tbody>
         </table>
       </div>
@@ -1395,13 +1411,17 @@
       </div>
 
       <p class="px-4 pt-3">
-        <small>* - примерная цена обработки, все обработки индивидуальны и точная цена рассчитывается для каждого объекта после
+        <small>* - примерная цена обработки, все обработки индивидуальны и точная цена рассчитывается для каждого
+          объекта после
           его диагностики на месте. Для уточнения примерной цены лично для вас, закажите обратный звонок.
         </small>
       </p>
 
       <p class="px-4 text-danger">
-        <small>** - c 01.<?php echo date('m.Y');?>  по <?php echo date('t.m.Y');?> скидка 20% на дополнительные обработки в комплексе к базовым (уничтожительным) обработкам.
+        <small>** - c 01.
+          <?php echo date('m.Y');?> по
+          <?php echo date('t.m.Y');?> скидка 20% на дополнительные обработки в комплексе к базовым (уничтожительным)
+          обработкам.
           Цена в прайсе указана со скидкой.
         </small>
       </p>
@@ -1423,7 +1443,8 @@
   </div>
 
   <!-- CAROUSEL FOR MOBILE -->
-  <div id="carouselScheme" class="carousel d-md-none slide mobile-carousel scheme-carousel" data-ride="carousel" data-interval="0">
+  <div id="carouselScheme" class="carousel d-md-none slide mobile-carousel scheme-carousel" data-ride="carousel"
+    data-interval="0">
     <div class="carousel-inner mobile-carousel__items-container">
 
       <div class="carousel-item mobile-carousel__item scheme-carousel__item active">
@@ -1445,7 +1466,8 @@
             <img class="mobile-carousel__image scheme-carousel__img" src="/img/jeep.png" alt="jeep">
           </div>
           <div class="container">
-            <p class="mobile-carousel__text scheme-carousel__text">Специалист выезжает на объект и проводит обследование</p>
+            <p class="mobile-carousel__text scheme-carousel__text">Специалист выезжает на объект и проводит
+              обследование</p>
           </div>
         </div>
       </div>
@@ -1481,7 +1503,8 @@
             <img class="mobile-carousel__image scheme-carousel__img" src="/img/search.png" alt="search">
           </div>
           <div class="container">
-            <p class="mobile-carousel__text scheme-carousel__text">Мы контролируем ситуацию на протяжении всего гарантийного срока</p>
+            <p class="mobile-carousel__text scheme-carousel__text">Мы контролируем ситуацию на протяжении всего
+              гарантийного срока</p>
           </div>
         </div>
       </div>
@@ -1493,15 +1516,18 @@
             <img class="mobile-carousel__image scheme-carousel__img" src="/img/shield.png" alt="shield">
           </div>
           <div class="container">
-            <p class="mobile-carousel__text scheme-carousel__text">Наслаждаетесь жизнью без бактерий, паразитов, насекомых и грызунов</p>
+            <p class="mobile-carousel__text scheme-carousel__text">Наслаждаетесь жизнью без бактерий, паразитов,
+              насекомых и грызунов</p>
           </div>
         </div>
       </div>
 
-      <a class="carousel-control-prev mobile-carousel__control scheme-carousel__control" href="#carouselScheme" role="button" data-slide="prev">
+      <a class="carousel-control-prev mobile-carousel__control scheme-carousel__control" href="#carouselScheme" role="button"
+        data-slide="prev">
         <img src="/img/main/control-left.png" alt="prev">
       </a>
-      <a class="carousel-control-next mobile-carousel__control scheme-carousel__control" href="#carouselScheme" role="button" data-slide="next">
+      <a class="carousel-control-next mobile-carousel__control scheme-carousel__control" href="#carouselScheme" role="button"
+        data-slide="next">
         <img src="/img/main/control-right.png" alt="next">
       </a>
 
@@ -1618,7 +1644,8 @@
     <div class="small-divider"></div>
   </div>
 
-  <div id="carouselPest" class="carousel d-lg-none slide mobile-carousel pest-carousel" data-ride="carousel" data-interval="0">
+  <div id="carouselPest" class="carousel d-lg-none slide mobile-carousel pest-carousel" data-ride="carousel"
+    data-interval="0">
     <div class="carousel-inner pest-carousel__inner">
 
       <div class="carousel-item mobile-carousel__item pest-carousel__item active">
@@ -1677,10 +1704,12 @@
 
     </div>
 
-    <a class="carousel-control-prev mobile-carousel__control pest-carousel__control" href="#carouselPest" role="button" data-slide="prev">
+    <a class="carousel-control-prev mobile-carousel__control pest-carousel__control" href="#carouselPest" role="button"
+      data-slide="prev">
       <img src="/img/main/control-left.png" alt="prev">
     </a>
-    <a class="carousel-control-next mobile-carousel__control pest-carousel__control" href="#carouselPest" role="button" data-slide="next">
+    <a class="carousel-control-next mobile-carousel__control pest-carousel__control" href="#carouselPest" role="button"
+      data-slide="next">
       <img src="/img/main/control-right.png" alt="next">
     </a>
   </div>
@@ -1723,7 +1752,66 @@
       </div>
     </div>
   </div>
+</section>
 
+<section id="reviews" class="reviews pt-md-5">
+  <div class="container">
+    <p class="reviews__title">
+      ОТЗЫВЫ О НАШЕЙ РАБОТЕ
+    </p>
+    <div class="small-divider"></div>
+    <p class="reviews__subtitle mb-md-3">
+      Вот лишь некоторые отзывы наших довольных клиентов:
+    </p>
+    <blockquote class="blockquote mt-3">
+      <p class="blockquote__title">Муравьи</p>
+      <p class="mb-0">Всем привет. Вызывал ДезЦентр Прогресс, у меня была проблема в виде муравьёв. До этого 3 раза
+        вызывал различные компании и результат был на неделю, на две, после муравьи возвращались в больших количествах
+        ! Безумно надоели...хочешь попить чай так в чайнике плавает муравей, берёшь батон хлеба и под ним ползают,
+        варишь макароны и в воде находишь несколько “сваренных”. Тут приехал мастер из “Прогресса”, предложил несколько
+        вариантов...с запахом и без запаха. Т.к. я живу с семьёй и у нас уже есть дети, я решил делать без запаха.
+        Мастер сказал что по муравьям надо добавлять какие то капсулянты что бы муравьи унесли часть препарата к матке
+        и она погибла. Обработка длилась минут 30 на 2х комнатную квартиру, когда другие компании делали за 10-15
+        минут….Через 2 часа вернулся и правда запаха никакого!!! Прошло вот уже почти 3 месяца и эти мелкие твари до
+        сих
+        пор не появлялись !!! Спасибо Вам огромное ! Очень благодарен данной компании!</p>
+      <footer class="blockquote-footer text-right">
+        <cite title="Source Title">Алексей, г. Красногорск</cite><br>
+        <a class="reviews__link mt-3" href="/disinsection#reviews">Еще отзывы по дезинсекции ...</a>
+      </footer>
+    </blockquote>
+    <blockquote class="blockquote mt-3">
+      <p class="blockquote__title">Крысы</p>
+      <p class="mb-0">Здравствуйте, хочу оставить положительный отзыв для ДезЦентр Прогресс. У меня остался от
+        родителей дачный дом, я не ездил в него около 5 лет. Как приехал так обалдел, в доме ужасный запах и очень
+        много мышиного или крысиного помёта ! Понял что сам с такой проблемой не справлюсь, надо звать профессионалов.
+        Зашёл в интернет и нашёл данную компанию. На следующий день приехал мастер, провёл диагностику, сказал что
+        проблема большая т.к. в доме много полых пространств в полу и в стенах. Было принято решение травить всё это
+        дело каким-то газом. В дом было запрещено заходить 6 дней. Ровно через столько я зашёл и ужаснулся, никогда
+        раньше не видел столько дохлых мышек. Вообщем хочу сказать мастеру огромное спасибо за то что реально помог и
+        справился с задачей с первого раза ! </p>
+      <footer class="blockquote-footer text-right">
+        <cite title="Source Title">Ибрагим Иванович, г. Талдом</cite><br>
+        <a class="reviews__link mt-3" href="/deratization#reviews">Еще отзывы по дератизации ...</a>
+      </footer>
+    </blockquote>
+    <blockquote class="blockquote mt-3">
+      <p class="blockquote__title">Плесень</p>
+      <p class="mb-0">Здравствуйте. Столкнулась с бедой, сосед сверху залил квартиру горячей водой после включения
+        отопления, я была в этот момент в командировке и домой вернулась через 3 недели после того как произошёл потоп.
+        В квартире был ужас ! Испорчено было всё, мебель, техника, весь мой ремонт пошел на смарку. Вся квартира была в
+        различных цветов пятнах плесени. Дышать было невозможно. Вызвала ДезЦентр Прогресс на диагностику помещения.
+        Приехал мастер, всё продиагностировал и сообщил последовательность моих дальнейших действий, я выполнила все
+        рекомендации по подготовке помещения и на следующий же день как всё высохло, оперативно приехал тот же мастер,
+        всё обработал и мы остались очень давольны работой данной компании. Сделали всё быстро, качественно ! Очень
+        вежливые и приятные сотрудники ! А главное настоящие профессионалы своего дела ! Спасибо Вам !</p>
+      <footer class="blockquote-footer text-right">
+        <cite title="Source Title">Виктория, г. Москва ЮЗАО
+        </cite><br>
+        <a class="reviews__link mt-3" href="/disinfection#reviews">Еще отзывы по дезинфекции ...</a>
+      </footer>
+    </blockquote>
+  </div>
 </section>
 
 <section id="causes" class="causes causes-main pest-hidden">
@@ -1773,7 +1861,8 @@
           <p class="causes__text-title">Бесплатная диагностика</p>
         </div>
         <p class="causes__text-subtitle">
-          Обследуем объект на предмет заражения, находим места обитания и размножения вредителей, скопления бактерий, плесени и т.д.
+          Обследуем объект на предмет заражения, находим места обитания и размножения вредителей, скопления бактерий,
+          плесени и т.д.
         </p>
       </li>
 

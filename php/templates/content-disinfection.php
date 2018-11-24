@@ -940,6 +940,7 @@
   </div>
 </section>
 
+<a id="reviews"></a>
 <section id="reviews" class="reviews pt-md-5">
   <div class="container">
     <p class="reviews__title">

@@ -18,3 +18,12 @@
   margin-bottom: .5rem;
   font-style: italic;
 }
+
+.reviews__link {
+  font-weight: $font-weight-bold;
+  color: $main-txt-color;
+  display: block;
+  /* text-align: left; */
+  font-size: 110%;
+  font-style: italic;
+}
