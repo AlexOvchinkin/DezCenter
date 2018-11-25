@@ -2,8 +2,10 @@
 
 .pest {
   color: $main-txt-color;
-  background: linear-gradient(to top, $main-txt-color 20%, white 20%, white 100%);
-  margin-top: 3rem;
+  /* background: linear-gradient(to top, $main-txt-color 20%, white 20%, white 100%); */
+  background-color: white;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
 
   @include media-breakpoint-up(lg) {
     background-color: white;
@@ -11,6 +13,7 @@
     position: relative;
     top: 4rem;
     margin-top: 0;
+    margin-bottom: 5rem;
   }
 }
 
@@ -18,9 +21,9 @@
   @include sectionTitle();
 }
 
-.pest-carousel__item {
+/* .pest-carousel__item {
   background: linear-gradient(to top, $main-txt-color 25%, white 25%, white 100%);
-}
+} */
 
 .pest-carousel__title {
   height: 28rem;
